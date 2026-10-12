@@ -1,0 +1,44 @@
+{
+  "preset_id": "warm-editorial-v1",
+  "palette": {
+    "paper": "#FCF8EE",
+    "ink": "#192F2A",
+    "accents": [
+      "#DDDFFA",
+      "#F5D85C",
+      "#C8DCC6",
+      "#F4B7A7",
+      "#C3DFDC",
+      "#EDC2D4"
+    ]
+  },
+  "illustration": {
+    "line": "深绿、略有手绘起伏的轮廓",
+    "texture": "轻微纸张、铅笔和印刷颗粒",
+    "mood": "亲切、温暖、适合普通成年读者",
+    "composition": "随知识关系改变，给精确文字完整空间"
+  },
+  "typography": {
+    "example": "Noto Sans SC",
+    "font_in_skill": false,
+    "note": "示例根项目附 OFL 字体；单独安装 Skill 可选择合法可用且字形完整的字体。"
+  },
+  "brand": {
+    "inherit_automatically": false
+  },
+  "example": {
+    "page_points": [
+      720,
+      960
+    ],
+    "body_points": [
+      17,
+      18
+    ],
+    "note": "不是通用字号标准；手机缩放需重新检查。"
+  },
+  "previews": [
+    "example-page-01.png",
+    "example-page-02.png"
+  ]
+}

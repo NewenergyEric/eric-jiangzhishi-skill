@@ -1,0 +1,38 @@
+{
+  "generated_on": "2026-10-12",
+  "tool": "OpenAI built-in image generation",
+  "model_version": "Not exposed by the tool",
+  "reproducibility": "All adopted image files are included for layout reproduction. Model output is nondeterministic. Earlier candidates are not bundled; the ordered prompts preserve revision intent.",
+  "images": [
+    {
+      "id": "A01",
+      "output": "art/inner-planets.png",
+      "prompt": "Create one original high-quality editorial science illustration, landscape 3:2, for an adult-friendly Chinese two-page story about the eight planets. NO text, letters, numerals, labels, logos, watermarks, panels, or frames. Cream paper background #FCF8EE, dark evergreen hand-drawn outlines #192F2A, lightly imperfect pencil/ink and subtle risograph print grain. Muted accents #DDDFFA #F5D85C #C8DCC6 #F4B7A7 #C3DFDC #EDC2D4. Warm, sophisticated, gently curious, not preschool cartoon, no faces on planets, not vector art, not photorealistic space rendering. Compose a spacious horizontal journey containing exactly FOUR whole planets, left to right: Mercury (smallest, gray craters), Venus (larger creamy yellow cloud-covered globe, no visible land), Earth (slightly larger than Venus, blue-green oceans, continents and delicate white clouds), Mars (larger than Mercury but smaller than Earth, rusty coral rocky globe). Earth is the emotional focal point. Their centers are approximately at x=18%, 40%, 64%, 87%, all around y=48%, with a gently rising and falling rhythm. Diameters are about 11%, 17%, 19%, 14% of image width. Preserve generous blank cream around the objects and in the bottom 25% so precise labels can be placed separately later. A little partial yellow Sun is cut off at the far left edge, clearly separated from Mercury, with a few subtle radiating marks. Sparse star speckles and loose thin swept orbital guide curves suggest a neighborhood; no straight diagram connectors, no extra planet-like spheres or moons. The sizes and spacing are intentionally artistic and not to scale; do not include a scale bar. The composition must feel like a hand-printed illustration in a thoughtful illustrated book, with rich tactile planetary detail, airy breathing room, a graceful unified sweep. No borrowed brand identity or characters."
+    },
+    {
+      "id": "A02",
+      "output": "art/outer-planets.png",
+      "prompt": "Create one original editorial illustration for page two of an adult-friendly illustrated story about the Solar System. Portrait 2:3 composition. NO text, letters, numbers, labels, panels, frames, logos, watermark. Flat cream paper background #FCF8EE, deep evergreen hand-drawn ink contours #192F2A, warm colored pencil detail and fine risograph grain, with soft muted colors #DDDFFA #F5D85C #C8DCC6 #F4B7A7 #C3DFDC #EDC2D4. Sophisticated illustrated science book, tangible print texture, friendly and calm rather than children's clipart. Depict exactly FOUR planets in a graceful loose diagonal descending journey, no other spheres or moons. At top, centered around (60%,18%): Jupiter, the largest globe, cream and peach horizontal cloud bands and one modest coral oval Great Red Spot. Middle around (42%,43%): Saturn, smaller globe than Jupiter, pale warm ochre, with a spectacular thin elliptical ring system crossing in front and behind correctly. Below around (68%,68%): Uranus, smaller pale cyan near-featureless globe, a very delicate nearly vertical ring ellipse suggesting the sideways rotation. Bottom around (32%,86%): Neptune, a similar-size slightly smaller muted blue-cyan globe with subtle bands, not highly saturated cobalt. No faces, clothes, spacecraft, mascots or extra planets. Keep all four objects separated with substantial breathing room; bodies must be complete within the frame. Tiny sparse star flecks, a loose delicate sweeping curve through the negative space, very little dark background. The curve is a decorative outward journey cue, not scientifically accurate orbits. Spacing and sizes are not to scale. Leave cream margins and small cream pockets next to each body for labels to be placed separately in typesetting. This should look like original hand-rendered astronomy art on warm paper, not a mechanical vector diagram or a photo collage."
+    },
+    {
+      "id": "T01",
+      "output": "art/title-01.png",
+      "prompt": "Design original Chinese hand-lettered TITLE ART for a thoughtful adult illustrated science booklet. Transparent background with genuine alpha. There must be ONLY these exact Chinese words, on exactly two lines, left aligned: first line「从我们脚下，」 second line「认识八颗行星」. Do not include the quotation marks. No additional text, no English, no watermark, no logo, no drawing of planets, no frame. Deep forest green ink #192F2A only, with very small restrained warm yellow #F5D85C pencil accent under the last two characters if aesthetically useful. The Chinese lettering must be legible, correctly written, and natural: original bold brush-pen handwriting with softly irregular ink edges, gentle variable stroke width, relaxed adult editorial rhythm, individual character shapes and a slightly lively baseline. Not a standard computer typeface, not a children's bubble font, not calligraphy that is hard to read. Wide title composition, tight but generous enough spacing between the two lines, each line reads fluidly. Match warm paper hand-drawn risograph book illustrations, but do not paint any paper background. Fill the canvas with the lettering, with modest safe margins. Chinese exactness is essential.",
+      "transparent_background": true
+    },
+    {
+      "id": "T02",
+      "output": "art/title-02.png",
+      "prompt": "Create original Chinese hand-lettered title art, genuine transparent background. Exactly TWO left-aligned lines of text, no quotation marks: first line「越过小行星带，」second line「遇见四个大世界」. Correct Chinese characters, no additional text. Bold relaxed hand-lettering in deep forest-green ink #192F2A, varied brush-pen strokes, warm slightly irregular ink edges and small differences in character size, an adult-friendly illustrated-book voice. Clear and easy to read, expressive but not childish, not ornate calligraphy, not a standard digital font. A tiny restrained yellow #F5D85C pencil underline below the last two characters is permitted. Nothing else: no stars, planets, logo, watermark, frames or paper background. Wide two-line title composition with modest transparent margins, text fills almost all of the canvas. The two lines must have comfortable separation and strong visual rhythm.",
+      "transparent_background": true
+    },
+    {
+      "id": "I01",
+      "output": "art/icon-telescope.png",
+      "prompt": "Create one small editorial icon, a handheld brass telescope angled toward a tiny four-point star, no human. Transparent background. Sophisticated hand-drawn dark evergreen ink #192F2A, subtly imperfect pencil contour, limited muted sage and butter-yellow accents, no glossy gradients, no shadow under object. A compact readable silhouette, warm educational book illustration. No text, letters, numbers, logos, border, badge, or extra objects. Lots of transparent margin.",
+      "transparent_background": true
+    }
+  ],
+  "reference_images": [],
+  "postprocessing": "Metadata removal without changing pixels; transparent assets are placed using alpha bounding boxes; all wording and scene captions are typeset separately."
+}

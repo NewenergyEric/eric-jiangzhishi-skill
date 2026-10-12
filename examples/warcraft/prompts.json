@@ -1,0 +1,58 @@
+{
+  "generated_on": "2026-10-12",
+  "tool": "OpenAI built-in image generation",
+  "model_version": "Not exposed by the tool",
+  "reproducibility": "All adopted image files are included for layout reproduction. Model output is nondeterministic. Earlier candidates are not bundled; the ordered prompts preserve revision intent.",
+  "images": [
+    {
+      "id": "A01",
+      "output": "art/routes.png",
+      "generation_sequence": [
+        {
+          "prompt": "Create one original hand-drawn editorial illustration for an adult beginner's guide comparing ways of playing an online fantasy role-playing game. Landscape 3:2, cream paper #FCF8EE, deep forest green outlines #192F2A, muted lavender #DDDFFA, yellow #F5D85C, sage #C8DCC6, coral #F4B7A7, teal #C3DFDC and rose #EDC2D4. Tactile ink and colored-pencil print texture, like a warm sophisticated illustrated book. Not photorealistic or a video-game screenshot, not vector icons. A single continuous asymmetric fantasy journey, three winding paths emerging from a modest camp with two adult travelers studying an unlettered map at lower left. One path climbs to an elegant luminous modern fantasy citadel with a small generic flying dragon silhouette at upper right (new adventures); a second leads to a serene East-Asian-inspired mountain village with a pagoda and tea garden in the center (revisiting a storied continent); a third passes through a rough ancient stone arch with a soft green magical interior and distant alien rocks at lower right (a journey to another realm). These are original generic fantasy locations, not copies of Blizzard landmarks. Different scales, gentle topography, grassy edges, good negative space, no three boxes or separate panels. Friendly competent adult travelers, not preschool mascots. NO text, letters, numerals, pseudo-writing, banners, logos, interface, watermarks, identifiable copyrighted characters, faction emblems or trademark symbols. Leave ample cream margin and open pockets beside the three destination scenes for accurate typeset labels later. The paths communicate alternative play experiences, not a real game map.",
+          "reference_images": []
+        },
+        {
+          "prompt": "Edit the supplied landscape illustration. Keep its adult-friendly hand-printed illustration style, cream paper #FCF8EE, deep green ink #192F2A, soft muted colors, original three-path composition, two travelers at the camp and all breathing room. Replace the three generic destinations with hand-drawn recognizable World of Warcraft themed location motifs, as original fan illustration, never a screenshot. Upper-right destination for current Retail: Silvermoon/Quel'Thalas, elegant blood-elf architecture with warm ivory walls, tall slender golden spires, crimson roofs and banners without emblems, luminous pale gold magic and autumnal trees. Middle destination for Mists of Pandaria Classic: the Jade Forest and Temple of the Jade Serpent, misty emerald mountains, bamboo, flowing water, a distinctly curved Chinese-inspired temple roof, a jade-green serpent sculpture. Lower-right destination for Burning Crusade Anniversary: the iconic Dark Portal, tall massive rectangular carved stone gateway flanked by stone guardian figures, bright but soft green magical opening, glimpses of Outland's floating rock formations beyond. Preserve the three alternative branching paths. Make these three subjects visually distinct, not equal panels. NO text, letters, numerals, logos, UI, labels, watermark, or readable writing. Retain original warm editorial pencil/ink texture and muted palette. The art is an interpretive fan illustration, not a geographically accurate map.",
+          "reference_role": "previous generated candidate; preserve composition and change destinations"
+        },
+        {
+          "prompt": "Edit only the upper-right city destination in the supplied hand-drawn three-route illustration. The current city looks too much like a generic Gothic human castle. Rebuild it as recognizably SIN'DOREI BLOOD ELF SILVERMOON architecture from World of Warcraft. Make the architecture visually dominant enough to identify at small page size: luminous creamy white and pale rose slender towers; sweeping convex and concave RED ROOFS edged in ornate curling GOLD FILIGREE; tall pointed leaf-shaped windows and archways with elegant gold framing; long open arcades and balconies with graceful curving arches instead of solid defensive walls; unmistakable large floating emerald-green ARCANE crystals held in delicate golden curved brackets, plus one floating golden-ring magical orb; crimson silk banners with abstract sunburst ornaments, no lettering. Add amber-leafed slender trees. Silhouettes should feel extravagant, organic, delicate, almost Art Nouveau, asymmetric and upward sweeping. NO squat medieval square keep, NO heavy gray ramparts, NO ordinary Gothic church, NO pointed conical red castle turrets in a row. Keep the hand-printed pencil/ink illustration style, cream paper, deep evergreen contours, muted watercolor accents and original overall layout. Preserve the center Jade Forest temple, jade serpent, mountains, water and bamboo, the bottom-right Dark Portal and Outland, the left two travelers and camp, and all branching paths exactly as far as possible. No text, labels, watermark or game logo.",
+          "reference_role": "previous revision; edit only the blood elf city"
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "output": "art/rhythms.png",
+      "prompt": "Create a portrait fantasy editorial illustration, 2:3 aspect ratio. Use cream paper #FCF8EE, deep evergreen ink #192F2A, soft sage/yellow/lavender/coral/teal, hand-drawn colored-pencil print texture, airy asymmetric three-scene composition. Make the scene subjects more specifically evoke different World of Warcraft play branches, in original hand-drawn fan illustration rather than screenshot. Upper-left: the relaxed original-classic 60-level world, an Elwynn Forest inn resembling the cozy Lion's Pride Inn with half-timbered walls, warm lanterns and leafy oak trees, two adult travelers resting by a cooking fire. Middle-right: Hardcore in the same old-world setting, a solitary adult traveler cautiously pausing before a shadowed cave entrance, a single candle and a small supply satchel with a potion flask beside the trail; no violence, skulls, death or second hero. In the lower third show an evocative Ulduar entrance in the snowy Storm Peaks: monumental ancient Titan stone-and-bronze architecture, enormous geometric metal doors, a wide carved bridge over a mountain chasm, small blue glowing insets and sculpted stone guardian features; a single small unmarked brass hourglass on a foreground snowy rock associates this scene with time. Ulduar must feel like a vast northern Titan complex, not a medieval human castle. Keep all three scenes separate with clear cream pockets for accurate labels later. No text, letters, numerals, game logos, interface, watermark, maps, labels or readable writing. Preserve the sophisticated warm storybook illustration quality and no-box layout.",
+      "reference_images": []
+    },
+    {
+      "id": "T01",
+      "output": "art/title-01.png",
+      "prompt": "Create original Chinese hand-lettered TITLE ART with genuine transparent background. Exactly two left-aligned lines, with no quotation marks: first line「想玩魔兽，」second line「先选哪一种服？」. No other text. Deep forest-green #192F2A bold brush-pen lettering, relaxed slightly irregular handmade strokes, warm lively adult editorial rhythm, clearly readable correct Chinese, not a standard typeface, not childish bubble lettering, not ornate calligraphy. A small muted lavender #DDDFFA brush underline under the last two characters is allowed. No logos, no official game lettering imitation, no imagery, no paper background, no border, no watermarks. Comfortable separation of the two lines, modest transparent margins, lettering fills most of the canvas.",
+      "transparent_background": true
+    },
+    {
+      "id": "T02",
+      "output": "art/title-02.png",
+      "prompt": "Create original Chinese hand-lettered TITLE ART with genuine transparent background. Exactly two left-aligned lines, with no quotation marks: first line「老地方，」second line「也有不同的玩法」. No other text. Deep forest-green #192F2A bold brush-pen lettering, relaxed slightly irregular handmade strokes, warm lively adult editorial rhythm, clearly readable correct Chinese, not a standard typeface, not childish bubble lettering, not ornate calligraphy. A small muted sage #C8DCC6 brush underline under the last two characters is allowed. No logos, no official game lettering imitation, no imagery, no paper background, no border, no watermarks. Comfortable separation of the two lines, modest transparent margins, lettering fills most of the canvas.",
+      "transparent_background": true
+    },
+    {
+      "id": "I01",
+      "output": "art/icon-compass.png",
+      "prompt": "Create one small editorial icon, an open brass compass viewed from above, a simple four-direction needle with one coral tip and a small sage edge. Transparent background. Sophisticated hand-drawn dark evergreen ink #192F2A, subtly imperfect pencil contour, limited muted butter-yellow and sage accents, no glossy gradients, no shadow under object. A compact readable silhouette, warm adult fantasy travel book illustration. No text, letters, numbers, logos, border, badge, or extra objects. Lots of transparent margin.",
+      "transparent_background": true
+    },
+    {
+      "id": "I02",
+      "output": "art/icon-hourglass.png",
+      "prompt": "Create one small editorial icon, a simple upright antique brass hourglass with a little golden sand flowing inside. Transparent background. Sophisticated hand-drawn dark evergreen ink #192F2A, subtly imperfect pencil contour, limited muted lavender and butter-yellow accents, no glossy gradients, no shadow under object. A compact readable silhouette, warm adult fantasy travel book illustration. No text, letters, numbers, logos, border, badge, or extra objects. Lots of transparent margin.",
+      "transparent_background": true
+    }
+  ],
+  "rights_note": "Independent generated game-themed fan illustrations. Underlying Warcraft elements are excluded from the project's MIT grant; see ../../THIRD_PARTY_NOTICES.md.",
+  "postprocessing": "Metadata removal without changing pixels; transparent assets are placed using alpha bounding boxes; all wording and scene captions are typeset separately."
+}

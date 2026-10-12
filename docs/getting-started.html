@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>把知识讲给人听 · 从这里开始</title>
+<style>
+:root{color-scheme:light;--paper:#fcf8ee;--ink:#192f2a;--muted:#4b5f53;--line:#becbb8}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.8}
+main{max-width:1080px;margin:auto;padding:40px 36px 72px}nav{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:15px}
+a{color:#265f52;text-underline-offset:4px}h1{font-family:Georgia,"KaiTi",serif;font-size:clamp(38px,6vw,70px);line-height:1.18;font-weight:500;letter-spacing:-.04em;margin:64px 0 28px}
+.intro{max-width:650px;font-size:21px}.eyebrow{letter-spacing:.14em;font-size:13px}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}.hero img{width:100%;height:auto}
+section{margin-top:64px}h2{font-size:27px;font-weight:600;margin-bottom:20px}h3{font-size:21px}p{max-width:760px}button,input,select{font:inherit}button{background:#192f2a;color:#fcf8ee;padding:10px 18px;border:2px solid #192f2a;border-radius:6px;cursor:pointer}
+button:hover{background:#345646}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #8e6820;outline-offset:4px}
+.choices{display:flex;gap:12px;flex-wrap:wrap}.choices button{background:transparent;color:var(--ink)}.choices button[aria-pressed=true]{background:#c8dcc6}
+.path{font-family:ui-monospace,monospace;font-size:14px;overflow-wrap:anywhere;background:#eeeadd;padding:12px 16px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:0}.prompt{border-left:4px solid #d9be64;padding:4px 24px;margin:24px 0;font-size:18px}
+.note{color:var(--muted);font-size:14px}.examples{display:grid;grid-template-columns:1fr 1fr;gap:30px}.examples img{display:block;width:100%;height:auto}
+.examples figure{margin:0}.examples figcaption{margin-top:12px;font-size:16px}.checks{display:grid;gap:12px;max-width:760px;padding:0;list-style:none}.checks label{display:flex;gap:12px;align-items:flex-start}.checks input{width:20px;height:20px;flex-shrink:0;margin-top:5px;accent-color:#265f52}
+footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);font-size:14px}.status{min-height:1.8em;font-size:14px}
+@media(max-width:680px){main{padding:24px 20px 48px}.hero{display:block}.hero img{display:none}h1{margin-top:44px}.intro{font-size:19px}.examples{grid-template-columns:1fr}section{margin-top:44px}.choices button{width:100%;text-align:left}}
+</style>
+<main>
+<nav aria-label="主导航"><a href="../README.md">把知识讲给人听</a><a href="https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest">下载发布包 ↗</a></nav>
+<div class="hero"><div><p class="eyebrow">从一份资料，到有人愿意读的图文</p><h1>先讲明白，<br>再画得好看。</h1><p class="intro">选对读者、弄懂关系，用自然的文字和有用的画面，把知识讲给人听。这份入口带你选 Skill、准备输入，再检查真正的成稿。</p></div><img src="../examples/solar-system/art/inner-planets.png" alt="暖纸手绘的水星、金星、地球和火星"></div>
+<section aria-labelledby="choose"><h2 id="choose">你手上的内容，走到哪一步了？</h2>
+<div class="choices" role="group" aria-label="选择工作起点"><button id="choose-content" type="button" aria-pressed="true">资料刚到手，要从头讲清楚</button><button id="choose-art" type="button" aria-pressed="false">文字已定，想改善插画与排版</button></div>
+<h3 id="skill-title">把知识讲给人听</h3><p id="skill-description">从理解资料、拆解知识和自然表达开始，再完成统一美术与可继续修改的交付。</p>
+<p class="path" id="skill-path">skills/knowledge-to-friendly-product/SKILL.md</p>
+<p><a id="skill-link" href="../skills/knowledge-to-friendly-product/SKILL.md">打开完整 Skill</a> · <a href="installation-checklist.md">安装与检查清单</a></p>
+<p class="note">让能读取文件的 AI 助手读完整个 Skill 目录。长期安装位置依宿主而定；复制成功后，还需在宿主中确认它已被发现。方法文档本身无需 Python。</p>
+</section>
+<section aria-labelledby="start"><h2 id="start">把任务交代清楚</h2>
+<div class="prompt"><pre id="prompt">请读取 knowledge-to-friendly-product 这个 Skill。主题是【主题】，读者是【已有知识与阅读情境】，资料是【文件或链接】。请做成【载体和页数】，沿用【风格参考】，保留【不可改项】。先核实知识，再写成自然连贯的图文；插画和图标解释内容，保留来源、可编辑源与实际检查记录。</pre></div>
+<button id="copy" type="button">复制任务起点</button><p id="copy-status" class="status" role="status" aria-live="polite"></p>
+<p class="note">方括号是需要你填写的内容。图像生成需要可用图像工具；复现案例排版需要项目 requirements.txt 中的依赖。不要把工具缺失写成已完成。</p>
+</section>
+<section aria-labelledby="samples"><h2 id="samples">两份真实样页</h2><div class="examples">
+<figure><a href="../examples/solar-system/read.html"><img loading="lazy" src="../skills/knowledge-to-friendly-product/assets/example-page-01.png" alt="太阳系案例第一页，点击进入完整文字阅读版"></a><figcaption><a href="../examples/solar-system/read.html">太阳系八大行星 · 两页</a><br><a href="../examples/solar-system/output/solar-system.pdf">PDF</a> · <a href="../examples/solar-system/process.md">制作过程</a></figcaption></figure>
+<figure><a href="../examples/warcraft/read.html"><img loading="lazy" src="../examples/warcraft/output/page-01.png" alt="魔兽世界选服案例第一页，点击进入完整文字阅读版"></a><figcaption><a href="../examples/warcraft/read.html">魔兽世界：先选一种冒险 · 两页</a><br><a href="../examples/warcraft/output/warcraft.pdf">PDF</a> · <a href="../examples/warcraft/process.md">制作过程</a></figcaption></figure>
+</div></section>
+<section aria-labelledby="review"><h2 id="review">完成前，亲自看一遍</h2><p>这是一份手动检查清单。勾选只记录你的判断，不会自动验证文件。</p>
+<ul class="checks">
+<li><label><input type="checkbox">知识有可信来源，条件和边界没有在改写中丢失。</label></li>
+<li><label><input type="checkbox">正文读起来连贯，术语在出现时得到解释。</label></li>
+<li><label><input type="checkbox">图、图标和标签表达同一件事，风格保持一致。</label></li>
+<li><label><input type="checkbox">已打开真正导出的每一页，检查文字、碰撞和阅读顺序。</label></li>
+<li><label><input type="checkbox">拿到了成稿、可编辑源、完整提示和真实检查结果。</label></li>
+</ul><p id="check-status" class="status" role="status" aria-live="polite">已勾选 0 / 5 项</p><button id="reset" type="button">清空勾选</button>
+</section>
+<footer><a href="verification.md">本项目实际验证范围</a> · <a href="../THIRD_PARTY_NOTICES.md">许可与素材说明</a> · <a href="getting-started.md">纯文字上手说明</a><p>此页面在本地运行，不发送表单，不加载统计脚本。标题字图是图片素材，不是可安装字库。</p></footer>
+</main>
+<script>
+const choices={
+content:{name:'knowledge-to-friendly-product',title:'把知识讲给人听',description:'从理解资料、拆解知识和自然表达开始，再完成统一美术与可继续修改的交付。'},
+art:{name:'knowledge-card-art-direction',title:'知识卡包美术与排版',description:'从已定内容与认可风格开始，完成模型插画、变化的布局、中文适配、校样和导出。'}
+};
+let selected='content';
+function select(key){selected=key;const choice=choices[key];document.getElementById('skill-title').textContent=choice.title;document.getElementById('skill-description').textContent=choice.description;document.getElementById('skill-path').textContent='skills/'+choice.name+'/SKILL.md';document.getElementById('skill-link').href='../skills/'+choice.name+'/SKILL.md';for(const k of Object.keys(choices))document.getElementById('choose-'+k).setAttribute('aria-pressed',String(k===key));document.getElementById('prompt').textContent='请读取 '+choice.name+' 这个 Skill。主题是【主题】，读者是【已有知识与阅读情境】，资料是【文件或链接】。请做成【载体和页数】，沿用【风格参考】，保留【不可改项】。先核实知识，再写成自然连贯的图文；插画和图标解释内容，保留来源、可编辑源与实际检查记录。';document.getElementById('copy-status').textContent='';}
+for(const key of Object.keys(choices))document.getElementById('choose-'+key).addEventListener('click',()=>select(key));
+document.getElementById('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById('prompt').textContent);document.getElementById('copy-status').textContent='已复制，粘贴后填入你的任务信息。';}catch{const range=document.createRange();range.selectNodeContents(document.getElementById('prompt'));const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);document.getElementById('copy-status').textContent='浏览器未允许自动复制，文字已选中，请手动复制。';}});
+const boxes=Array.from(document.querySelectorAll('.checks input'));
+function count(){document.getElementById('check-status').textContent='已勾选 '+boxes.filter(x=>x.checked).length+' / '+boxes.length+' 项';}
+boxes.forEach(box=>box.addEventListener('change',count));
+document.getElementById('reset').addEventListener('click',()=>{boxes.forEach(box=>box.checked=false);count();});
+</script>
+</html>

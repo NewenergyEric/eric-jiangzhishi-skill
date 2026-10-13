@@ -23,12 +23,12 @@ def build(case):
         paras = ([p['lead']] if p.get('lead') else []) + p['paragraphs'] + ([p['closing']] if p.get('closing') else [])
         body = ''.join('<p>'+e(t)+'</p>' for t in paras)
         caption = '本页内容已在上方以可选择文字完整呈现。' + p['note']
-        labels = p.get('scene_labels',[])
+        labels = p.get('scene_labels',p.get('labels',[]))
         if labels:
             body += '<p class="note">画面索引：'+e('；'.join(labels))+'。</p>'
         sections.append('<section aria-labelledby="page'+str(i)+'"><h2 id="page'+str(i)+'">'+e(p['title']).replace('\n','<br>')+'</h2>'+body+'<details><summary>查看第'+str(i)+'页图文成稿</summary><figure><img loading="lazy" src="output/page-'+str(i).zfill(2)+'.png" alt="'+e(p['title'].replace('\n',''))+'；'+e('；'.join(labels))+'"><figcaption>'+e(caption)+'</figcaption></figure></details></section>')
     document = '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+e(data['title'])+'</title><style>'+STYLE+'</style><main><nav aria-label="文档导航"><a href="../../docs/getting-started.html">上手入口</a><a href="output/'+case+'.pdf">下载两页 PDF</a><a href="sources.md">完整来源</a></nav><h1>'+e(data['title'])+'</h1><p class="note">同一份两页案例的文字阅读版，适合手机与辅助阅读工具。插画细节可展开每页成稿查看。</p>'+''.join(sections)+'<footer><a href="process.md">制作过程</a> · <a href="../../THIRD_PARTY_NOTICES.md">素材许可</a></footer></main></html>'
     (directory/'read.html').write_text(document,encoding='utf-8')
 if __name__=='__main__':
-    for case in ['solar-system','warcraft']:build(case)
+    for case in ['solar-system','cells']:build(case)
     print('Built two reading versions from content.json')

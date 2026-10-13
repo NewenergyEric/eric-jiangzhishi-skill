@@ -12,7 +12,7 @@ from PIL import Image
 from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT = {'.md','.txt','.json','.yaml','.py','.html'}
+TEXT = {'.md','.txt','.json','.yaml','.py','.html','.mjs'}
 PRIVATE = [
     ('private_path', re.compile(r'(?i)(?:\b[a-z]:[\\/]|/(?:Users|home)/[a-z0-9_])')),
     ('access_token', re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,}|sk-[A-Za-z0-9_-]{25,})')),
@@ -65,7 +65,7 @@ def audit(root=ROOT, staged=False):
             if len(doc.pages)!=2:errors.append({'rule':'pdf_page_count','file':name})
             scan(name,json.dumps(dict(doc.metadata or {}),ensure_ascii=False))
             for page in doc.pages:scan(name,page.extract_text())
-    for case in ('solar-system','warcraft'):
+    for case in ('solar-system','cells'):
         base=root/'examples'/case
         content=json.loads((base/'content.json').read_text(encoding='utf-8'))
         pdf=PdfReader(base/'output'/f'{case}.pdf')
@@ -76,13 +76,35 @@ def audit(root=ROOT, staged=False):
                 if ''.join(item.split()) not in actual:errors.append({'rule':'pdf_content_mismatch','file':case,'page':i+1})
             with Image.open(base/'output'/f'page-{i+1:02d}.png') as im:
                 if im.size!=(1440,1920):errors.append({'rule':'preview_size','file':case})
+    media=root/'media/intro'
+    story=json.loads((media/'story.json').read_text(encoding='utf-8'))
+    report=json.loads((media/'report.json').read_text(encoding='utf-8'))
+    if hashlib.sha256((media/'story.json').read_bytes()).hexdigest()!=report['storySha256']:
+        errors.append({'rule':'video_story_changed_without_rebuild'})
+    for name,expected in report['sourceHashes'].items():
+        if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected:
+            errors.append({'rule':'video_source_changed_without_rebuild','file':name})
+    for suffix in ['mp4','gif']:
+        payload=(media/f'intro.{suffix}').read_bytes();record=report['outputs'][suffix]
+        if hashlib.sha256(payload).hexdigest()!=record['sha256'] or len(payload)!=record['bytes']:
+            errors.append({'rule':'video_output_mismatch','file':suffix})
+        if len(payload)>story['budgets'][suffix+'Bytes']:
+            errors.append({'rule':'video_size_budget','file':suffix})
+    with Image.open(media/'intro.gif') as gif:
+        duration=0
+        for frame in range(gif.n_frames):
+            gif.seek(frame);duration+=gif.info.get('duration',0)
+        if gif.size!=(640,360) or gif.n_frames!=200 or duration!=16000:
+            errors.append({'rule':'gif_geometry_or_duration'})
+    if hashlib.sha256((media/'poster.png').read_bytes()).hexdigest()!=report['posterSha256']:
+        errors.append({'rule':'video_poster_mismatch'})
     if staged:
         indexed=subprocess.check_output(['git','ls-files','-z'],cwd=root).decode('utf-8').split('\0')
         if set(filter(None,indexed))!=allowed:errors.append({'rule':'git_allowlist_mismatch'})
         for name in files:
             content=subprocess.check_output(['git','show',':'+name],cwd=root)
             if content!=(root/name).read_bytes():errors.append({'rule':'staged_bytes_differ','file':name})
-    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','pdf_text','two_pages_per_case','preview_dimensions']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
+    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','pdf_text','two_pages_per_case','preview_dimensions','video_source_and_output_hashes','media_size_budgets','gif_frames_and_duration']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--staged',action='store_true')

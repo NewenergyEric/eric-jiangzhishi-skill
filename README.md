@@ -1,73 +1,59 @@
 # 把知识讲给人听
 
-有了资料，离一份让人愿意读的图文，还差几步：把原理弄明白，想清楚读者为什么在意，再决定哪句话该讲、哪一段值得画。
+两套 AI Skill，帮你把资料做成容易读懂的知识图文。适合科普文章、课堂讲义和两页小册子。
 
-这套 Skill 帮你把这些步骤接起来。适合需要把专业资料写成通俗图解的老师、作者、内容编辑，也适合想和 AI 一起做一份知识小册子的人。它保留来源与边界，不把正文压成几条口号。
+[下载 Skill](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [看案例](#两份完整案例) · [使用说明](docs/getting-started.md)
 
-**[下载当前版本](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest)** · [中文上手说明](docs/getting-started.md) · [HTML 上手入口](docs/getting-started.html) · [安装检查清单](docs/installation-checklist.md)
+[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/intro.gif)](media/intro/intro.mp4)
 
-## 先看看做出来是什么样
+16 秒，无旁白。[MP4 · 1.99 MB](media/intro/intro.mp4) · GIF 2.02 MB · [静态预览](media/intro/poster.png) · [视频分镜与源码](media/intro/README.md)
 
-两个新案例，各两页，没有额外封面。插画和手写标题实际由图像模型生成，准确正文与标签独立排版。下面的图片可以点开看大图。
+## 它能帮你做什么
 
-### 太阳系八大行星
+你提供主题、读者和资料，助手按 Skill 核实内容、写正文，再做插画与排版。成稿保留来源；正文、图片、生成提示和排版源也一起留下，方便继续改。
 
-从脚下的地球出发，先认识内侧四颗类地行星，再向外看四颗巨行星。用一段旅程讲清顺序、特征与分类。
+| 你手上有什么 | 从哪个 Skill 开始 |
+|---|---|
+| 资料和想法，还没想好怎么讲 | [把知识讲给人听](skills/knowledge-to-friendly-product/SKILL.md)：理解资料、组织解释、完成图文 |
+| 已经定稿的文字，想改善画面 | [知识卡包美术与排版](skills/knowledge-card-art-direction/SKILL.md)：插画、中文排版、校样和导出 |
 
-[PDF](examples/solar-system/output/solar-system.pdf) · [文字阅读版](examples/solar-system/read.html) · [制作过程](examples/solar-system/process.md) · [来源](examples/solar-system/sources.md)
+两个 Skill 可以单独使用。制作新插画需要可用的图像生成工具；读取方法文档不需要安装 Python。
 
-[![太阳系第一页：从地球认识内侧行星](examples/solar-system/output/page-01.png)](examples/solar-system/output/page-01.png)
-[![太阳系第二页：认识外侧四颗巨行星](examples/solar-system/output/page-02.png)](examples/solar-system/output/page-02.png)
+## 开始使用
 
-### 魔兽世界：先选一种冒险
+1. 在 [Release](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) 下载文件名含 `skills` 的小包并解压。
+2. 让支持读取文件的 AI 助手打开所需目录中的 `SKILL.md`。长期使用时，把整个目录复制到所用工具的技能目录。
+3. 带上资料，给它一个具体任务。例如：
 
-面向刚开始了解游戏的人，把国服的版本分支与玩法节奏讲清楚。按2026年10月12日的官方资料整理六条玩法路线，区别于区服总数；测试中的内容另行说明。
+> 读取 knowledge-to-friendly-product。用我附的资料，给没有生物学背景的读者做两页细胞介绍。先讲细胞内部怎样工作，再比较动物、植物和细菌。用暖纸手绘风格，标题可以手写，正文要清楚好读。交付 PDF、可编辑文字、插画和来源。
 
-[PDF](examples/warcraft/output/warcraft.pdf) · [文字阅读版](examples/warcraft/read.html) · [制作过程](examples/warcraft/process.md) · [来源和时效范围](examples/warcraft/sources.md)
+需要辅助复制时，可以运行 `python scripts/install_skill.py knowledge-to-friendly-product --dest ./my-skills`。目标已有同名目录时，脚本会停止。
 
-[![魔兽世界第一页：正式服与继续推进的怀旧路线](examples/warcraft/output/page-01.png)](examples/warcraft/output/page-01.png)
-[![魔兽世界第二页：永久60、专家模式与时光服](examples/warcraft/output/page-02.png)](examples/warcraft/output/page-02.png)
+[详细步骤](docs/getting-started.md) · [HTML 上手入口](docs/getting-started.html) · [安装检查清单](docs/installation-checklist.md)
 
-## 两个 Skill，各负责什么
+## 两份完整案例
 
-| Skill | 适合什么时候用 | 做什么 |
+| 主题 | 这两页讲什么 | 成稿与过程 |
 |---|---|---|
-| [把知识讲给人听](skills/knowledge-to-friendly-product/SKILL.md) | 资料刚到手，要从头做内容 | 理解知识、拆解关系、找到读者情境、自然表达、统一美术和可信介绍 |
-| [知识卡包美术与排版](skills/knowledge-card-art-direction/SKILL.md) | 内容已定，要制版或改善阅读 | 插画任务、布局变化、中文适配、内容锁定、排版检查与导出 |
+| 太阳系八大行星 | 从地球出发，依次认识内侧四颗行星和外侧四颗巨行星 | [PDF](examples/solar-system/output/solar-system.pdf) · [文字版](examples/solar-system/read.html) · [制作过程](examples/solar-system/process.md) |
+| 认识细胞 | 看典型动物细胞的内部，再比较叶片细胞和细菌 | [PDF](examples/cells/output/cells.pdf) · [文字版](examples/cells/read.html) · [制作过程](examples/cells/process.md) |
 
-可以一起用，也能单独复制一个完整目录。每个 Skill 自带参考、模板或脚本，不依赖之前的项目与私人路径。
+每例都是两页，没有额外封面。插画、手写标题和图标由图像模型生成，准确正文与结构标签单独排版。标题是图片素材，改字需要重新生成或换成排版字体。
 
-## 最短使用方式
+## 自己修改案例
 
-下载并解压发布包，让能读取文件的 AI 助手读取所需的 `SKILL.md`，然后说：
-
-> 读取这个 Skill。主题是【主题】，读者是【已有知识和阅读情境】，资料是【文件或链接】。请做成【载体和页数】，沿用【风格或参考】。先核实知识，再写成自然连贯的图文，交付成品、源文件与实际检查记录。
-
-若宿主已识别该 Skill，也可用 `$knowledge-to-friendly-product` 调用。复制目录成功不代表宿主已自动加载，具体技能目录按所用工具确定。
-
-需要辅助复制时，可运行：
-
-```sh
-python scripts/install_skill.py knowledge-to-friendly-product --dest ./my-skills
-```
-
-它只复制到明确指定的位置；同名目标已存在时停止，不自动覆盖。读取方法文档无需 Python；复制脚本和两个检查脚本只需 Python 3 标准库。
-
-## 修改和复现案例
-
-文字在每个案例的 `content.json`，图片及标题字图在 `art/`，完整提示在 `prompts.json`，共同排版源在 [scripts/build_example.py](scripts/build_example.py)。标题字图是 PNG，不是完整可安装字库；改标题时需要重新生成并校对，或改回排版字体。
+文字放在各案例的 `content.json`，采用图片在 `art/`，完整生图提示在 `prompts.json`。完整发布包包含这些源文件、开放字体和 PDF 构建脚本。
 
 ```sh
 python -m pip install -r requirements.txt
+python scripts/build_example.py --case cells
 python scripts/build_example.py --case solar-system
-python scripts/build_example.py --case warcraft
+python scripts/build_html.py
 python scripts/verify_project.py
 ```
 
-构建使用包内图片和开放字体，不调用图像 API。重新生图需要你自己的可用图像工具。固定 PDF 以桌面或放大阅读为主；手机可打开同内容的文字阅读版。
+构建使用包内图片，不会调用生图 API。介绍视频使用 [Motion Story](https://github.com/NewenergyEric/motion-story-skills) 渲染，[重建方法](media/intro/README.md)另列。
 
-## 验证与许可
+两份 PDF 已检查页数、文字一致性和实际页面；发布包做了解压、重建和安装复制检查。详细结果与未测项见 [验证记录](docs/verification.md)。
 
-公开版检查了文件引用、辅助脚本、两份 PDF 与四张成稿、独立解压和安装复制，并对发布白名单及提交树做脱敏检查。覆盖范围与限制见 [验证记录](docs/verification.md)。没有把模型自检说成真实读者试读，也没有测试所有宿主的自动加载。
-
-方法、代码与原创内容使用 [MIT](LICENSE)。字体保留 OFL；游戏商标、设定和第三方资料不在本项目可授予的权利内，见 [素材与许可说明](THIRD_PARTY_NOTICES.md)。案例没有使用官方游戏图片，也没有附参考书、旧商品内容或个人资料。
+方法、代码与原创内容使用 [MIT](LICENSE)，字体保留 OFL。素材来源和生成图像说明见 [许可说明](THIRD_PARTY_NOTICES.md)。

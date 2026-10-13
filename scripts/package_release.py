@@ -30,8 +30,10 @@ def package():
             for member in members:
                 if archive.read(member)!=(ROOT/member).read_bytes():raise ValueError('ZIP bytes mismatch')
         products.append(path)
-    for case in ['solar-system','warcraft']:
+    for case in ['solar-system','cells']:
         path=output/f'{case}.pdf';path.write_bytes((ROOT/'examples'/case/'output'/f'{case}.pdf').read_bytes());products.append(path)
+    for name in ['intro.mp4','intro.gif']:
+        path=output/name;path.write_bytes((ROOT/'media/intro'/name).read_bytes());products.append(path)
     sums=''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in products)
     (output/'SHA256SUMS.txt').write_text(sums,encoding='utf-8')
     print(json.dumps({'version':version,'assets':[p.name for p in products]+['SHA256SUMS.txt'],'zip_members_verified':True}))

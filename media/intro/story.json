@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "intro",
+  "duration": 16,
+  "language": "zh-CN",
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "gifWidth": 640,
+  "gifFps": 12.5,
+  "budgets": { "mp4Bytes": 5000000, "gifBytes": 3000000 },
+  "projectTitle": "把知识讲给人听",
+  "repositoryLabel": "NewenergyEric / eric-jiangzhishi-skill",
+  "scenes": [
+    {
+      "from": 0, "to": 5,
+      "eyebrow": "给想做科普图文的人",
+      "title": "从一份资料，\n到两页图文。",
+      "body": "先从读者想弄懂的\n一个问题讲起。",
+      "artLabel": "细胞里面，怎样一起工作？",
+      "artNote": "细胞核",
+      "action": "细胞插画展开，一条标注线逐步指向细胞核。"
+    },
+    {
+      "from": 5, "to": 10,
+      "eyebrow": "内容与画面一起做",
+      "title": "先讲明白，\n再画得好看。",
+      "steps": ["核对来源", "写成连贯的话", "让插画、图标配合解释"],
+      "artLabel": "认识细胞 · 两页成稿",
+      "action": "两张实际成稿依次展开，三个制作步骤随着时间依次标记。"
+    },
+    {
+      "from": 10, "to": 16,
+      "eyebrow": "拿一个小题目试试",
+      "title": "换个主题，\n从这里开始。",
+      "body": "两个 Skill，两个完整案例。\nPDF、插画和排版源都能继续改。",
+      "cta": "下载 Skill，带上你的资料。",
+      "artLabels": ["太阳系八大行星", "认识细胞"],
+      "action": "太阳系与细胞的实际样页分别展开，停留给读者看清结果和仓库名。"
+    }
+  ],
+  "engine": {
+    "repository": "https://github.com/NewenergyEric/motion-story-skills",
+    "commit": "1c002f5f00c56a05ef03c788bddad673254d101a",
+    "version": "0.3.0",
+    "used": ["renderStory", "textBox", "png", "inspectVideo", "run"]
+  }
+}

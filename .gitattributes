@@ -6,3 +6,6 @@
 *.ttf binary
 *.png binary
 *.pdf binary
+*.mp4 binary
+*.gif binary
+*.mjs text eol=lf

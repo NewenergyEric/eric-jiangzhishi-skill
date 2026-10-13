@@ -1,0 +1,31 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-10-13",
+  "assets": [
+    {
+      "file": "animal-cell.png",
+      "transparent": false,
+      "prompt": "Use case: scientific-educational. Asset: wide landscape illustration for a two-page Chinese introduction to cells. Warm cream paper #FCF8EE, sophisticated hand-drawn natural science editorial illustration for adults. Fine dark green ink #192F2A, visible colored pencil hatching and restrained watercolor washes, muted sage #C8DCC6, pale lavender #DDDFFA, coral #F4B7A7 and butter yellow #F5D85C. Organic, calm, carefully observed shapes, consistent with a beautiful illustrated science field notebook. No cartoon faces, no mascots, no glossy 3D, no grids, no extra text, no watermarks. Draw ONE large typical animal cell, a cutaway oval seen obliquely from above, entire cell visible with ample clean margins (about 12%). A delicate double-contour plasma membrane enclosing pale translucent sage cytoplasm. A prominent purple/lavender nucleus slightly left of center, with a nuclear envelope and tangled fine chromatin plus one darker nucleolus inside, no literal DNA ladder outside the nucleus. Three coral mitochondria with visible folded inner membranes, one clearly in upper right and one near bottom. Tiny dark ink dots in the cytoplasm represent ribosomes, concentrated as a visible cluster in lower left. A small amount of subtle folded endoplasmic reticulum near nucleus and one quiet yellow Golgi stack on the right, subordinate to the five structures we introduce. This is an ANIMAL cell: NO cell wall, NO chloroplasts, NO huge central vacuole. No title, no labels, no leader lines, no numbers, no decorative stars. Broad horizontal silhouette occupying central 76% of canvas width, about 65% height. The outer cream background should be perfectly flat near edges. Landscape 3:2."
+    },
+    {
+      "file": "plant-and-bacterium.png",
+      "transparent": false,
+      "prompt": "Use case: scientific-educational. Asset: tall portrait paired illustration for the right half of page two in a Chinese cell guide. Warm cream paper #FCF8EE, sophisticated hand-drawn natural science editorial illustration for adults. Fine dark green ink #192F2A, visible colored pencil hatching and restrained watercolor washes, muted sage #C8DCC6, pale lavender #DDDFFA, coral #F4B7A7 and butter yellow #F5D85C. Organic, calm, carefully observed shapes, consistent with a beautiful illustrated science field notebook. No cartoon faces, no mascots, no glossy 3D, no grids, no extra text, no watermarks. Two separated clearly recognizable scientific cutaway specimens arranged vertically with generous cream negative space between them. TOP about 60% of height: ONE mature green leaf plant cell with softly angular rectangular wall seen slightly in perspective; a thick sage CELL WALL on outside and delicate CELL MEMBRANE just inside, large pale aqua CENTRAL VACUOLE occupying about half the cell, purple nucleus pushed to one side, several green oval CHLOROPLASTS each showing little stacks of thylakoids, and a couple of small coral MITOCHONDRIA with folded internal membranes. Clearly show distinction between wall and membrane, no tissue group, just one cell. BOTTOM around 27% of height: ONE separate capsule-shaped bacterium cutaway, ochre exterior enclosing light cream cytoplasm, a loose dark teal coiled chromosome sitting directly in cytoplasm in the central nucleoid region with NO membrane surrounding it, tiny ribosome dots. NO nucleus, NO mitochondria and NO chloroplasts inside the bacterium. A single delicate flagellum at one end is acceptable. NO arrows connecting plant and bacterium, no text, no labels, no numbers or lettering. They are independently enlarged for comparison, not a biological transformation. Complete objects, clean margins, on perfectly flat cream edges. Portrait 2:3."
+    },
+    {
+      "file": "title-01.png",
+      "transparent": true,
+      "prompt": "Use case: logo-brand. Generate original hand-lettered Chinese headline artwork, ink and colored pencil texture, transparent background, no shadow box or paper. Exact text in two lines, left aligned: first line “把生命放大，” second line “看看细胞里有什么”. All Chinese characters correct and crisp. Deep forest green #192F2A brush pen strokes with expressive human rhythm, energetic but easy to read, not typeset in a rigid digital font. Longer second line, friendly adult editorial calligraphy. Tiny buttery yellow #F5D85C handdrawn underline beneath the last few characters, no other illustration or symbols. Generous transparent margin, wide landscape composition, no extra words."
+    },
+    {
+      "file": "title-02.png",
+      "transparent": true,
+      "prompt": "Use case: logo-brand. Generate original hand-lettered Chinese headline artwork, ink and colored pencil texture, transparent background, no shadow box or paper. Exact text in two lines, left aligned: first line “一片叶，一只手，” second line “还有小小的细菌”. All Chinese characters correct and crisp. Deep forest green #192F2A brush pen strokes with expressive human rhythm, energetic but easy to read, not typeset in a rigid digital font. Friendly adult editorial calligraphy. Tiny sage green #C8DCC6 handdrawn underline beneath the last two characters, no other illustration or symbols. Generous transparent margin, wide landscape composition, no extra words."
+    },
+    {
+      "file": "icon-microscope.png",
+      "transparent": true,
+      "prompt": "Use case: illustration-story. One tiny editorial icon of a recognizable vintage laboratory light microscope, cut out on a transparent background. Fine dark forest green ink outline, warm sage green body, muted brass/butter-yellow small details, handdrawn colored-pencil hatching. Slanted eyepiece, objective over a little flat stage, curved support and steady base. Bold enough silhouette to remain clear at 30px tall. Sophisticated adult science notebook style. No lettering, no labels, no border, no stars, no mascot, no backdrop, no heavy shadow. Only a single microscope centered with generous transparent margin."
+    }
+  ]
+}

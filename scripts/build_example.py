@@ -26,7 +26,7 @@ W, H = 720, 960
 PAPER, INK = '#FCF8EE', '#192F2A'
 CLOSE = set('，。！？；：、）】》」』”’')
 OPEN = set('（【《「『“‘')
-KEEP = ['水星','金星','地球','火星','木星','土星','天王星','海王星','太阳系','银河系','主小行星带','类地行星','温室效应','气态巨行星','冰巨行星','矮行星']
+KEEP = ['水星','金星','地球','火星','木星','土星','天王星','海王星','太阳系','银河系','主小行星带','类地行星','温室效应','气态巨行星','冰巨行星','矮行星','细胞膜','细胞质','细胞核','核糖体','线粒体','细胞壁','叶绿体','大液泡','拟核']
 
 
 def prepare_fonts():
@@ -148,7 +148,7 @@ def build(output, case='solar-system'):
 
     def base(page):
         c.setFillColor(HexColor(PAPER)); c.rect(0,0,W,H,fill=1,stroke=0)
-        filename='icon-telescope.png' if case=='solar-system' else ('icon-compass.png' if page==1 else 'icon-hourglass.png')
+        filename='icon-telescope.png' if case=='solar-system' else 'icon-microscope.png'
         im=Image.open(example/'art'/filename).convert('RGBA')
         im=im.crop(im.getchannel('A').getbbox())
         scale=min(30/im.width,30/im.height)
@@ -160,7 +160,7 @@ def build(output, case='solar-system'):
         c.setStrokeColor(HexColor('#A3B0A0'));c.setLineWidth(.55);c.line(48,55,672,55)
         text_block(page,f'p{page}.note',p['note'],48,914,595,10.5,16,'note')
         text_block(page,f'p{page}.number',f'{page:02d}',647,914,25,11,16,'note',centered=True)
-        source_line='资料：NASA 行星事实页；IAU 行星分类决议。完整出处 ↗' if case=='solar-system' else '资料：魔兽世界国服官方公告；内容核验于 2026.10.12。完整出处 ↗'
+        source_line='资料：NASA 行星事实页；IAU 行星分类决议。完整出处 ↗' if case=='solar-system' else '资料：NHGRI 术语表；OpenStax Biology 2e，第 4 章。完整出处 ↗'
         text_block(page,f'p{page}.sources',source_line,48,937,624,10.5,16,'note')
         c.linkURL(f'https://github.com/NewenergyEric/eric-jiangzhishi-skill/blob/main/examples/{case}/sources.md',(48,4,633,48),relative=0,thickness=0)
 
@@ -191,26 +191,52 @@ def build(output, case='solar-system'):
         text_block(2,'p2.closing',p['closing'],48,787,624,18,28,'body',max_height=115)
         footer(2); c.showPage()
     else:
+        def leader(points):
+            c.saveState()
+            c.setStrokeColor(HexColor('#668274'));c.setLineWidth(.8)
+            path=c.beginPath();path.moveTo(points[0][0],H-points[0][1])
+            for x,y in points[1:]:path.lineTo(x,H-y)
+            c.drawPath(path)
+            c.setFillColor(HexColor('#668274'))
+            c.circle(points[-1][0],H-points[-1][1],2,fill=1,stroke=0)
+            c.restoreState()
         p=data['pages'][0]
         base(1); title(1)
         text_block(1,'p1.lead',p['lead'],48,216,624,18,27,'lead',max_height=105)
-        art('routes.png',105,303,510,340)
-        for i,label in enumerate(p.get('scene_labels',[])):
-            text_block(1,'p1.scene.'+str(i),label,48+i*208,651,208,13,20,'caption',centered=True)
-        y=679
+        art('animal-cell.png',100,324,520,520*2/3)
+        specs=[
+            ('细胞膜',555,335,105,[(579,360),(574,394),(550,424)]),
+            ('细胞质',595,589,77,[(592,605),(565,586),(522,557)]),
+            ('细胞核',48,407,94,[(128,431),(196,431),(283,484)]),
+            ('核糖体',48,608,94,[(130,618),(182,592),(205,555)]),
+            ('线粒体',605,436,67,[(600,454),(548,454),(469,411)])
+        ]
+        for label,x,top,width,points in specs:
+            leader(points)
+            text_block(1,'p1.label.'+label,label,x,top,width,15,22,'label','Heading')
+        y=695
         for i,paragraph in enumerate(p['paragraphs']):
             y=text_block(1,f'p1.paragraph.{i}',paragraph,48,y,624,18,27,'body',max_height=135)+12
-        if y>900: raise ValueError(f'Warcraft page 1 too tall: {y}')
+        if y>900: raise ValueError(f'Cells page 1 too tall: {y}')
         footer(1);c.showPage()
         p=data['pages'][1]
         base(2);title(2)
-        art('rhythms.png',365,221,340,510)
+        art('plant-and-bacterium.png',365,255,318,477)
         y=230
         for i,paragraph in enumerate(p['paragraphs']):
-            y=text_block(2,f'p2.paragraph.{i}',paragraph,48,y,295,17,26,'body',max_height=200)+22
-        if y>770: raise ValueError(f'Warcraft page 2 too tall: {y}')
-        for i,(label,x,top,width) in enumerate(zip(p.get('scene_labels',[]),[580,387,376],[250,425,742],[115,125,315])):
-            text_block(2,'p2.scene.'+str(i),label,x,top,width,13,20,'caption',centered=True)
+            y=text_block(2,f'p2.paragraph.{i}',paragraph,48,y,295,17,26,'body',max_height=205)+18
+        if y>770: raise ValueError(f'Cells page 2 too tall: {y}')
+        specs=[
+            ('叶片细胞',385,220,140,[]),
+            ('细胞壁',576,240,100,[(611,263),(628,290)]),
+            ('叶绿体',570,594,100,[(605,594),(590,564),(570,524)]),
+            ('大液泡',433,393,105,[]),
+            ('细菌',391,737,75,[]),
+            ('拟核（DNA）',528,737,144,[(575,737),(566,716),(503,658)])
+        ]
+        for label,x,top,width,points in specs:
+            if points:leader(points)
+            text_block(2,'p2.label.'+label,label,x,top,width,15,22,'label','Heading')
         text_block(2,'p2.closing',p['closing'],48,782,624,18,28,'body',max_height=115)
         footer(2);c.showPage()
     c.save()
@@ -236,6 +262,6 @@ def build(output, case='solar-system'):
 
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--case',choices=['solar-system','warcraft'],default='solar-system');ap.add_argument('--output',type=Path)
+    ap=argparse.ArgumentParser();ap.add_argument('--case',choices=['solar-system','cells'],default='solar-system');ap.add_argument('--output',type=Path)
     args=ap.parse_args()
     build(args.output or ROOT/'examples'/args.case/'output',args.case)

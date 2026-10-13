@@ -1,0 +1,56 @@
+{
+  "version": "1.1.0",
+  "engine": {
+    "repository": "https://github.com/NewenergyEric/motion-story-skills",
+    "commit": "1c002f5f00c56a05ef03c788bddad673254d101a",
+    "version": "0.3.0",
+    "used": [
+      "renderStory",
+      "textBox",
+      "png",
+      "inspectVideo",
+      "run"
+    ]
+  },
+  "storySha256": "9a3cc6fb120c900a83e8dad0e26e72950d5682574cc1e56c03ca636e90746144",
+  "sourceHashes": {
+    "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
+    "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
+    "examples/cells/output/page-01.png": "08106a6055314e3957ef0b9ee2a19d398baa5573eee098f301f4b28282057d04",
+    "examples/cells/output/page-02.png": "77767aedf2fcd5792383a8e59d8424a7490be012b32dc80e7c0d46238e6ddf1a",
+    "examples/solar-system/output/page-01.png": "5116f0d7a42f2df2790e9262b7331400a01547889e36604ffdef885d6a9cf427",
+    "examples/solar-system/output/page-02.png": "56d148c7564078196d1be667c78b2eefd39c612e423d81f0de35b04e74c6bddf"
+  },
+  "outputs": {
+    "mp4": {
+      "width": 960,
+      "height": 540,
+      "seconds": 16,
+      "frames": 384,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "videoBitrate": 988150,
+      "bytes": 1993308,
+      "sha256": "4640eab0456a12295faf7c6095ad8dcec97aec229985d917c2e0005954873f4e"
+    },
+    "gif": {
+      "width": 640,
+      "height": 360,
+      "seconds": 16,
+      "frames": 200,
+      "codec": "gif",
+      "pixelFormat": "bgra",
+      "videoBitrate": null,
+      "bytes": 2017852,
+      "sha256": "80d60f40e66b77199b5f2d48e3717780211beaf9f91a819ae4b16b8c6ae5c8fa"
+    }
+  },
+  "sampledFrames": 6,
+  "sampledUniqueFrames": 6,
+  "posterSha256": "230658181c1a8af2e70371244ce55d5abc46fb37babf8596066594b17513642e",
+  "budgets": {
+    "mp4Bytes": 5000000,
+    "gifBytes": 3000000
+  },
+  "platformPreviewVerified": false
+}

@@ -84,7 +84,7 @@ def build(output, case='solar-system'):
     rendered = {}
     target = output / f'{case}.pdf'
     c = canvas.Canvas(str(target), pagesize=(W,H), pageCompression=1, invariant=1)
-    c.setTitle(data['title']+' | 把知识讲给人听')
+    c.setTitle(data['title']+' | 一起读懂 / Making Sense Together')
     c.setAuthor('eric-jiangzhishi-skill contributors')
     c.setSubject('Two-page illustrated guide with primary sources and original AI-generated artwork')
     c.setCreator('eric-jiangzhishi-skill build_example.py')

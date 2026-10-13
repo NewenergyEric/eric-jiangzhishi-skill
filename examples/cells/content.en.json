@@ -1,0 +1,50 @@
+{
+  "title": "Getting to know cells",
+  "version": "1.2.0",
+  "language": "en",
+  "reader": "A reader with no biology background who has a few minutes to explore cells",
+  "pages": [
+    {
+      "id": "P01",
+      "eyebrow": "Getting to know cells / Looking closer",
+      "title": "A closer look at life:\nwhat is inside a cell?",
+      "lead": "Look at your hand, then at a green leaf by the window. Both are made of cells. Cells are the basic units of life, and most are so small that we need a microscope to see them. Let's enlarge a typical animal cell and see how its parts work together.",
+      "paragraphs": [
+        "The cell membrane separates the inside from the outside and controls what moves in and out. Between the membrane and the nucleus is the cytoplasm, where many chemical reactions take place. The nucleus holds most of the cell's DNA. The genetic information it carries helps direct the cell's activities.",
+        "How do those instructions become work? Ribosomes use the messages they receive to make proteins, which help form the cell's structures and carry out many of its activities. Mitochondria convert energy from nutrients into forms the cell can use, such as ATP, to support this work."
+      ],
+      "labels": [
+        "Cell membrane",
+        "Cytoplasm",
+        "Nucleus",
+        "Ribosomes",
+        "Mitochondria"
+      ],
+      "note": "A simplified cutaway of a typical animal cell, highlighting only some structures. Colors, quantities and sizes are not to scale."
+    },
+    {
+      "id": "P02",
+      "eyebrow": "Getting to know cells / One name, different forms",
+      "title": "A leaf, a hand,\nand a tiny bacterium",
+      "paragraphs": [
+        "Cells in a green leaf have a cell wall that helps support and protect them, with a cell membrane just inside it. Chloroplasts use light energy to make sugars. A large central vacuole stores water and dissolved substances and helps maintain the cell's shape. Plant cells have mitochondria too.",
+        "Plant cells are not all alike. Root cells, for example, usually have no chloroplasts. The leaf cell in the illustration is only one kind; it does not represent every cell in a plant.",
+        "Now look at a bacterium. It is typically a single cell and has no nucleus enclosed by a nuclear membrane. Most of its DNA is concentrated in a region called the nucleoid. It still has a cell membrane, cytoplasm and ribosomes, and it needs to take in materials and use energy."
+      ],
+      "closing": "Animals and plants are eukaryotes; bacteria are prokaryotes. To begin telling them apart, look for a membrane-bound nucleus, then other features such as a cell wall or chloroplasts. Their shapes may differ greatly, but all cells do the work that keeps life going.",
+      "labels": [
+        "Leaf cell",
+        "Cell wall",
+        "Chloroplast",
+        "Central vacuole",
+        "Bacterium",
+        "Nucleoid (DNA)"
+      ],
+      "note": "The two cells are enlarged separately, so their relative sizes are not shown. Structures, colors and quantities are simplified."
+    }
+  ],
+  "translationOf": {
+    "file": "content.json",
+    "sha256": "fcda0cfc68f758bfee6b89049c1c6beeec3e514a52034632e2dd5f18d1d21820"
+  }
+}

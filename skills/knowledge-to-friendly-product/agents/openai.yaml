@@ -1,4 +1,4 @@
 interface:
-  display_name: "把知识讲给人听"
+  display_name: "一起读懂 · 内容梳理"
   short_description: "核验知识，用自然文字和统一画风完成可读图文。"
   default_prompt: "请使用 $knowledge-to-friendly-product，根据我的资料和读者情境完成指定图文产物，保留来源和实际检查记录。"

@@ -1,0 +1,49 @@
+{
+  "title": "The eight planets",
+  "version": "1.2.0",
+  "language": "en",
+  "reader": "A reader new to astronomy who has a few minutes for an illustrated explanation",
+  "pages": [
+    {
+      "id": "P01",
+      "eyebrow": "The eight planets / Starting close to home",
+      "title": "Start beneath your feet.\nMeet the eight planets.",
+      "lead": "Imagine lifting your gaze beyond the window, then higher still. Earth, the ground beneath our feet, is the third planet from the Sun. The Sun is a star that produces its own light, with eight planets orbiting it. Our solar system is just a small part of the Milky Way.",
+      "paragraphs": [
+        "First, look toward the Sun. Closest to it is little Mercury, its surface marked by many impact craters. Next comes Venus, wrapped in a thick atmosphere. Although it is farther from the Sun, its powerful greenhouse effect makes it hotter than Mercury. It is the hottest of the eight planets.",
+        "Return to ocean-covered Earth, then travel outward to Mars. Its red color comes from oxidized iron in the soil, much like familiar rust. These four planets have solid, rocky surfaces, so they are grouped as terrestrial planets. Beyond them, the worlds begin to look very different."
+      ],
+      "labels": [
+        "1 · Mercury",
+        "2 · Venus",
+        "3 · Earth",
+        "4 · Mars"
+      ],
+      "note": "An artistic illustration. Sizes, distances and curves are not to scale and do not show current positions.",
+      "sources": "Sources: NASA's planet overview and individual planet fact pages. Full references are in sources.md."
+    },
+    {
+      "id": "P02",
+      "eyebrow": "The eight planets / Farther out",
+      "title": "Beyond the asteroid belt,\nfour giant worlds await.",
+      "paragraphs": [
+        "Cross the main asteroid belt between Mars and Jupiter, and Jupiter is the first planet you meet. It is the largest planet in our solar system. Its stripes are bands of swirling clouds, and the Great Red Spot is an enormous storm.",
+        "Next is Saturn. Its striking rings are not a solid disk but a collection of countless pieces of ice and rock. Jupiter and Saturn are made mainly of hydrogen and helium and are called gas giants. Neither has a solid surface to stand on like Earth's.",
+        "Farther out, Uranus rotates almost on its side. Neptune travels around the Sun beyond it, taking about 165 Earth years to complete an orbit. Both are ice giants, but they are not giant frozen snowballs: their interiors contain materials such as water, ammonia and methane under intense heat and pressure."
+      ],
+      "closing": "At Neptune, we have met all eight planets, but we have not reached the edge of the solar system. Pluto is still part of this family; under the International Astronomical Union's classification, it is a dwarf planet. The next time you see these names, start by finding Earth, then follow the order outward from the Sun to place the other seven planets.",
+      "labels": [
+        "5 · Jupiter",
+        "6 · Saturn",
+        "7 · Uranus",
+        "8 · Neptune"
+      ],
+      "note": "An artistic illustration. Sizes, distances, colors and curves are simplified; not all moons and rings are shown.",
+      "sources": "Sources: NASA's planet fact pages and the IAU's 2006 resolution on planet classification."
+    }
+  ],
+  "translationOf": {
+    "file": "content.json",
+    "sha256": "dcde8ea668eeaeb7f2eb0bb8ccf89e4c372aac11232a94b769fe3f4bebc56736"
+  }
+}

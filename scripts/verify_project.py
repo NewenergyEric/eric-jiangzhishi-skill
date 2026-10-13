@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse
 import hashlib
+import html
 import importlib.util
 import json
 import re
@@ -65,9 +66,26 @@ def audit(root=ROOT, staged=False):
             if len(doc.pages)!=2:errors.append({'rule':'pdf_page_count','file':name})
             scan(name,json.dumps(dict(doc.metadata or {}),ensure_ascii=False))
             for page in doc.pages:scan(name,page.extract_text())
+    skill_entries = sorted(name for name in files if re.fullmatch(r'skills/[^/]+/SKILL\.md',name))
+    if skill_entries != ['skills/knowledge-card-art-direction/SKILL.md','skills/knowledge-to-friendly-product/SKILL.md']:
+        errors.append({'rule':'two_independent_skills'})
     for case in ('solar-system','cells'):
         base=root/'examples'/case
         content=json.loads((base/'content.json').read_text(encoding='utf-8'))
+        english=json.loads((base/'content.en.json').read_text(encoding='utf-8'))
+        if english['translationOf']['sha256'] != hashlib.sha256((base/'content.json').read_bytes()).hexdigest():
+            errors.append({'rule':'translation_source_changed','file':case})
+        if len(content['pages']) != len(english['pages']) or len(english['pages']) != 2:
+            errors.append({'rule':'translation_page_count','file':case})
+        for language, data in [('zh',content),('en',english)]:
+            reading=html.unescape(re.sub(r'<[^>]+>',' ',(base/('read.en.html' if language=='en' else 'read.html')).read_text(encoding='utf-8')))
+            reading=''.join(reading.split())
+            for page in data['pages']:
+                for item in [page['title'],page.get('lead',''),*page['paragraphs'],page.get('closing',''),*page.get('labels',[])]:
+                    if ''.join(item.split()) not in reading:errors.append({'rule':'reading_text_mismatch','file':case,'language':language})
+        for original,translated in zip(content['pages'],english['pages']):
+            if original['id']!=translated['id'] or len(original['paragraphs'])!=len(translated['paragraphs']) or len(original['labels'])!=len(translated['labels']):
+                errors.append({'rule':'translation_structure_mismatch','file':case})
         pdf=PdfReader(base/'output'/f'{case}.pdf')
         for i,page in enumerate(pdf.pages):
             actual=''.join(page.extract_text().split())
@@ -77,34 +95,37 @@ def audit(root=ROOT, staged=False):
             with Image.open(base/'output'/f'page-{i+1:02d}.png') as im:
                 if im.size!=(1440,1920):errors.append({'rule':'preview_size','file':case})
     media=root/'media/intro'
-    story=json.loads((media/'story.json').read_text(encoding='utf-8'))
-    report=json.loads((media/'report.json').read_text(encoding='utf-8'))
-    if hashlib.sha256((media/'story.json').read_bytes()).hexdigest()!=report['storySha256']:
-        errors.append({'rule':'video_story_changed_without_rebuild'})
-    for name,expected in report['sourceHashes'].items():
-        if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected:
-            errors.append({'rule':'video_source_changed_without_rebuild','file':name})
-    for suffix in ['mp4','gif']:
-        payload=(media/f'intro.{suffix}').read_bytes();record=report['outputs'][suffix]
-        if hashlib.sha256(payload).hexdigest()!=record['sha256'] or len(payload)!=record['bytes']:
-            errors.append({'rule':'video_output_mismatch','file':suffix})
-        if len(payload)>story['budgets'][suffix+'Bytes']:
-            errors.append({'rule':'video_size_budget','file':suffix})
-    with Image.open(media/'intro.gif') as gif:
-        duration=0
-        for frame in range(gif.n_frames):
-            gif.seek(frame);duration+=gif.info.get('duration',0)
-        if gif.size!=(640,360) or gif.n_frames!=200 or duration!=16000:
-            errors.append({'rule':'gif_geometry_or_duration'})
-    if hashlib.sha256((media/'poster.png').read_bytes()).hexdigest()!=report['posterSha256']:
-        errors.append({'rule':'video_poster_mismatch'})
+    for locale in ['', '.en']:
+        story=json.loads((media/f'story{locale}.json').read_text(encoding='utf-8'))
+        report=json.loads((media/f'report{locale}.json').read_text(encoding='utf-8'))
+        if hashlib.sha256((media/f'story{locale}.json').read_bytes()).hexdigest()!=report['storySha256']:
+            errors.append({'rule':'video_story_changed_without_rebuild','language':locale or 'zh'})
+        if report['version']!=(root/'VERSION').read_text().strip() or report['language']!=story['language']:
+            errors.append({'rule':'video_version_or_language','language':locale or 'zh'})
+        for name,expected in report['sourceHashes'].items():
+            if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected:
+                errors.append({'rule':'video_source_changed_without_rebuild','file':name})
+        for suffix in ['mp4','gif']:
+            payload=(media/f'intro{locale}.{suffix}').read_bytes();record=report['outputs'][suffix]
+            if hashlib.sha256(payload).hexdigest()!=record['sha256'] or len(payload)!=record['bytes']:
+                errors.append({'rule':'video_output_mismatch','file':f'intro{locale}.{suffix}'})
+            if len(payload)>story['budgets'][suffix+'Bytes']:
+                errors.append({'rule':'video_size_budget','file':f'intro{locale}.{suffix}'})
+        with Image.open(media/f'intro{locale}.gif') as gif:
+            duration=0
+            for frame in range(gif.n_frames):
+                gif.seek(frame);duration+=gif.info.get('duration',0)
+            if gif.size!=(story['gifWidth'],round(story['height']*story['gifWidth']/story['width'])) or gif.n_frames!=round(story['duration']*story['gifFps']) or duration!=story['duration']*1000:
+                errors.append({'rule':'gif_geometry_or_duration','language':locale or 'zh'})
+        if hashlib.sha256((media/f'poster{locale}.png').read_bytes()).hexdigest()!=report['posterSha256']:
+            errors.append({'rule':'video_poster_mismatch','language':locale or 'zh'})
     if staged:
         indexed=subprocess.check_output(['git','ls-files','-z'],cwd=root).decode('utf-8').split('\0')
         if set(filter(None,indexed))!=allowed:errors.append({'rule':'git_allowlist_mismatch'})
         for name in files:
             content=subprocess.check_output(['git','show',':'+name],cwd=root)
             if content!=(root/name).read_bytes():errors.append({'rule':'staged_bytes_differ','file':name})
-    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','pdf_text','two_pages_per_case','preview_dimensions','video_source_and_output_hashes','media_size_budgets','gif_frames_and_duration']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
+    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','preview_dimensions','bilingual_video_source_and_output_hashes','media_size_budgets','gif_frames_and_duration']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--staged',action='store_true')

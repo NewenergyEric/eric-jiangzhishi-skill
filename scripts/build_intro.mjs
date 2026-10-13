@@ -1,4 +1,4 @@
-// Custom composition using the Motion Story renderer. See media/intro/README.md.
+// Bilingual composition using the maintained Motion Story renderer. See media/intro/README.md.
 import {readFile, writeFile, mkdir, copyFile, access} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
@@ -14,20 +14,30 @@ function option(name, fallback) {
   return argv[i + 1];
 }
 const preview = argv.includes('--preview');
-const engineRoot = path.resolve(option('motion-story', path.join(root, '.build/tools/motion-story-skills')));
-const story = JSON.parse(await readFile(path.join(root, 'media/intro/story.json'), 'utf8'));
+const language = option('lang', 'zh');
+if (!['zh','en'].includes(language)) throw new Error('--lang must be zh or en.');
+const suffix = language === 'en' ? '.en' : '';
+const engineRoot = path.resolve(option('motion-story', path.join(root, '.build/tools/eric-intro-motion-skill')));
+const storyName = `story${suffix}.json`;
+const story = JSON.parse(await readFile(path.join(root, 'media/intro', storyName), 'utf8'));
 const engineCommit = execFileSync('git', ['rev-parse', 'HEAD'], {cwd: engineRoot, encoding: 'utf8', windowsHide: true}).trim();
 if (engineCommit !== story.engine.commit) throw new Error('Use the Motion Story commit recorded in story.json.');
-const engine = path.join(engineRoot, 'skills/motion-story/scripts');
+execFileSync('git', ['diff', '--exit-code', 'HEAD', '--', story.engine.path], {cwd: engineRoot, windowsHide: true});
+const engine = path.join(engineRoot, story.engine.path, 'scripts');
 const {renderStory, png, run, inspectVideo} = await import(pathToFileURL(path.join(engine, 'render.mjs')).href);
 const {textBox} = await import(pathToFileURL(path.join(engine, 'text.mjs')).href);
 const out = path.join(root, 'media/intro');
-const scratch = path.join(root, '.build/intro-render');
+const scratch = path.join(root, '.build/intro-render', language);
 const assets = path.join(root, '.build/intro-assets');
 await mkdir(scratch, {recursive: true});
 await mkdir(assets, {recursive: true});
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const sourceHashes = {};
+sourceHashes['scripts/build_intro.mjs'] = hash(await readFile(fileURLToPath(import.meta.url)));
+const runtimeHashes = {};
+for (const file of execFileSync('git', ['ls-files', `${story.engine.path}/scripts`, `${story.engine.path}/package.json`, `${story.engine.path}/package-lock.json`, `${story.engine.path}/assets/fonts`], {cwd: engineRoot, encoding:'utf8', windowsHide:true}).trim().split('\n')) {
+  runtimeHashes[file] = hash(await readFile(path.join(engineRoot, file)));
+}
 
 // Downsample only for the small video; full-resolution artwork stays in examples.
 async function raster(relative, width) {
@@ -55,10 +65,11 @@ function typeset(value, x, y, w, h, size, field, weight = 450, color = ink) {
   return result.svg;
 }
 const common = typeset(story.projectTitle, 83, 27, 470, 40, 20, 'project', 650)
-  + typeset(story.repositoryLabel, 48, 495, 650, 30, 16, 'repository', 450, sage);
+  + typeset(story.repositoryLabel, 48, 495, 650, 30, 16, 'repository', 450, sage)
+  + (story.sampleLanguage ? typeset(story.sampleLanguage, 718, 497, 194, 26, 13, 'sampleLanguage', 450, sage) : '');
 const labels = story.scenes.map((s, i) => ({
   eyebrow: typeset(s.eyebrow, 48, 100, 408, 36, 18, `scene${i}.eyebrow`, 500, sage),
-  title: typeset(s.title, 48, 148, 408, 154, 44, `scene${i}.title`, 700),
+  title: typeset(s.title, 48, 148, 408, 154, language === 'en' ? 40 : 44, `scene${i}.title`, 700),
   body: s.body ? typeset(s.body, 48, 317, 408, 86, 22, `scene${i}.body`) : '',
   steps: (s.steps || []).map((line, j) => typeset(line, 83, 311 + j*43, 366, 36, 21, `scene${i}.step${j}`)),
   artLabel: s.artLabel ? typeset(s.artLabel, 489, 444, 423, 35, 20, `scene${i}.artlabel`) : '',
@@ -125,16 +136,17 @@ for (const [name,at] of [['scene-01',3.5],['scene-02',8],['scene-03',13],['trans
 await writeFile(path.join(scratch,'safe.png'),png(frame(13,{guide:true}),960));
 await writeFile(path.join(scratch,'layout.json'),JSON.stringify(composition.metadata,null,2)+'\n');
 if (preview) {
-  console.log('Preview frames and measured text are in .build/intro-render.');
+  console.log(`Preview frames and measured text are in .build/intro-render/${language}.`);
 } else {
   const report = await renderStory(story, {composition,width:960,height:540,out:scratch,fps:story.fps,formats:['mp4','png'],force:true,onProgress:console.log});
-  await copyFile(path.join(scratch,'intro.mp4'),path.join(out,'intro.mp4'));
+  await copyFile(path.join(scratch,'intro.mp4'),path.join(out,`intro${suffix}.mp4`));
   // A smaller GIF uses the same frame clock, without changing the composition.
-  await run('ffmpeg', ['-hide_banner','-loglevel','error','-y','-i',path.join(out,'intro.mp4'),'-filter_complex',`fps=${story.gifFps},scale=${story.gifWidth}:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=96:reserve_transparent=0[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle`,'-loop','0','-an','-map_metadata','-1',path.join(out,'intro.gif')]);
-  report.outputs.gif = await inspectVideo(path.join(out,'intro.gif'), {width:640,height:360,duration:16,fps:12.5,gif:true});
+  await run('ffmpeg', ['-hide_banner','-loglevel','error','-y','-i',path.join(out,`intro${suffix}.mp4`),'-filter_complex',`fps=${story.gifFps},scale=${story.gifWidth}:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=96:reserve_transparent=0[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle`,'-loop','0','-an','-map_metadata','-1',path.join(out,`intro${suffix}.gif`)]);
+  report.outputs.gif = await inspectVideo(path.join(out,`intro${suffix}.gif`), {width:story.gifWidth,height:story.height*story.gifWidth/story.width,duration:story.duration,fps:story.gifFps,gif:true});
   if (report.outputs.mp4.bytes>story.budgets.mp4Bytes || report.outputs.gif.bytes>story.budgets.gifBytes) throw new Error('Media exceeds the size budget in story.json.');
-  await writeFile(path.join(out,'poster.png'),png(frame(13),960));
-  const manifest = {version:'1.1.0',engine:story.engine,storySha256:hash(await readFile(path.join(out,'story.json'))),sourceHashes,outputs:report.outputs,sampledFrames:report.sampledFrames,sampledUniqueFrames:report.sampledUniqueFrames,posterSha256:hash(await readFile(path.join(out,'poster.png'))),budgets:story.budgets,platformPreviewVerified:false};
-  await writeFile(path.join(out,'report.json'),JSON.stringify(manifest,null,2)+'\n');
+  await writeFile(path.join(out,`poster${suffix}.png`),png(frame(13),960));
+  const version = (await readFile(path.join(root,'VERSION'),'utf8')).trim();
+  const manifest = {version,language:story.language,engine:story.engine,runtimeHashes,storySha256:hash(await readFile(path.join(out,storyName))),sourceHashes,outputs:report.outputs,sampledFrames:report.sampledFrames,sampledUniqueFrames:report.sampledUniqueFrames,posterSha256:hash(await readFile(path.join(out,`poster${suffix}.png`))),budgets:story.budgets,platformPreviewVerified:false};
+  await writeFile(path.join(out,`report${suffix}.json`),JSON.stringify(manifest,null,2)+'\n');
   console.log(JSON.stringify({mp4Bytes:report.outputs.mp4.bytes,gifBytes:report.outputs.gif.bytes,seconds:story.duration}));
 }

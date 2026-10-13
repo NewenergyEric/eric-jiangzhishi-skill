@@ -14,7 +14,7 @@ def package():
     files=manifest()
     groups={
         f'eric-jiangzhishi-skill-{version}.zip':files,
-        f'eric-jiangzhishi-skills-{version}.zip':[p for p in files if p.startswith('skills/')]+['LICENSE','VERSION','docs/skills-package.md'],
+        f'eric-jiangzhishi-skills-{version}.zip':[p for p in files if p.startswith('skills/')]+['LICENSE','VERSION','docs/skills-package.md','docs/skills-package.en.md'],
     }
     products=[]
     for name,members in groups.items():
@@ -32,7 +32,7 @@ def package():
         products.append(path)
     for case in ['solar-system','cells']:
         path=output/f'{case}.pdf';path.write_bytes((ROOT/'examples'/case/'output'/f'{case}.pdf').read_bytes());products.append(path)
-    for name in ['intro.mp4','intro.gif']:
+    for name in ['intro.mp4','intro.gif','intro.en.mp4','intro.en.gif']:
         path=output/name;path.write_bytes((ROOT/'media/intro'/name).read_bytes());products.append(path)
     sums=''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in products)
     (output/'SHA256SUMS.txt').write_text(sums,encoding='utf-8')

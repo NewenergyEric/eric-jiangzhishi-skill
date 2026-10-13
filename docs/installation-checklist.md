@@ -1,5 +1,7 @@
 # 安装与交付检查清单
 
+[English](installation-checklist.en.md)
+
 这些是用户验收步骤，不代表勾上就已经通过程序测试。
 
 - [ ] 下载来自本仓库的明确版本，核对 Release 中的 SHA256SUMS.txt。

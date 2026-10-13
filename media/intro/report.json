@@ -1,9 +1,12 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
+  "language": "zh-CN",
   "engine": {
-    "repository": "https://github.com/NewenergyEric/motion-story-skills",
-    "commit": "1c002f5f00c56a05ef03c788bddad673254d101a",
-    "version": "0.3.0",
+    "repository": "https://github.com/NewenergyEric/eric-intro-motion-skill",
+    "previousRepository": "https://github.com/NewenergyEric/motion-story-skills",
+    "commit": "6c761d6e4a6e0ed358178b5d2f1fac339a3361cf",
+    "version": "0.4.0",
+    "path": "skills/eric-intro-motion-skill",
     "used": [
       "renderStory",
       "textBox",
@@ -12,8 +15,27 @@
       "run"
     ]
   },
-  "storySha256": "9a3cc6fb120c900a83e8dad0e26e72950d5682574cc1e56c03ca636e90746144",
+  "runtimeHashes": {
+    "skills/eric-intro-motion-skill/assets/fonts/NotoSansSC.ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "skills/eric-intro-motion-skill/assets/fonts/OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "skills/eric-intro-motion-skill/package-lock.json": "ee889cfdd625e8d253a8ecd7bd57817eb4129313a93aa94e416e1c2f95610041",
+    "skills/eric-intro-motion-skill/package.json": "6c8e2323eb5931b1e00418174d2fc690edcc372453f65a7a92893b4be376e2a4",
+    "skills/eric-intro-motion-skill/scripts/assemble-media.mjs": "d6e1774db554cf354b3e5b3357537a39b81570d1ac163e0bffd59ac2f0777562",
+    "skills/eric-intro-motion-skill/scripts/cli.mjs": "ee2e90a196684ed9f1da8d294a359d10cdfce268fb37f7fe91b47c018a54a4cd",
+    "skills/eric-intro-motion-skill/scripts/compose.mjs": "db2aedc79bd5a624ac1471d4d10b57ad69e064cdd4a902f8ecd8eb0c6bdc8af6",
+    "skills/eric-intro-motion-skill/scripts/core.mjs": "5e50cc25012c489323e9ca10cda2aecb587853693dac3ddd6a6a5f48619ba53d",
+    "skills/eric-intro-motion-skill/scripts/modules/profile.mjs": "b8a6ad8ac14b0611ce309b72ad283ac64f4ebe972c5da91aa996bc14cfc96cd6",
+    "skills/eric-intro-motion-skill/scripts/modules/references.mjs": "dfd3c5e1b5d80729753925c843333522f0abb67785495bdfc4c6d72ae67749ed",
+    "skills/eric-intro-motion-skill/scripts/native-cache.mjs": "942672e60d86264c34bb6ba02ff23d232197bc13caa572356d3d1049c6ba680d",
+    "skills/eric-intro-motion-skill/scripts/native-intro.mjs": "e3bc3b909544bda23660d8ec2ce4df92066c677218c74ae7fd85c159a09db544",
+    "skills/eric-intro-motion-skill/scripts/render.mjs": "72b887db6cc40b6753e49c33f2d14c21f5bedc72dc677a07e8229758db7caa16",
+    "skills/eric-intro-motion-skill/scripts/replace-audio.mjs": "316516c99ab728327bcf42eb65e1598c3d0119d427255a136e597ba323f23ed7",
+    "skills/eric-intro-motion-skill/scripts/text.mjs": "4f9e8d23fc915c3097ebcce617526a7654e62c2958ffdfbfc2e2c0997f9fbcad",
+    "skills/eric-intro-motion-skill/scripts/timeline-core.mjs": "7bc04d8b2d23b3266f3d4d01aa5afa331cdda179df94f19fccc99361f1a479b9"
+  },
+  "storySha256": "c12c6a57af1d13ded7d4aaab4e5bbfdbf0d5511050075e9d4cd4f0d4acd90a34",
   "sourceHashes": {
+    "scripts/build_intro.mjs": "0c5f0e4b05eb2abbaa0749b9cd28974d75603e5ab3076ff6e840d622f95e5626",
     "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
     "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
     "examples/cells/output/page-01.png": "08106a6055314e3957ef0b9ee2a19d398baa5573eee098f301f4b28282057d04",
@@ -29,9 +51,9 @@
       "frames": 384,
       "codec": "h264",
       "pixelFormat": "yuv420p",
-      "videoBitrate": 988150,
-      "bytes": 1993308,
-      "sha256": "4640eab0456a12295faf7c6095ad8dcec97aec229985d917c2e0005954873f4e"
+      "videoBitrate": 988151,
+      "bytes": 1993342,
+      "sha256": "72f89543820d1e3b6aaffb1ff19d84d3dbfa0f84c4e850a89f75db3c13b4e016"
     },
     "gif": {
       "width": 640,
@@ -41,13 +63,13 @@
       "codec": "gif",
       "pixelFormat": "bgra",
       "videoBitrate": null,
-      "bytes": 2017852,
-      "sha256": "80d60f40e66b77199b5f2d48e3717780211beaf9f91a819ae4b16b8c6ae5c8fa"
+      "bytes": 1980375,
+      "sha256": "ed20a97a26d8e2590fdae202c4e3cce899d4ba3cfa732583e804df36e371b58e"
     }
   },
   "sampledFrames": 6,
   "sampledUniqueFrames": 6,
-  "posterSha256": "230658181c1a8af2e70371244ce55d5abc46fb37babf8596066594b17513642e",
+  "posterSha256": "f6bd50739507248e74930d8c8742024236fd3b77555d8e13c50d8fc812b7ea39",
   "budgets": {
     "mp4Bytes": 5000000,
     "gifBytes": 3000000

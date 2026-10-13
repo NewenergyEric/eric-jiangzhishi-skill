@@ -1,4 +1,4 @@
 interface:
-  display_name: "知识卡包美术与排版"
-  short_description: "核验知识，用自然文字和统一画风完成可读图文。"
+  display_name: "一起读懂 · 插画排版"
+  short_description: "从定稿出发，完成插画、文字排版、校样与导出。"
   default_prompt: "请使用 $knowledge-card-art-direction，根据我的资料和读者情境完成指定图文产物，保留来源和实际检查记录。"

@@ -1,5 +1,7 @@
 # 两个可独立安装的 Skill
 
+[English](skills-package.en.md)
+
 从资料理解到完整图文，用 [knowledge-to-friendly-product](../skills/knowledge-to-friendly-product/SKILL.md)。
 
 内容已定后的插画和排版，用 [knowledge-card-art-direction](../skills/knowledge-card-art-direction/SKILL.md)。

@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>把知识讲给人听 · 从这里开始</title>
+<title>一起读懂 · 从这里开始</title>
 <style>
 :root{color-scheme:light;--paper:#fcf8ee;--ink:#192f2a;--muted:#4b5f53;--line:#becbb8}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.8}
@@ -20,11 +20,12 @@ footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);font-si
 @media(max-width:680px){main{padding:24px 20px 48px}.hero{display:block}.hero img{display:none}h1{margin-top:44px}.intro{font-size:19px}.examples{grid-template-columns:1fr}section{margin-top:44px}.choices button{width:100%;text-align:left}}
 </style>
 <main>
-<nav aria-label="主导航"><a href="../README.md">把知识讲给人听</a><a href="https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest">下载发布包 ↗</a></nav>
-<div class="hero"><div><p class="eyebrow">从一份资料，到有人愿意读的图文</p><h1>先讲明白，<br>再画得好看。</h1><p class="intro">选对读者、弄懂关系，用自然的文字和有用的画面，把知识讲给人听。这份入口带你选 Skill、准备输入，再检查真正的成稿。</p></div><img src="../examples/solar-system/art/inner-planets.png" alt="暖纸手绘的水星、金星、地球和火星"></div>
+<nav aria-label="主导航"><a href="../README.md">一起读懂</a><a href="getting-started.en.html" lang="en">English</a><a href="https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest">下载发布包 ↗</a></nav>
+<div class="hero"><div><p class="eyebrow">从一份资料，到有人愿意读的图文</p><h1>带着好奇心，<br>一起读懂。</h1><p class="intro">从你想弄明白的一个问题开始，把资料整理成清楚的解释，再配上能帮助理解的画面。这里有两个独立 Skill，按手上的内容来选就好。</p></div><img src="../examples/solar-system/art/inner-planets.png" alt="暖纸手绘的水星、金星、地球和火星"></div>
+<section aria-labelledby="intro-video"><h2 id="intro-video">先看看能做出什么</h2><video controls preload="none" playsinline poster="../media/intro/poster.png" style="display:block;width:100%;height:auto" aria-label="16 秒中文项目介绍"><source src="../media/intro/intro.mp4" type="video/mp4"></video><p class="note">16 秒，无旁白，展示实际成稿。<a href="../media/intro/story.json">分镜</a> · <a href="../media/intro/intro.gif">GIF</a></p></section>
 <section aria-labelledby="choose"><h2 id="choose">你手上的内容，走到哪一步了？</h2>
 <div class="choices" role="group" aria-label="选择工作起点"><button id="choose-content" type="button" aria-pressed="true">资料刚到手，要从头讲清楚</button><button id="choose-art" type="button" aria-pressed="false">文字已定，想改善插画与排版</button></div>
-<h3 id="skill-title">把知识讲给人听</h3><p id="skill-description">从理解资料、拆解知识和自然表达开始，再完成统一美术与可继续修改的交付。</p>
+<h3 id="skill-title">内容梳理</h3><p id="skill-description">从理解资料、拆解知识和自然表达开始，再完成统一美术与可继续修改的交付。</p>
 <p class="path" id="skill-path">skills/knowledge-to-friendly-product/SKILL.md</p>
 <p><a id="skill-link" href="../skills/knowledge-to-friendly-product/SKILL.md">打开完整 Skill</a> · <a href="installation-checklist.md">安装与检查清单</a></p>
 <p class="note">让能读取文件的 AI 助手读完整个 Skill 目录。长期安装位置依宿主而定；复制成功后，还需在宿主中确认它已被发现。方法文档本身无需 Python。</p>
@@ -50,17 +51,16 @@ footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);font-si
 <footer><a href="verification.md">本项目实际验证范围</a> · <a href="../THIRD_PARTY_NOTICES.md">许可与素材说明</a> · <a href="getting-started.md">纯文字上手说明</a><p>此页面在本地运行，不发送表单，不加载统计脚本。标题字图是图片素材，不是可安装字库。</p></footer>
 </main>
 <script>
-const choices={
-content:{name:'knowledge-to-friendly-product',title:'把知识讲给人听',description:'从理解资料、拆解知识和自然表达开始，再完成统一美术与可继续修改的交付。'},
-art:{name:'knowledge-card-art-direction',title:'知识卡包美术与排版',description:'从已定内容与认可风格开始，完成模型插画、变化的布局、中文适配、校样和导出。'}
-};
-let selected='content';
-function select(key){selected=key;const choice=choices[key];document.getElementById('skill-title').textContent=choice.title;document.getElementById('skill-description').textContent=choice.description;document.getElementById('skill-path').textContent='skills/'+choice.name+'/SKILL.md';document.getElementById('skill-link').href='../skills/'+choice.name+'/SKILL.md';for(const k of Object.keys(choices))document.getElementById('choose-'+k).setAttribute('aria-pressed',String(k===key));document.getElementById('prompt').textContent='请读取 '+choice.name+' 这个 Skill。主题是【主题】，读者是【已有知识与阅读情境】，资料是【文件或链接】。请做成【载体和页数】，沿用【风格参考】，保留【不可改项】。先核实知识，再写成自然连贯的图文；插画和图标解释内容，保留来源、可编辑源与实际检查记录。';document.getElementById('copy-status').textContent='';}
+const choices={"content": {"name": "knowledge-to-friendly-product", "title": "内容梳理", "description": "从资料理解和自然表达开始，继续完成插画、排版与可编辑交付。", "prompt": "请读取 knowledge-to-friendly-product 这个 Skill。主题是【主题】，读者是【已有知识与阅读情境】，资料是【文件或链接】。请做成【载体和页数】，沿用【风格参考】，保留【不可改项】。先核实知识，再写成自然连贯的图文；插画和图标解释内容，保留来源、可编辑源与实际检查记录。"}, "art": {"name": "knowledge-card-art-direction", "title": "插画排版", "description": "从已定内容与认可风格开始，完成插画、文字排版、校样和导出。", "prompt": "请读取 knowledge-card-art-direction 这个 Skill。请按我提供的定稿做【载体和页数】，面向【读者与阅读情境】，使用【输出语言】，沿用【风格参考】。保留原文，需要改写时先说明。插画和图标解释内容，检查真正导出的每一页，交付成稿、可编辑源、完整提示与检查记录。"}};
+const locale={"entry": "SKILL.md", "copied": "已复制，粘贴后填入你的任务信息。", "fallback": "浏览器未允许自动复制，文字已选中，请手动复制。", "prefix": "已勾选 ", "suffix": " 项"};
+function select(key){const choice=choices[key];document.getElementById('skill-title').textContent=choice.title;document.getElementById('skill-description').textContent=choice.description;document.getElementById('skill-path').textContent='skills/'+choice.name+'/SKILL.md';document.getElementById('skill-link').href='../skills/'+choice.name+'/'+locale.entry;for(const k of Object.keys(choices))document.getElementById('choose-'+k).setAttribute('aria-pressed',String(k===key));document.getElementById('prompt').textContent=choice.prompt;document.getElementById('copy-status').textContent='';}
 for(const key of Object.keys(choices))document.getElementById('choose-'+key).addEventListener('click',()=>select(key));
-document.getElementById('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById('prompt').textContent);document.getElementById('copy-status').textContent='已复制，粘贴后填入你的任务信息。';}catch{const range=document.createRange();range.selectNodeContents(document.getElementById('prompt'));const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);document.getElementById('copy-status').textContent='浏览器未允许自动复制，文字已选中，请手动复制。';}});
+document.getElementById('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById('prompt').textContent);document.getElementById('copy-status').textContent=locale.copied;}catch{const range=document.createRange();range.selectNodeContents(document.getElementById('prompt'));const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);document.getElementById('copy-status').textContent=locale.fallback;}});
 const boxes=Array.from(document.querySelectorAll('.checks input'));
-function count(){document.getElementById('check-status').textContent='已勾选 '+boxes.filter(x=>x.checked).length+' / '+boxes.length+' 项';}
+function count(){document.getElementById('check-status').textContent=locale.prefix+boxes.filter(x=>x.checked).length+' / '+boxes.length+locale.suffix;}
 boxes.forEach(box=>box.addEventListener('change',count));
 document.getElementById('reset').addEventListener('click',()=>{boxes.forEach(box=>box.checked=false);count();});
+select('content');
 </script>
+
 </html>

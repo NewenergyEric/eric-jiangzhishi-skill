@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "intro",
+  "duration": 16,
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "gifWidth": 640,
+  "gifFps": 12.5,
+  "budgets": {
+    "mp4Bytes": 5000000,
+    "gifBytes": 3000000
+  },
+  "repositoryLabel": "NewenergyEric / eric-jiangzhishi-skill",
+  "engine": {
+    "repository": "https://github.com/NewenergyEric/eric-intro-motion-skill",
+    "previousRepository": "https://github.com/NewenergyEric/motion-story-skills",
+    "commit": "6c761d6e4a6e0ed358178b5d2f1fac339a3361cf",
+    "version": "0.4.0",
+    "path": "skills/eric-intro-motion-skill",
+    "used": [
+      "renderStory",
+      "textBox",
+      "png",
+      "inspectVideo",
+      "run"
+    ]
+  },
+  "language": "en",
+  "projectTitle": "Making Sense Together",
+  "sampleLanguage": "Chinese sample pages",
+  "scenes": [
+    {
+      "from": 0,
+      "to": 5,
+      "eyebrow": "Start with something you're curious about",
+      "title": "A question.\nA clearer picture.",
+      "body": "Turn a few sources into\na short illustrated guide.",
+      "artLabel": "How does a cell work?",
+      "artNote": "Nucleus",
+      "action": "The original cell illustration unfolds, and a line leads to its nucleus."
+    },
+    {
+      "from": 5,
+      "to": 10,
+      "eyebrow": "From notes to a finished guide",
+      "title": "Find the words.\nThen the pictures.",
+      "steps": [
+        "Check the sources",
+        "Write a clear explanation",
+        "Let images explain it"
+      ],
+      "artLabel": "Getting to know cells · two pages",
+      "action": "The two actual Chinese pages unfold as three steps are checked in order."
+    },
+    {
+      "from": 10,
+      "to": 16,
+      "eyebrow": "Use either skill on its own",
+      "title": "Two skills.\nChoose your start.",
+      "body": "Content & explanation.\nIllustration & layout.",
+      "cta": "Bring a topic you're curious about.",
+      "artLabels": [
+        "The eight planets",
+        "Getting to know cells"
+      ],
+      "action": "The actual solar-system and cell pages unfold beside the two skill roles."
+    }
+  ]
+}

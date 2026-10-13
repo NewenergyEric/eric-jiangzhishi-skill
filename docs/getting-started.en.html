@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Making Sense Together · Start here</title>
+<style>
+:root{color-scheme:light;--paper:#fcf8ee;--ink:#192f2a;--muted:#4b5f53;--line:#becbb8}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.8}
+main{max-width:1080px;margin:auto;padding:40px 36px 72px}nav{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:15px}
+a{color:#265f52;text-underline-offset:4px}h1{font-family:Georgia,"KaiTi",serif;font-size:clamp(38px,6vw,70px);line-height:1.18;font-weight:500;letter-spacing:-.04em;margin:64px 0 28px}
+.intro{max-width:650px;font-size:21px}.eyebrow{letter-spacing:.14em;font-size:13px}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}.hero img{width:100%;height:auto}
+section{margin-top:64px}h2{font-size:27px;font-weight:600;margin-bottom:20px}h3{font-size:21px}p{max-width:760px}button,input,select{font:inherit}button{background:#192f2a;color:#fcf8ee;padding:10px 18px;border:2px solid #192f2a;border-radius:6px;cursor:pointer}
+button:hover{background:#345646}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #8e6820;outline-offset:4px}
+.choices{display:flex;gap:12px;flex-wrap:wrap}.choices button{background:transparent;color:var(--ink)}.choices button[aria-pressed=true]{background:#c8dcc6}
+.path{font-family:ui-monospace,monospace;font-size:14px;overflow-wrap:anywhere;background:#eeeadd;padding:12px 16px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:0}.prompt{border-left:4px solid #d9be64;padding:4px 24px;margin:24px 0;font-size:18px}
+.note{color:var(--muted);font-size:14px}.examples{display:grid;grid-template-columns:1fr 1fr;gap:30px}.examples img{display:block;width:100%;height:auto}
+.examples figure{margin:0}.examples figcaption{margin-top:12px;font-size:16px}.checks{display:grid;gap:12px;max-width:760px;padding:0;list-style:none}.checks label{display:flex;gap:12px;align-items:flex-start}.checks input{width:20px;height:20px;flex-shrink:0;margin-top:5px;accent-color:#265f52}
+footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);font-size:14px}.status{min-height:1.8em;font-size:14px}
+@media(max-width:680px){main{padding:24px 20px 48px}.hero{display:block}.hero img{display:none}h1{margin-top:44px}.intro{font-size:19px}.examples{grid-template-columns:1fr}section{margin-top:44px}.choices button{width:100%;text-align:left}}
+</style>
+
+<main>
+<nav aria-label="Main navigation"><a href="../README.en.md">Making Sense Together</a><a href="getting-started.html" lang="zh-CN">中文</a><a href="https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest">Download ↗</a></nav>
+<div class="hero"><div><p class="eyebrow">A QUESTION IS A GOOD PLACE TO START</p><h1>A little curiosity.<br>A clearer picture.</h1><p class="intro">Bring a topic you want to understand. These two skills help turn the sources into a guide with clear writing and thoughtful illustrations. Choose a starting point, add your material, and take a look at what you can make.</p></div><img src="../examples/solar-system/art/inner-planets.png" alt="Hand-drawn Mercury, Venus, Earth and Mars on warm paper"></div>
+<section aria-labelledby="intro-video"><h2 id="intro-video">See what you can make</h2><video controls preload="none" playsinline poster="../media/intro/poster.en.png" style="display:block;width:100%;height:auto" aria-label="16-second English project introduction"><source src="../media/intro/intro.en.mp4" type="video/mp4"></video><p class="note">16 seconds, no narration. The video shows the original Chinese sample pages. <a href="../media/intro/story.en.json">Storyboard</a> · <a href="../media/intro/intro.en.gif">GIF</a></p></section>
+<section aria-labelledby="choose"><h2 id="choose">Where are you starting?</h2>
+<div class="choices" role="group" aria-label="Choose a starting point"><button id="choose-content" type="button" aria-pressed="true">I have sources and a question</button><button id="choose-art" type="button" aria-pressed="false">My copy is ready for illustration</button></div>
+<h3 id="skill-title">Content &amp; explanation</h3><p id="skill-description">Check the sources, shape the explanation, and take it through to finished illustrated pages.</p>
+<p class="path" id="skill-path">skills/knowledge-to-friendly-product/SKILL.md</p>
+<p><a id="skill-link" href="../skills/knowledge-to-friendly-product/README.en.md">Read about this skill</a> · <a href="installation-checklist.en.md">Installation checklist</a></p>
+<p class="note">Use either skill independently. Ask an assistant with file access to read the selected SKILL.md and keep its entire folder. SKILL.md is the instruction entry in Chinese; ask for your output in English. Reading the methods requires no Python setup.</p>
+</section>
+<section aria-labelledby="start"><h2 id="start">Give it a clear task</h2>
+<div class="prompt"><pre id="prompt">Read knowledge-to-friendly-product. My topic is [topic], for [reader and reading context]. Use [files or links] to make [format and page count] in English. Follow [style reference] and preserve [fixed material]. Check the sources and write a connected explanation. Use images and icons to explain it. Deliver the sources, editable files and actual check results.</pre></div>
+<button id="copy" type="button">Copy the starting prompt</button><p id="copy-status" class="status" role="status" aria-live="polite"></p>
+<p class="note">Replace the bracketed text with your own details. New illustrations need an image-generation tool. Rebuilding the PDFs requires the dependencies in requirements.txt.</p>
+</section>
+<section aria-labelledby="samples"><h2 id="samples">Two complete examples</h2><div class="examples">
+<figure><a href="../examples/solar-system/read.en.html"><img loading="lazy" src="../skills/knowledge-to-friendly-product/assets/example-page-01.png" alt="Original Chinese solar-system page; open the complete English reading version"></a><figcaption><a href="../examples/solar-system/read.en.html">The eight planets · English text</a><br><a href="../examples/solar-system/output/solar-system.pdf">Original Chinese PDF</a> · <a href="../examples/solar-system/process.md">Production notes (Chinese)</a></figcaption></figure>
+<figure><a href="../examples/cells/read.en.html"><img loading="lazy" src="../examples/cells/output/page-01.png" alt="Original Chinese cell page; open the complete English reading version"></a><figcaption><a href="../examples/cells/read.en.html">Getting to know cells · English text</a><br><a href="../examples/cells/output/cells.pdf">Original Chinese PDF</a> · <a href="../examples/cells/process.md">Production notes (Chinese)</a></figcaption></figure>
+</div></section>
+<section aria-labelledby="review"><h2 id="review">Take a look before you call it done</h2><p>This is a manual checklist. It records your judgment, not an automated file check.</p>
+<ul class="checks">
+<li><label><input type="checkbox">The facts have reliable sources, and conditions or exceptions survived the rewrite.</label></li>
+<li><label><input type="checkbox">The explanation flows naturally, with unfamiliar terms explained as they appear.</label></li>
+<li><label><input type="checkbox">Images, icons and labels agree with the text and share a visual style.</label></li>
+<li><label><input type="checkbox">I opened every exported page and checked the type, overlaps and reading order.</label></li>
+<li><label><input type="checkbox">I have the finished guide, editable files, full prompts and actual check results.</label></li>
+</ul><p id="check-status" class="status" role="status" aria-live="polite">0 / 5 checked</p><button id="reset" type="button">Clear the checklist</button>
+</section>
+<footer><a href="verification.en.md">What was checked</a> · <a href="../THIRD_PARTY_NOTICES.en.md">Licenses and sources</a> · <a href="getting-started.en.md">Text-only instructions</a><p>This page works offline after you download the full package. Handwritten titles in the examples are image assets, not an installable font.</p></footer>
+</main>
+<script>
+const choices={"content": {"name": "knowledge-to-friendly-product", "title": "Content & explanation", "description": "Check the sources, shape the explanation, and take it through to finished illustrated pages.", "prompt": "Read knowledge-to-friendly-product. My topic is [topic], for [reader and reading context]. Use [files or links] to make [format and page count] in English. Follow [style reference] and preserve [fixed material]. Check the sources and write a connected explanation. Use images and icons to explain it. Deliver the sources, editable files and actual check results."}, "art": {"name": "knowledge-card-art-direction", "title": "Illustration & layout", "description": "Start with approved copy. Make the illustrations, typeset the text, proof the pages and export.", "prompt": "Read knowledge-card-art-direction. Use my approved copy to make [format and page count] for [reader and reading context], in English. Follow [style reference]. Keep the wording unless we agree on a change. Use images and icons to explain the content. Review every exported page and deliver the result, editable files, full prompts and actual check results."}};
+const locale={"entry": "README.en.md", "copied": "Copied. Paste it and fill in your details.", "fallback": "Automatic copying was unavailable. The text is selected; copy it manually.", "prefix": "", "suffix": " checked"};
+function select(key){const choice=choices[key];document.getElementById('skill-title').textContent=choice.title;document.getElementById('skill-description').textContent=choice.description;document.getElementById('skill-path').textContent='skills/'+choice.name+'/SKILL.md';document.getElementById('skill-link').href='../skills/'+choice.name+'/'+locale.entry;for(const k of Object.keys(choices))document.getElementById('choose-'+k).setAttribute('aria-pressed',String(k===key));document.getElementById('prompt').textContent=choice.prompt;document.getElementById('copy-status').textContent='';}
+for(const key of Object.keys(choices))document.getElementById('choose-'+key).addEventListener('click',()=>select(key));
+document.getElementById('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById('prompt').textContent);document.getElementById('copy-status').textContent=locale.copied;}catch{const range=document.createRange();range.selectNodeContents(document.getElementById('prompt'));const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);document.getElementById('copy-status').textContent=locale.fallback;}});
+const boxes=Array.from(document.querySelectorAll('.checks input'));
+function count(){document.getElementById('check-status').textContent=locale.prefix+boxes.filter(x=>x.checked).length+' / '+boxes.length+locale.suffix;}
+boxes.forEach(box=>box.addEventListener('change',count));
+document.getElementById('reset').addEventListener('click',()=>{boxes.forEach(box=>box.checked=false);count();});
+select('content');
+</script>
+</html>

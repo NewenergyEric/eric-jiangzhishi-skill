@@ -1,0 +1,2751 @@
+{
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "sourceHash": "05534b18538e11676d14ac0a590007c9db846949c1fa2a56e417ece5db2fcf72",
+  "width": 720,
+  "height": 720,
+  "samples": [
+    {
+      "frame": 6,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "从你想弄懂的问题开始",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 36.594,
+            "y": 107.772,
+            "w": 178.974,
+            "h": 16.811999999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "从一个问题，\n到两页图文。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.104,
+            "y": 157.85399999999998,
+            "w": 246.882,
+            "h": 105.892
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "带上资料，从读者的\n一个疑问讲起。",
+          "bounds": {
+            "x": 36,
+            "y": 307,
+            "w": 276,
+            "h": 140
+          },
+          "textBounds": {
+            "x": 37.032,
+            "y": 310.72,
+            "w": 213.336,
+            "h": 55.127999999999986
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "细胞里面，怎样一起工作？",
+          "bounds": {
+            "x": 36,
+            "y": 608,
+            "w": 648,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 228.66,
+            "y": 611.388,
+            "w": 251.52599999999998,
+            "h": 21.120000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "细胞核",
+          "bounds": {
+            "x": 335,
+            "y": 294,
+            "w": 220,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 335.56,
+            "y": 296.98,
+            "w": 58.839999999999975,
+            "h": 18.75999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 339.432,
+            "y": 342.144,
+            "w": 355,
+            "h": 237
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 36,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "从你想弄懂的问题开始",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 36.594,
+            "y": 107.772,
+            "w": 178.974,
+            "h": 16.811999999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "从一个问题，\n到两页图文。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.104,
+            "y": 157.85399999999998,
+            "w": 246.882,
+            "h": 105.892
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "带上资料，从读者的\n一个疑问讲起。",
+          "bounds": {
+            "x": 36,
+            "y": 307,
+            "w": 276,
+            "h": 140
+          },
+          "textBounds": {
+            "x": 37.032,
+            "y": 310.72,
+            "w": 213.336,
+            "h": 55.127999999999986
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "细胞里面，怎样一起工作？",
+          "bounds": {
+            "x": 36,
+            "y": 608,
+            "w": 648,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 228.66,
+            "y": 611.388,
+            "w": 251.52599999999998,
+            "h": 21.120000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "细胞核",
+          "bounds": {
+            "x": 335,
+            "y": 294,
+            "w": 220,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 335.56,
+            "y": 296.98,
+            "w": 58.839999999999975,
+            "h": 18.75999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 321,
+            "y": 336,
+            "w": 355,
+            "h": 237
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 84,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "从你想弄懂的问题开始",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 36.594,
+            "y": 107.772,
+            "w": 178.974,
+            "h": 16.811999999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "从一个问题，\n到两页图文。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.104,
+            "y": 157.85399999999998,
+            "w": 246.882,
+            "h": 105.892
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "带上资料，从读者的\n一个疑问讲起。",
+          "bounds": {
+            "x": 36,
+            "y": 307,
+            "w": 276,
+            "h": 140
+          },
+          "textBounds": {
+            "x": 37.032,
+            "y": 310.72,
+            "w": 213.336,
+            "h": 55.127999999999986
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "细胞里面，怎样一起工作？",
+          "bounds": {
+            "x": 36,
+            "y": 608,
+            "w": 648,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 228.66,
+            "y": 611.388,
+            "w": 251.52599999999998,
+            "h": 21.120000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "细胞核",
+          "bounds": {
+            "x": 335,
+            "y": 294,
+            "w": 220,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 335.56,
+            "y": 296.98,
+            "w": 58.839999999999975,
+            "h": 18.75999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 321,
+            "y": 336,
+            "w": 355,
+            "h": 237
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 113,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "从你想弄懂的问题开始",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 36.594,
+            "y": 107.772,
+            "w": 178.974,
+            "h": 16.811999999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "从一个问题，\n到两页图文。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.104,
+            "y": 157.85399999999998,
+            "w": 246.882,
+            "h": 105.892
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "带上资料，从读者的\n一个疑问讲起。",
+          "bounds": {
+            "x": 36,
+            "y": 307,
+            "w": 276,
+            "h": 140
+          },
+          "textBounds": {
+            "x": 37.032,
+            "y": 310.72,
+            "w": 213.336,
+            "h": 55.127999999999986
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "细胞里面，怎样一起工作？",
+          "bounds": {
+            "x": 36,
+            "y": 608,
+            "w": 648,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 228.66,
+            "y": 611.388,
+            "w": 251.52599999999998,
+            "h": 21.120000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "细胞核",
+          "bounds": {
+            "x": 335,
+            "y": 294,
+            "w": 220,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 335.56,
+            "y": 296.98,
+            "w": 58.839999999999975,
+            "h": 18.75999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 321,
+            "y": 336,
+            "w": 355,
+            "h": 237
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 121,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "内容与画面一起做",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 37.692,
+            "y": 107.646,
+            "w": 141.804,
+            "h": 17.064000000000007
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "先讲明白，\n再画得好看。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.38,
+            "y": 157.716,
+            "w": 244.95,
+            "h": 106.07599999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "认识细胞 · 两页成稿",
+          "bounds": {
+            "x": 36,
+            "y": 616,
+            "w": 648,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 257.0559487915039,
+            "y": 619.366,
+            "w": 205.91010241699217,
+            "h": 20.614000000000033
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "核对来源",
+          "bounds": {
+            "x": 487,
+            "y": 328,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.6,
+            "y": 331.04,
+            "w": 78.82000000000005,
+            "h": 18.620000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "写成连贯的话",
+          "bounds": {
+            "x": 487,
+            "y": 415,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 488.5,
+            "y": 418.1,
+            "w": 117.70000000000005,
+            "h": 18.69999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "让插画、图标配合解释",
+          "bounds": {
+            "x": 487,
+            "y": 502,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.58,
+            "y": 505.1,
+            "w": 158.83999999999997,
+            "h": 45.799999999999955
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 45.522333353115386,
+            "y": 295.95438879766647,
+            "w": 239.64289690052686,
+            "h": 302.7578890713338
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 227.73552118966336,
+            "y": 321.32675968306694,
+            "w": 217.5289576206733,
+            "h": 270.01314730053275
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 127,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "内容与画面一起做",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 37.692,
+            "y": 107.646,
+            "w": 141.804,
+            "h": 17.064000000000007
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "先讲明白，\n再画得好看。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.38,
+            "y": 157.716,
+            "w": 244.95,
+            "h": 106.07599999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "认识细胞 · 两页成稿",
+          "bounds": {
+            "x": 36,
+            "y": 616,
+            "w": 648,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 257.0559487915039,
+            "y": 619.366,
+            "w": 205.91010241699217,
+            "h": 20.614000000000033
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "核对来源",
+          "bounds": {
+            "x": 487,
+            "y": 328,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.6,
+            "y": 331.04,
+            "w": 78.82000000000005,
+            "h": 18.620000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "写成连贯的话",
+          "bounds": {
+            "x": 487,
+            "y": 415,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 488.5,
+            "y": 418.1,
+            "w": 117.70000000000005,
+            "h": 18.69999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "让插画、图标配合解释",
+          "bounds": {
+            "x": 487,
+            "y": 502,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.58,
+            "y": 505.1,
+            "w": 158.83999999999997,
+            "h": 45.799999999999955
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 38.96659569568517,
+            "y": 302.5696210277016,
+            "w": 221.23798711463414,
+            "h": 289.52742461126354
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 227.73552118966336,
+            "y": 321.32675968306694,
+            "w": 217.5289576206733,
+            "h": 270.01314730053275
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 156,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "内容与画面一起做",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 37.692,
+            "y": 107.646,
+            "w": 141.804,
+            "h": 17.064000000000007
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "先讲明白，\n再画得好看。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.38,
+            "y": 157.716,
+            "w": 244.95,
+            "h": 106.07599999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "认识细胞 · 两页成稿",
+          "bounds": {
+            "x": 36,
+            "y": 616,
+            "w": 648,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 257.0559487915039,
+            "y": 619.366,
+            "w": 205.91010241699217,
+            "h": 20.614000000000033
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "核对来源",
+          "bounds": {
+            "x": 487,
+            "y": 328,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.6,
+            "y": 331.04,
+            "w": 78.82000000000005,
+            "h": 18.620000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "写成连贯的话",
+          "bounds": {
+            "x": 487,
+            "y": 415,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 488.5,
+            "y": 418.1,
+            "w": 117.70000000000005,
+            "h": 18.69999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "让插画、图标配合解释",
+          "bounds": {
+            "x": 487,
+            "y": 502,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.58,
+            "y": 505.1,
+            "w": 158.83999999999997,
+            "h": 45.799999999999955
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 306,
+            "w": 212,
+            "h": 282.6666666666667
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 256,
+            "y": 333,
+            "w": 185,
+            "h": 246.66666666666666
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 192,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "内容与画面一起做",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 37.692,
+            "y": 107.646,
+            "w": 141.804,
+            "h": 17.064000000000007
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "先讲明白，\n再画得好看。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.38,
+            "y": 157.716,
+            "w": 244.95,
+            "h": 106.07599999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "认识细胞 · 两页成稿",
+          "bounds": {
+            "x": 36,
+            "y": 616,
+            "w": 648,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 257.0559487915039,
+            "y": 619.366,
+            "w": 205.91010241699217,
+            "h": 20.614000000000033
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "核对来源",
+          "bounds": {
+            "x": 487,
+            "y": 328,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.6,
+            "y": 331.04,
+            "w": 78.82000000000005,
+            "h": 18.620000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "写成连贯的话",
+          "bounds": {
+            "x": 487,
+            "y": 415,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 488.5,
+            "y": 418.1,
+            "w": 117.70000000000005,
+            "h": 18.69999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "让插画、图标配合解释",
+          "bounds": {
+            "x": 487,
+            "y": 502,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.58,
+            "y": 505.1,
+            "w": 158.83999999999997,
+            "h": 45.799999999999955
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 306,
+            "w": 212,
+            "h": 282.6666666666667
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 256,
+            "y": 333,
+            "w": 185,
+            "h": 246.66666666666666
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 233,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "内容与画面一起做",
+          "bounds": {
+            "x": 36,
+            "y": 105,
+            "w": 648,
+            "h": 36
+          },
+          "textBounds": {
+            "x": 37.692,
+            "y": 107.646,
+            "w": 141.804,
+            "h": 17.064000000000007
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "先讲明白，\n再画得好看。",
+          "bounds": {
+            "x": 36,
+            "y": 151,
+            "w": 648,
+            "h": 130
+          },
+          "textBounds": {
+            "x": 37.38,
+            "y": 157.716,
+            "w": 244.95,
+            "h": 106.07599999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "认识细胞 · 两页成稿",
+          "bounds": {
+            "x": 36,
+            "y": 616,
+            "w": 648,
+            "h": 38
+          },
+          "textBounds": {
+            "x": 257.0559487915039,
+            "y": 619.366,
+            "w": 205.91010241699217,
+            "h": 20.614000000000033
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "核对来源",
+          "bounds": {
+            "x": 487,
+            "y": 328,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.6,
+            "y": 331.04,
+            "w": 78.82000000000005,
+            "h": 18.620000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "写成连贯的话",
+          "bounds": {
+            "x": 487,
+            "y": 415,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 488.5,
+            "y": 418.1,
+            "w": 117.70000000000005,
+            "h": 18.69999999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "让插画、图标配合解释",
+          "bounds": {
+            "x": 487,
+            "y": 502,
+            "w": 196,
+            "h": 77
+          },
+          "textBounds": {
+            "x": 487.58,
+            "y": 505.1,
+            "w": 158.83999999999997,
+            "h": 45.799999999999955
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 306,
+            "w": 212,
+            "h": 282.6666666666667
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 256,
+            "y": 333,
+            "w": 185,
+            "h": 246.66666666666666
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 241,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "两个可以独立使用的 Skill",
+          "bounds": {
+            "x": 36,
+            "y": 101,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.062,
+            "y": 103.664,
+            "w": 201.54742382812498,
+            "h": 16.956000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "两种起点，\n都能接着做。",
+          "bounds": {
+            "x": 36,
+            "y": 142,
+            "w": 648,
+            "h": 124
+          },
+          "textBounds": {
+            "x": 36.484,
+            "y": 148.6,
+            "w": 235.136,
+            "h": 101.28800000000001
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "内容梳理 · 从资料到图文\n插画排版 · 从定稿到成品",
+          "bounds": {
+            "x": 36,
+            "y": 270,
+            "w": 648,
+            "h": 70
+          },
+          "textBounds": {
+            "x": 36.748,
+            "y": 273.3,
+            "w": 250.46010241699219,
+            "h": 50.60000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "太阳系八大行星",
+          "bounds": {
+            "x": 65,
+            "y": 586,
+            "w": 260,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 65.63,
+            "y": 588.826,
+            "w": 124.27199999999999,
+            "h": 16.70399999999995
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "认识细胞",
+          "bounds": {
+            "x": 410,
+            "y": 586,
+            "w": 275,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 410.81,
+            "y": 588.772,
+            "w": 70.57799999999997,
+            "h": 16.758000000000038
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "带上你的资料，试个小题目。",
+          "bounds": {
+            "x": 36,
+            "y": 630,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.056,
+            "y": 633.3,
+            "w": 270.73199999999997,
+            "h": 21.625999999999976
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 39.80055107280005,
+            "y": 341.91622878478887,
+            "w": 193.126264109544,
+            "h": 242.16754243042226
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 90.84475812842602,
+            "y": 331.74582528017925,
+            "w": 172.31048374314796,
+            "h": 221.17501610630808
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 421.7575915282457,
+            "y": 346.7780273981451,
+            "w": 190.48481694350852,
+            "h": 236.4439452037098
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 433.2326163030874,
+            "y": 327.5976034641411,
+            "w": 173.5347673938252,
+            "h": 220.80479307171777
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 247,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "两个可以独立使用的 Skill",
+          "bounds": {
+            "x": 36,
+            "y": 101,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.062,
+            "y": 103.664,
+            "w": 201.54742382812498,
+            "h": 16.956000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "两种起点，\n都能接着做。",
+          "bounds": {
+            "x": 36,
+            "y": 142,
+            "w": 648,
+            "h": 124
+          },
+          "textBounds": {
+            "x": 36.484,
+            "y": 148.6,
+            "w": 235.136,
+            "h": 101.28800000000001
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "内容梳理 · 从资料到图文\n插画排版 · 从定稿到成品",
+          "bounds": {
+            "x": 36,
+            "y": 270,
+            "w": 648,
+            "h": 70
+          },
+          "textBounds": {
+            "x": 36.748,
+            "y": 273.3,
+            "w": 250.46010241699219,
+            "h": 50.60000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "太阳系八大行星",
+          "bounds": {
+            "x": 65,
+            "y": 586,
+            "w": 260,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 65.63,
+            "y": 588.826,
+            "w": 124.27199999999999,
+            "h": 16.70399999999995
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "认识细胞",
+          "bounds": {
+            "x": 410,
+            "y": 586,
+            "w": 275,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 410.81,
+            "y": 588.772,
+            "w": 70.57799999999997,
+            "h": 16.758000000000038
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "带上你的资料，试个小题目。",
+          "bounds": {
+            "x": 36,
+            "y": 630,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.056,
+            "y": 633.3,
+            "w": 270.73199999999997,
+            "h": 21.625999999999976
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 55.99522567658177,
+            "y": 347.6216793501075,
+            "w": 177.1206597579476,
+            "h": 230.75664129978497
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 90.84475812842602,
+            "y": 331.74582528017925,
+            "w": 172.31048374314796,
+            "h": 221.17501610630808
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 419.94607935361165,
+            "y": 348.24064918533213,
+            "w": 186.22889753420316,
+            "h": 233.51870162933577
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 433.2326163030874,
+            "y": 327.5976034641411,
+            "w": 173.5347673938252,
+            "h": 220.80479307171777
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 276,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "两个可以独立使用的 Skill",
+          "bounds": {
+            "x": 36,
+            "y": 101,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.062,
+            "y": 103.664,
+            "w": 201.54742382812498,
+            "h": 16.956000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "两种起点，\n都能接着做。",
+          "bounds": {
+            "x": 36,
+            "y": 142,
+            "w": 648,
+            "h": 124
+          },
+          "textBounds": {
+            "x": 36.484,
+            "y": 148.6,
+            "w": 235.136,
+            "h": 101.28800000000001
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "内容梳理 · 从资料到图文\n插画排版 · 从定稿到成品",
+          "bounds": {
+            "x": 36,
+            "y": 270,
+            "w": 648,
+            "h": 70
+          },
+          "textBounds": {
+            "x": 36.748,
+            "y": 273.3,
+            "w": 250.46010241699219,
+            "h": 50.60000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "太阳系八大行星",
+          "bounds": {
+            "x": 65,
+            "y": 586,
+            "w": 260,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 65.63,
+            "y": 588.826,
+            "w": 124.27199999999999,
+            "h": 16.70399999999995
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "认识细胞",
+          "bounds": {
+            "x": 410,
+            "y": 586,
+            "w": 275,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 410.81,
+            "y": 588.772,
+            "w": 70.57799999999997,
+            "h": 16.758000000000038
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "带上你的资料，试个小题目。",
+          "bounds": {
+            "x": 36,
+            "y": 630,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.056,
+            "y": 633.3,
+            "w": 270.73199999999997,
+            "h": 21.625999999999976
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 65,
+            "y": 351,
+            "w": 168,
+            "h": 224
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 90.84475812842602,
+            "y": 331.74582528017925,
+            "w": 172.31048374314796,
+            "h": 221.17501610630808
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 411,
+            "y": 357,
+            "w": 162,
+            "h": 216
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 433.2326163030874,
+            "y": 327.5976034641411,
+            "w": 173.5347673938252,
+            "h": 220.80479307171777
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 312,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "两个可以独立使用的 Skill",
+          "bounds": {
+            "x": 36,
+            "y": 101,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.062,
+            "y": 103.664,
+            "w": 201.54742382812498,
+            "h": 16.956000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "两种起点，\n都能接着做。",
+          "bounds": {
+            "x": 36,
+            "y": 142,
+            "w": 648,
+            "h": 124
+          },
+          "textBounds": {
+            "x": 36.484,
+            "y": 148.6,
+            "w": 235.136,
+            "h": 101.28800000000001
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "内容梳理 · 从资料到图文\n插画排版 · 从定稿到成品",
+          "bounds": {
+            "x": 36,
+            "y": 270,
+            "w": 648,
+            "h": 70
+          },
+          "textBounds": {
+            "x": 36.748,
+            "y": 273.3,
+            "w": 250.46010241699219,
+            "h": 50.60000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "太阳系八大行星",
+          "bounds": {
+            "x": 65,
+            "y": 586,
+            "w": 260,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 65.63,
+            "y": 588.826,
+            "w": 124.27199999999999,
+            "h": 16.70399999999995
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "认识细胞",
+          "bounds": {
+            "x": 410,
+            "y": 586,
+            "w": 275,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 410.81,
+            "y": 588.772,
+            "w": 70.57799999999997,
+            "h": 16.758000000000038
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "带上你的资料，试个小题目。",
+          "bounds": {
+            "x": 36,
+            "y": 630,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.056,
+            "y": 633.3,
+            "w": 270.73199999999997,
+            "h": 21.625999999999976
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 65,
+            "y": 351,
+            "w": 168,
+            "h": 224
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 90.84475812842602,
+            "y": 331.74582528017925,
+            "w": 172.31048374314796,
+            "h": 221.17501610630808
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 411,
+            "y": 357,
+            "w": 162,
+            "h": 216
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 433.2326163030874,
+            "y": 327.5976034641411,
+            "w": 173.5347673938252,
+            "h": 220.80479307171777
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 379,
+      "width": 720,
+      "height": 720,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "一起读懂",
+          "bounds": {
+            "x": 73,
+            "y": 28,
+            "w": 610,
+            "h": 40
+          },
+          "textBounds": {
+            "x": 73.858,
+            "y": 31.344,
+            "w": 86.61399999999998,
+            "h": 20.878
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 36,
+            "y": 691,
+            "w": 435,
+            "h": 23
+          },
+          "textBounds": {
+            "x": 37.188,
+            "y": 693.436,
+            "w": 206.34859716796882,
+            "h": 12.539999999999964
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "两个可以独立使用的 Skill",
+          "bounds": {
+            "x": 36,
+            "y": 101,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.062,
+            "y": 103.664,
+            "w": 201.54742382812498,
+            "h": 16.956000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "两种起点，\n都能接着做。",
+          "bounds": {
+            "x": 36,
+            "y": 142,
+            "w": 648,
+            "h": 124
+          },
+          "textBounds": {
+            "x": 36.484,
+            "y": 148.6,
+            "w": 235.136,
+            "h": 101.28800000000001
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "内容梳理 · 从资料到图文\n插画排版 · 从定稿到成品",
+          "bounds": {
+            "x": 36,
+            "y": 270,
+            "w": 648,
+            "h": 70
+          },
+          "textBounds": {
+            "x": 36.748,
+            "y": 273.3,
+            "w": 250.46010241699219,
+            "h": 50.60000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "太阳系八大行星",
+          "bounds": {
+            "x": 65,
+            "y": 586,
+            "w": 260,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 65.63,
+            "y": 588.826,
+            "w": 124.27199999999999,
+            "h": 16.70399999999995
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "认识细胞",
+          "bounds": {
+            "x": 410,
+            "y": 586,
+            "w": 275,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 410.81,
+            "y": 588.772,
+            "w": 70.57799999999997,
+            "h": 16.758000000000038
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "带上你的资料，试个小题目。",
+          "bounds": {
+            "x": 36,
+            "y": 630,
+            "w": 648,
+            "h": 34
+          },
+          "textBounds": {
+            "x": 37.056,
+            "y": 633.3,
+            "w": 270.73199999999997,
+            "h": 21.625999999999976
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 36,
+            "y": 21,
+            "w": 25,
+            "h": 40
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 65,
+            "y": 351,
+            "w": 168,
+            "h": 224
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 90.84475812842602,
+            "y": 331.74582528017925,
+            "w": 172.31048374314796,
+            "h": 221.17501610630808
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 411,
+            "y": 357,
+            "w": 162,
+            "h": 216
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 433.2326163030874,
+            "y": 327.5976034641411,
+            "w": 173.5347673938252,
+            "h": 220.80479307171777
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "allFramesChecked": 384,
+  "errors": []
+}

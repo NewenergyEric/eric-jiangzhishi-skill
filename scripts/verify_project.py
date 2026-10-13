@@ -95,37 +95,72 @@ def audit(root=ROOT, staged=False):
             with Image.open(base/'output'/f'page-{i+1:02d}.png') as im:
                 if im.size!=(1440,1920):errors.append({'rule':'preview_size','file':case})
     media=root/'media/intro'
+    profiles=json.loads((media/'formats.json').read_text(encoding='utf-8'))['formats']
     for locale in ['', '.en']:
-        story=json.loads((media/f'story{locale}.json').read_text(encoding='utf-8'))
-        report=json.loads((media/f'report{locale}.json').read_text(encoding='utf-8'))
-        if hashlib.sha256((media/f'story{locale}.json').read_bytes()).hexdigest()!=report['storySha256']:
-            errors.append({'rule':'video_story_changed_without_rebuild','language':locale or 'zh'})
-        if report['version']!=(root/'VERSION').read_text().strip() or report['language']!=story['language']:
-            errors.append({'rule':'video_version_or_language','language':locale or 'zh'})
-        for name,expected in report['sourceHashes'].items():
-            if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected:
-                errors.append({'rule':'video_source_changed_without_rebuild','file':name})
-        for suffix in ['mp4','gif']:
-            payload=(media/f'intro{locale}.{suffix}').read_bytes();record=report['outputs'][suffix]
-            if hashlib.sha256(payload).hexdigest()!=record['sha256'] or len(payload)!=record['bytes']:
-                errors.append({'rule':'video_output_mismatch','file':f'intro{locale}.{suffix}'})
-            if len(payload)>story['budgets'][suffix+'Bytes']:
-                errors.append({'rule':'video_size_budget','file':f'intro{locale}.{suffix}'})
-        with Image.open(media/f'intro{locale}.gif') as gif:
-            duration=0
-            for frame in range(gif.n_frames):
-                gif.seek(frame);duration+=gif.info.get('duration',0)
-            if gif.size!=(story['gifWidth'],round(story['height']*story['gifWidth']/story['width'])) or gif.n_frames!=round(story['duration']*story['gifFps']) or duration!=story['duration']*1000:
-                errors.append({'rule':'gif_geometry_or_duration','language':locale or 'zh'})
-        if hashlib.sha256((media/f'poster{locale}.png').read_bytes()).hexdigest()!=report['posterSha256']:
-            errors.append({'rule':'video_poster_mismatch','language':locale or 'zh'})
+        story_path=media/f'story{locale}.json'
+        story=json.loads(story_path.read_text(encoding='utf-8'))
+        shared_source=None
+        shared_copy=None
+        for profile in profiles:
+            directory=media/(profile['id'] if profile['id']!='wide' else '')
+            label=profile['id']+'/'+(locale or 'zh')
+            report=json.loads((directory/f'report{locale}.json').read_text(encoding='utf-8'))
+            if hashlib.sha256(story_path.read_bytes()).hexdigest()!=report['storySha256']:
+                errors.append({'rule':'video_story_changed_without_rebuild','variant':label})
+            if report['version']!=(root/'VERSION').read_text().strip() or report['language']!=story['language'] or report['format']!=profile:
+                errors.append({'rule':'video_version_language_or_format','variant':label})
+            for name,expected in report['sourceHashes'].items():
+                if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected:
+                    errors.append({'rule':'video_source_changed_without_rebuild','file':name})
+            for suffix in ['mp4','gif']:
+                payload=(directory/f'intro{locale}.{suffix}').read_bytes();record=report['outputs'][suffix]
+                if hashlib.sha256(payload).hexdigest()!=record['sha256'] or len(payload)!=record['bytes']:
+                    errors.append({'rule':'video_output_mismatch','variant':label,'format':suffix})
+                if len(payload)>profile['budgets'][suffix+'Bytes']:
+                    errors.append({'rule':'video_size_budget','variant':label,'format':suffix})
+            movie_record=report['outputs']['mp4']
+            if (movie_record['width'],movie_record['height'],movie_record['frames'],movie_record['seconds'])!=(profile['width'],profile['height'],round(story['duration']*story['fps']),story['duration']):
+                errors.append({'rule':'mp4_geometry_frames_or_duration','variant':label})
+            with Image.open(directory/f'intro{locale}.gif') as gif:
+                duration=0
+                for frame in range(gif.n_frames):
+                    gif.seek(frame);duration+=gif.info.get('duration',0)
+                expected_size=(profile['gifWidth'],round(profile['height']*profile['gifWidth']/profile['width']))
+                if gif.size!=expected_size or gif.n_frames!=round(story['duration']*profile['gifFps']) or duration!=story['duration']*1000:
+                    errors.append({'rule':'gif_geometry_or_duration','variant':label})
+            poster=directory/f'poster{locale}.png'
+            if hashlib.sha256(poster.read_bytes()).hexdigest()!=report['posterSha256']:
+                errors.append({'rule':'video_poster_mismatch','variant':label})
+            with Image.open(poster) as im:
+                if im.size!=(profile['width'],profile['height']):errors.append({'rule':'video_poster_geometry','variant':label})
+            cover=directory/f'cover{locale}.png'
+            if hashlib.sha256(cover.read_bytes()).hexdigest()!=report['cover']['sha256'] or cover.stat().st_size!=report['cover']['bytes'] or cover.stat().st_size>profile['budgets']['coverBytes']:
+                errors.append({'rule':'video_cover_mismatch_or_budget','variant':label})
+            with Image.open(cover) as im:
+                if im.width!=profile['coverWidth']:errors.append({'rule':'video_cover_geometry','variant':label})
+            audit_file=directory/f'audit{locale}.json'
+            layout=json.loads(audit_file.read_text(encoding='utf-8'))
+            if hashlib.sha256(audit_file.read_bytes()).hexdigest()!=report['auditSha256']:
+                errors.append({'rule':'layout_audit_hash','variant':label})
+            if layout['mode']!='native' or layout['embeddedMasterVideo'] is not False or layout['errors'] or layout.get('allFramesChecked')!=round(story['duration']*story['fps']) or any(sample['overlaps'] for sample in layout['samples']):
+                errors.append({'rule':'native_layout_audit','variant':label})
+            copy={sample['frame']:{row['id']:''.join(row['text'].split()) for row in sample['rows'] if row['kind']=='text'} for sample in layout['samples']}
+            if shared_source is None:
+                shared_source=layout['sourceHash'];shared_copy=copy
+            elif layout['sourceHash']!=shared_source or copy!=shared_copy:
+                errors.append({'rule':'ratio_source_or_copy_mismatch','variant':label})
+            if layout['sourceHash']!=report['sourceHash'] or not report['fullDecodeVerified']:
+                errors.append({'rule':'media_verification_record','variant':label})
+        readme=(root/('README.en.md' if locale else 'README.md')).read_text(encoding='utf-8')
+        if f'](media/intro/cover{locale}.png)' not in readme or re.search(r'!\[[^\]]*\]\([^)]*\.gif\)',readme):
+            errors.append({'rule':'readme_small_cover','language':locale or 'zh'})
     if staged:
         indexed=subprocess.check_output(['git','ls-files','-z'],cwd=root).decode('utf-8').split('\0')
         if set(filter(None,indexed))!=allowed:errors.append({'rule':'git_allowlist_mismatch'})
         for name in files:
             content=subprocess.check_output(['git','show',':'+name],cwd=root)
             if content!=(root/name).read_bytes():errors.append({'rule':'staged_bytes_differ','file':name})
-    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','preview_dimensions','bilingual_video_source_and_output_hashes','media_size_budgets','gif_frames_and_duration']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
+    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','preview_dimensions','six_video_source_and_output_hashes','media_size_budgets','gif_frames_and_duration','native_ratio_copy_parity','small_readme_covers']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--staged',action='store_true')

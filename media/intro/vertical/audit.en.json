@@ -1,0 +1,3017 @@
+{
+  "mode": "native",
+  "embeddedMasterVideo": false,
+  "sourceHash": "7c558cde7c0ada44bb4b13e649d64ccbca8f1d795a8cb032bfd54bcf86d1c3da",
+  "width": 720,
+  "height": 1280,
+  "samples": [
+    {
+      "frame": 6,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "Start with something you're curious about",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.99,
+            "y": 160.466,
+            "w": 440.5868000488282,
+            "h": 22.96799999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "A question.\nA clearer picture.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 53.768,
+            "y": 228.962,
+            "w": 481.32783984375,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "Turn a few sources into\na short illustrated guide.",
+          "bounds": {
+            "x": 54,
+            "y": 421,
+            "w": 612,
+            "h": 120
+          },
+          "textBounds": {
+            "x": 54.93,
+            "y": 426.7,
+            "w": 340.25132446289064,
+            "h": 72.54000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "How does a cell work?",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 222.8837621154785,
+            "y": 1095.508,
+            "w": 275.5021341247559,
+            "h": 21.843000000000075
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "Nucleus",
+          "bounds": {
+            "x": 70,
+            "y": 578,
+            "w": 260,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 72.328,
+            "y": 582.872,
+            "w": 88.86813574218752,
+            "h": 19.464000000000055
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 666.384,
+            "w": 612,
+            "h": 408
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 36,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "Start with something you're curious about",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.99,
+            "y": 160.466,
+            "w": 440.5868000488282,
+            "h": 22.96799999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "A question.\nA clearer picture.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 53.768,
+            "y": 228.962,
+            "w": 481.32783984375,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "Turn a few sources into\na short illustrated guide.",
+          "bounds": {
+            "x": 54,
+            "y": 421,
+            "w": 612,
+            "h": 120
+          },
+          "textBounds": {
+            "x": 54.93,
+            "y": 426.7,
+            "w": 340.25132446289064,
+            "h": 72.54000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "How does a cell work?",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 222.8837621154785,
+            "y": 1095.508,
+            "w": 275.5021341247559,
+            "h": 21.843000000000075
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "Nucleus",
+          "bounds": {
+            "x": 70,
+            "y": 578,
+            "w": 260,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 72.328,
+            "y": 582.872,
+            "w": 88.86813574218752,
+            "h": 19.464000000000055
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 650,
+            "w": 612,
+            "h": 408
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 84,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "Start with something you're curious about",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.99,
+            "y": 160.466,
+            "w": 440.5868000488282,
+            "h": 22.96799999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "A question.\nA clearer picture.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 53.768,
+            "y": 228.962,
+            "w": 481.32783984375,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "Turn a few sources into\na short illustrated guide.",
+          "bounds": {
+            "x": 54,
+            "y": 421,
+            "w": 612,
+            "h": 120
+          },
+          "textBounds": {
+            "x": 54.93,
+            "y": 426.7,
+            "w": 340.25132446289064,
+            "h": 72.54000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "How does a cell work?",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 222.8837621154785,
+            "y": 1095.508,
+            "w": 275.5021341247559,
+            "h": 21.843000000000075
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "Nucleus",
+          "bounds": {
+            "x": 70,
+            "y": 578,
+            "w": 260,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 72.328,
+            "y": 582.872,
+            "w": 88.86813574218752,
+            "h": 19.464000000000055
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 650,
+            "w": 612,
+            "h": 408
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 113,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.eyebrow",
+          "kind": "text",
+          "text": "Start with something you're curious about",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.99,
+            "y": 160.466,
+            "w": 440.5868000488282,
+            "h": 22.96799999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.title",
+          "kind": "text",
+          "text": "A question.\nA clearer picture.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 53.768,
+            "y": 228.962,
+            "w": 481.32783984375,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.body",
+          "kind": "text",
+          "text": "Turn a few sources into\na short illustrated guide.",
+          "bounds": {
+            "x": 54,
+            "y": 421,
+            "w": 612,
+            "h": 120
+          },
+          "textBounds": {
+            "x": 54.93,
+            "y": 426.7,
+            "w": 340.25132446289064,
+            "h": 72.54000000000002
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.artLabel",
+          "kind": "text",
+          "text": "How does a cell work?",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 222.8837621154785,
+            "y": 1095.508,
+            "w": 275.5021341247559,
+            "h": 21.843000000000075
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene0.note",
+          "kind": "text",
+          "text": "Nucleus",
+          "bounds": {
+            "x": 70,
+            "y": 578,
+            "w": 260,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 72.328,
+            "y": 582.872,
+            "w": 88.86813574218752,
+            "h": 19.464000000000055
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cell",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 650,
+            "w": 612,
+            "h": 408
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 121,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "From notes to a finished guide",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.134,
+            "y": 160.18,
+            "w": 312.3233397216797,
+            "h": 23.25399999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "Find the words.\nThen the pictures.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 511.36831396484376,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "Getting to know cells · two pages",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 152.9416803588867,
+            "y": 1095.304,
+            "w": 414.6684783325195,
+            "h": 27.144000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "Check the sources",
+          "bounds": {
+            "x": 94,
+            "y": 417,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 95.539,
+            "y": 422.508,
+            "w": 227.03845083618165,
+            "h": 21.843000000000018
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "Write a clear explanation",
+          "bounds": {
+            "x": 94,
+            "y": 478,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 94.648,
+            "y": 483.508,
+            "w": 311.76793377685544,
+            "h": 27.593999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "Let images explain it",
+          "bounds": {
+            "x": 94,
+            "y": 539,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 96.673,
+            "y": 544.508,
+            "w": 256.60012609863287,
+            "h": 28.187999999999988
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 32.567259640028,
+            "y": 653.2230641699099,
+            "w": 336.85652488847643,
+            "h": 425.57476860027106
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 369.04440598673716,
+            "y": 701.2208726200464,
+            "w": 287.9111880265257,
+            "h": 369.5582547599072
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 127,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "From notes to a finished guide",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.134,
+            "y": 160.18,
+            "w": 312.3233397216797,
+            "h": 23.25399999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "Find the words.\nThen the pictures.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 511.36831396484376,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "Getting to know cells · two pages",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 152.9416803588867,
+            "y": 1095.304,
+            "w": 414.6684783325195,
+            "h": 27.144000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "Check the sources",
+          "bounds": {
+            "x": 94,
+            "y": 417,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 95.539,
+            "y": 422.508,
+            "w": 227.03845083618165,
+            "h": 21.843000000000018
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "Write a clear explanation",
+          "bounds": {
+            "x": 94,
+            "y": 478,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 94.648,
+            "y": 483.508,
+            "w": 311.76793377685544,
+            "h": 27.593999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "Let images explain it",
+          "bounds": {
+            "x": 94,
+            "y": 539,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 96.673,
+            "y": 544.508,
+            "w": 256.60012609863287,
+            "h": 28.187999999999988
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 52.256296950490025,
+            "y": 646.7636414523186,
+            "w": 310.98547245358947,
+            "h": 406.9772289347006
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 369.04440598673716,
+            "y": 701.2208726200464,
+            "w": 287.9111880265257,
+            "h": 369.5582547599072
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 156,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "From notes to a finished guide",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.134,
+            "y": 160.18,
+            "w": 312.3233397216797,
+            "h": 23.25399999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "Find the words.\nThen the pictures.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 511.36831396484376,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "Getting to know cells · two pages",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 152.9416803588867,
+            "y": 1095.304,
+            "w": 414.6684783325195,
+            "h": 27.144000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "Check the sources",
+          "bounds": {
+            "x": 94,
+            "y": 417,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 95.539,
+            "y": 422.508,
+            "w": 227.03845083618165,
+            "h": 21.843000000000018
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "Write a clear explanation",
+          "bounds": {
+            "x": 94,
+            "y": 478,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 94.648,
+            "y": 483.508,
+            "w": 311.76793377685544,
+            "h": 27.593999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "Let images explain it",
+          "bounds": {
+            "x": 94,
+            "y": 539,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 96.673,
+            "y": 544.508,
+            "w": 256.60012609863287,
+            "h": 28.187999999999988
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 62,
+            "y": 644,
+            "w": 298,
+            "h": 397.3333333333333
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 369,
+            "y": 710,
+            "w": 264,
+            "h": 352
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 192,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "From notes to a finished guide",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.134,
+            "y": 160.18,
+            "w": 312.3233397216797,
+            "h": 23.25399999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "Find the words.\nThen the pictures.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 511.36831396484376,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "Getting to know cells · two pages",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 152.9416803588867,
+            "y": 1095.304,
+            "w": 414.6684783325195,
+            "h": 27.144000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "Check the sources",
+          "bounds": {
+            "x": 94,
+            "y": 417,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 95.539,
+            "y": 422.508,
+            "w": 227.03845083618165,
+            "h": 21.843000000000018
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "Write a clear explanation",
+          "bounds": {
+            "x": 94,
+            "y": 478,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 94.648,
+            "y": 483.508,
+            "w": 311.76793377685544,
+            "h": 27.593999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "Let images explain it",
+          "bounds": {
+            "x": 94,
+            "y": 539,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 96.673,
+            "y": 544.508,
+            "w": 256.60012609863287,
+            "h": 28.187999999999988
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 62,
+            "y": 644,
+            "w": 298,
+            "h": 397.3333333333333
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 369,
+            "y": 710,
+            "w": 264,
+            "h": 352
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 233,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.eyebrow",
+          "kind": "text",
+          "text": "From notes to a finished guide",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.134,
+            "y": 160.18,
+            "w": 312.3233397216797,
+            "h": 23.25399999999999
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.title",
+          "kind": "text",
+          "text": "Find the words.\nThen the pictures.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 511.36831396484376,
+            "h": 138.38799999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.artLabel",
+          "kind": "text",
+          "text": "Getting to know cells · two pages",
+          "bounds": {
+            "x": 54,
+            "y": 1090,
+            "w": 612,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 152.9416803588867,
+            "y": 1095.304,
+            "w": 414.6684783325195,
+            "h": 27.144000000000005
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step0",
+          "kind": "text",
+          "text": "Check the sources",
+          "bounds": {
+            "x": 94,
+            "y": 417,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 95.539,
+            "y": 422.508,
+            "w": 227.03845083618165,
+            "h": 21.843000000000018
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step1",
+          "kind": "text",
+          "text": "Write a clear explanation",
+          "bounds": {
+            "x": 94,
+            "y": 478,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 94.648,
+            "y": 483.508,
+            "w": 311.76793377685544,
+            "h": 27.593999999999994
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene1.step2",
+          "kind": "text",
+          "text": "Let images explain it",
+          "bounds": {
+            "x": 94,
+            "y": 539,
+            "w": 565,
+            "h": 46
+          },
+          "textBounds": {
+            "x": 96.673,
+            "y": 544.508,
+            "w": 256.60012609863287,
+            "h": 28.187999999999988
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 62,
+            "y": 644,
+            "w": 298,
+            "h": 397.3333333333333
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 369,
+            "y": 710,
+            "w": 264,
+            "h": 352
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 241,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "Use either skill on its own",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.046,
+            "y": 160.466,
+            "w": 262.8136650390625,
+            "h": 17.841999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "Two skills.\nChoose your start.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 512.905271484375,
+            "h": 138.91000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "Content & explanation.\nIllustration & layout.",
+          "bounds": {
+            "x": 54,
+            "y": 420,
+            "w": 612,
+            "h": 119
+          },
+          "textBounds": {
+            "x": 55.596000000000004,
+            "y": 425.712,
+            "w": 299.781566772461,
+            "h": 66.86399999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "The eight planets",
+          "bounds": {
+            "x": 54,
+            "y": 1034,
+            "w": 300,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.744,
+            "y": 1038.896,
+            "w": 193.59916333007814,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "Getting to know cells",
+          "bounds": {
+            "x": 379,
+            "y": 1034,
+            "w": 289,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 380.368,
+            "y": 1038.896,
+            "w": 233.09600610351566,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "Bring a topic you're curious about.",
+          "bounds": {
+            "x": 54,
+            "y": 1107,
+            "w": 612,
+            "h": 44
+          },
+          "textBounds": {
+            "x": 56.511,
+            "y": 1112.238,
+            "w": 448.91613487243654,
+            "h": 28.34999999999991
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 26.51898504541404,
+            "y": 653.4348712978965,
+            "w": 289.689396164316,
+            "h": 363.2513136456334
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 80.31242353359835,
+            "y": 606.1519921906475,
+            "w": 257.3751529328033,
+            "h": 330.3626822853716
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 396.72370110112706,
+            "y": 671.7196866757256,
+            "w": 271.5525977977458,
+            "h": 348.56062664854886
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 402.4109362300742,
+            "y": 627.8068152305616,
+            "w": 249.17812753985157,
+            "h": 317.05303620554344
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 247,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "Use either skill on its own",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.046,
+            "y": 160.466,
+            "w": 262.8136650390625,
+            "h": 17.841999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "Two skills.\nChoose your start.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 512.905271484375,
+            "h": 138.91000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "Content & explanation.\nIllustration & layout.",
+          "bounds": {
+            "x": 54,
+            "y": 420,
+            "w": 612,
+            "h": 119
+          },
+          "textBounds": {
+            "x": 55.596000000000004,
+            "y": 425.712,
+            "w": 299.781566772461,
+            "h": 66.86399999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "The eight planets",
+          "bounds": {
+            "x": 54,
+            "y": 1034,
+            "w": 300,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.744,
+            "y": 1038.896,
+            "w": 193.59916333007814,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "Getting to know cells",
+          "bounds": {
+            "x": 379,
+            "y": 1034,
+            "w": 289,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 380.368,
+            "y": 1038.896,
+            "w": 233.09600610351566,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "Bring a topic you're curious about.",
+          "bounds": {
+            "x": 54,
+            "y": 1107,
+            "w": 612,
+            "h": 44
+          },
+          "textBounds": {
+            "x": 56.511,
+            "y": 1112.238,
+            "w": 448.91613487243654,
+            "h": 28.34999999999991
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 46.71506073709489,
+            "y": 648.3399264325686,
+            "w": 265.68098963692137,
+            "h": 346.13496194967746
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 80.31242353359835,
+            "y": 606.1519921906475,
+            "w": 257.3751529328033,
+            "h": 330.3626822853716
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 394.51860045767773,
+            "y": 672.969117974872,
+            "w": 268.083855326071,
+            "h": 346.0617640502559
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 402.4109362300742,
+            "y": 627.8068152305616,
+            "w": 249.17812753985157,
+            "h": 317.05303620554344
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 276,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "Use either skill on its own",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.046,
+            "y": 160.466,
+            "w": 262.8136650390625,
+            "h": 17.841999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "Two skills.\nChoose your start.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 512.905271484375,
+            "h": 138.91000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "Content & explanation.\nIllustration & layout.",
+          "bounds": {
+            "x": 54,
+            "y": 420,
+            "w": 612,
+            "h": 119
+          },
+          "textBounds": {
+            "x": 55.596000000000004,
+            "y": 425.712,
+            "w": 299.781566772461,
+            "h": 66.86399999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "The eight planets",
+          "bounds": {
+            "x": 54,
+            "y": 1034,
+            "w": 300,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.744,
+            "y": 1038.896,
+            "w": 193.59916333007814,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "Getting to know cells",
+          "bounds": {
+            "x": 379,
+            "y": 1034,
+            "w": 289,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 380.368,
+            "y": 1038.896,
+            "w": 233.09600610351566,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "Bring a topic you're curious about.",
+          "bounds": {
+            "x": 54,
+            "y": 1107,
+            "w": 612,
+            "h": 44
+          },
+          "textBounds": {
+            "x": 56.511,
+            "y": 1112.238,
+            "w": 448.91613487243654,
+            "h": 28.34999999999991
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 58,
+            "y": 646,
+            "w": 252,
+            "h": 336
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 80.31242353359835,
+            "y": 606.1519921906475,
+            "w": 257.3751529328033,
+            "h": 330.3626822853716
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 383,
+            "y": 680,
+            "w": 249,
+            "h": 332
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 402.4109362300742,
+            "y": 627.8068152305616,
+            "w": 249.17812753985157,
+            "h": 317.05303620554344
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 312,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "Use either skill on its own",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.046,
+            "y": 160.466,
+            "w": 262.8136650390625,
+            "h": 17.841999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "Two skills.\nChoose your start.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 512.905271484375,
+            "h": 138.91000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "Content & explanation.\nIllustration & layout.",
+          "bounds": {
+            "x": 54,
+            "y": 420,
+            "w": 612,
+            "h": 119
+          },
+          "textBounds": {
+            "x": 55.596000000000004,
+            "y": 425.712,
+            "w": 299.781566772461,
+            "h": 66.86399999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "The eight planets",
+          "bounds": {
+            "x": 54,
+            "y": 1034,
+            "w": 300,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.744,
+            "y": 1038.896,
+            "w": 193.59916333007814,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "Getting to know cells",
+          "bounds": {
+            "x": 379,
+            "y": 1034,
+            "w": 289,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 380.368,
+            "y": 1038.896,
+            "w": 233.09600610351566,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "Bring a topic you're curious about.",
+          "bounds": {
+            "x": 54,
+            "y": 1107,
+            "w": 612,
+            "h": 44
+          },
+          "textBounds": {
+            "x": 56.511,
+            "y": 1112.238,
+            "w": 448.91613487243654,
+            "h": 28.34999999999991
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 58,
+            "y": 646,
+            "w": 252,
+            "h": 336
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 80.31242353359835,
+            "y": 606.1519921906475,
+            "w": 257.3751529328033,
+            "h": 330.3626822853716
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 383,
+            "y": 680,
+            "w": 249,
+            "h": 332
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 402.4109362300742,
+            "y": 627.8068152305616,
+            "w": 249.17812753985157,
+            "h": 317.05303620554344
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    },
+    {
+      "frame": 379,
+      "width": 720,
+      "height": 1280,
+      "rows": [
+        {
+          "id": "brand",
+          "kind": "text",
+          "text": "Making Sense Together",
+          "bounds": {
+            "x": 95,
+            "y": 46,
+            "w": 570,
+            "h": 45
+          },
+          "textBounds": {
+            "x": 97.232,
+            "y": 50.656,
+            "w": 267.96491931152354,
+            "h": 25.199999999999996
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "repository",
+          "kind": "text",
+          "text": "NewenergyEric / eric-jiangzhishi-skill",
+          "bounds": {
+            "x": 54,
+            "y": 1184,
+            "w": 612,
+            "h": 32
+          },
+          "textBounds": {
+            "x": 55.584,
+            "y": 1187.248,
+            "w": 275.1314628906251,
+            "h": 16.720000000000027
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "sampleLanguage",
+          "kind": "text",
+          "text": "Chinese sample pages",
+          "bounds": {
+            "x": 54,
+            "y": 1220,
+            "w": 612,
+            "h": 30
+          },
+          "textBounds": {
+            "x": 54.798,
+            "y": 1222.856,
+            "w": 144.43040441894533,
+            "h": 14.615999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.eyebrow",
+          "kind": "text",
+          "text": "Use either skill on its own",
+          "bounds": {
+            "x": 54,
+            "y": 156,
+            "w": 612,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 56.046,
+            "y": 160.466,
+            "w": 262.8136650390625,
+            "h": 17.841999999999985
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.title",
+          "kind": "text",
+          "text": "Two skills.\nChoose your start.",
+          "bounds": {
+            "x": 54,
+            "y": 218,
+            "w": 612,
+            "h": 177
+          },
+          "textBounds": {
+            "x": 55.74,
+            "y": 228.962,
+            "w": 512.905271484375,
+            "h": 138.91000000000003
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.body",
+          "kind": "text",
+          "text": "Content & explanation.\nIllustration & layout.",
+          "bounds": {
+            "x": 54,
+            "y": 420,
+            "w": 612,
+            "h": 119
+          },
+          "textBounds": {
+            "x": 55.596000000000004,
+            "y": 425.712,
+            "w": 299.781566772461,
+            "h": 66.86399999999998
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel0",
+          "kind": "text",
+          "text": "The eight planets",
+          "bounds": {
+            "x": 54,
+            "y": 1034,
+            "w": 300,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 54.744,
+            "y": 1038.896,
+            "w": 193.59916333007814,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.artLabel1",
+          "kind": "text",
+          "text": "Getting to know cells",
+          "bounds": {
+            "x": 379,
+            "y": 1034,
+            "w": 289,
+            "h": 42
+          },
+          "textBounds": {
+            "x": 380.368,
+            "y": 1038.896,
+            "w": 233.09600610351566,
+            "h": 25.05600000000004
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "scene2.cta",
+          "kind": "text",
+          "text": "Bring a topic you're curious about.",
+          "bounds": {
+            "x": 54,
+            "y": 1107,
+            "w": 612,
+            "h": 44
+          },
+          "textBounds": {
+            "x": 56.511,
+            "y": 1112.238,
+            "w": 448.91613487243654,
+            "h": 28.34999999999991
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "icon",
+          "kind": "layer",
+          "bounds": {
+            "x": 54,
+            "y": 39,
+            "w": 28,
+            "h": 45
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar1",
+          "kind": "layer",
+          "bounds": {
+            "x": 58,
+            "y": 646,
+            "w": 252,
+            "h": 336
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "solar2",
+          "kind": "layer",
+          "bounds": {
+            "x": 80.31242353359835,
+            "y": 606.1519921906475,
+            "w": 257.3751529328033,
+            "h": 330.3626822853716
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells1",
+          "kind": "layer",
+          "bounds": {
+            "x": 383,
+            "y": 680,
+            "w": 249,
+            "h": 332
+          },
+          "out": false,
+          "overflow": false
+        },
+        {
+          "id": "cells2",
+          "kind": "layer",
+          "bounds": {
+            "x": 402.4109362300742,
+            "y": 627.8068152305616,
+            "w": 249.17812753985157,
+            "h": 317.05303620554344
+          },
+          "out": false,
+          "overflow": false
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "allFramesChecked": 384,
+  "errors": []
+}

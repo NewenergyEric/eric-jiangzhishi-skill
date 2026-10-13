@@ -5,11 +5,12 @@
   "width": 960,
   "height": 540,
   "fps": 24,
-  "gifWidth": 640,
-  "gifFps": 12.5,
+  "gifWidth": 480,
+  "gifFps": 6.25,
   "budgets": {
-    "mp4Bytes": 5000000,
-    "gifBytes": 3000000
+    "mp4Bytes": 900000,
+    "gifBytes": 900000,
+    "coverBytes": 100000
   },
   "repositoryLabel": "NewenergyEric / eric-jiangzhishi-skill",
   "engine": {
@@ -19,11 +20,11 @@
     "version": "0.4.0",
     "path": "skills/eric-intro-motion-skill",
     "used": [
-      "renderStory",
       "textBox",
       "png",
       "inspectVideo",
-      "run"
+      "run",
+      "assertNativeAudit"
     ]
   },
   "language": "zh-CN",
@@ -65,5 +66,6 @@
       ],
       "action": "太阳系与细胞的实际样页分别展开，展示两种起点和可继续修改的成稿。"
     }
-  ]
+  ],
+  "formats": "formats.json"
 }

@@ -5,9 +5,17 @@
 
 [下载 Skill](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [看案例](#两份完整案例) · [使用说明](docs/getting-started.md)
 
-[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/intro.gif)](media/intro/intro.mp4)
+[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/cover.png)](media/intro/intro.mp4)
 
-16 秒，无旁白。[中文 MP4](media/intro/intro.mp4) · [English MP4](media/intro/intro.en.mp4) · [静态预览](media/intro/poster.png) · [分镜与源码](media/intro/README.md)。每个 MP4 约 2 MB，GIF 小于 3 MB。
+16 秒，无旁白。首页封面约 43 KB，点击再播放；各版 MP4 为 365–543 KB。三种比例保留完整内容，文字与插画分别排版。
+
+| 比例与尺寸 | 中文 | English |
+|---|---|---|
+| 横屏 16:9 · 960 × 540 | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) | [MP4 · 430 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) |
+| 方版 1:1 · 720 × 720 | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) | [MP4 · 406 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) |
+| 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) | [MP4 · 543 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) |
+
+[分镜、海报与源码](media/intro/README.md)。
 
 ## 两个 Skill，按手上的内容来选
 

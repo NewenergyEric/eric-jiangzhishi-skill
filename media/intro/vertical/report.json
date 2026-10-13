@@ -1,0 +1,125 @@
+{
+  "version": "1.3.0",
+  "language": "zh-CN",
+  "ratio": "9:16",
+  "engine": {
+    "repository": "https://github.com/NewenergyEric/eric-intro-motion-skill",
+    "previousRepository": "https://github.com/NewenergyEric/motion-story-skills",
+    "commit": "6c761d6e4a6e0ed358178b5d2f1fac339a3361cf",
+    "version": "0.4.0",
+    "path": "skills/eric-intro-motion-skill",
+    "used": [
+      "textBox",
+      "png",
+      "inspectVideo",
+      "run",
+      "assertNativeAudit"
+    ]
+  },
+  "runtimeHashes": {
+    "skills/eric-intro-motion-skill/assets/fonts/NotoSansSC.ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "skills/eric-intro-motion-skill/assets/fonts/OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "skills/eric-intro-motion-skill/package-lock.json": "ee889cfdd625e8d253a8ecd7bd57817eb4129313a93aa94e416e1c2f95610041",
+    "skills/eric-intro-motion-skill/package.json": "6c8e2323eb5931b1e00418174d2fc690edcc372453f65a7a92893b4be376e2a4",
+    "skills/eric-intro-motion-skill/scripts/assemble-media.mjs": "d6e1774db554cf354b3e5b3357537a39b81570d1ac163e0bffd59ac2f0777562",
+    "skills/eric-intro-motion-skill/scripts/cli.mjs": "ee2e90a196684ed9f1da8d294a359d10cdfce268fb37f7fe91b47c018a54a4cd",
+    "skills/eric-intro-motion-skill/scripts/compose.mjs": "db2aedc79bd5a624ac1471d4d10b57ad69e064cdd4a902f8ecd8eb0c6bdc8af6",
+    "skills/eric-intro-motion-skill/scripts/core.mjs": "5e50cc25012c489323e9ca10cda2aecb587853693dac3ddd6a6a5f48619ba53d",
+    "skills/eric-intro-motion-skill/scripts/modules/profile.mjs": "b8a6ad8ac14b0611ce309b72ad283ac64f4ebe972c5da91aa996bc14cfc96cd6",
+    "skills/eric-intro-motion-skill/scripts/modules/references.mjs": "dfd3c5e1b5d80729753925c843333522f0abb67785495bdfc4c6d72ae67749ed",
+    "skills/eric-intro-motion-skill/scripts/native-cache.mjs": "942672e60d86264c34bb6ba02ff23d232197bc13caa572356d3d1049c6ba680d",
+    "skills/eric-intro-motion-skill/scripts/native-intro.mjs": "e3bc3b909544bda23660d8ec2ce4df92066c677218c74ae7fd85c159a09db544",
+    "skills/eric-intro-motion-skill/scripts/render.mjs": "72b887db6cc40b6753e49c33f2d14c21f5bedc72dc677a07e8229758db7caa16",
+    "skills/eric-intro-motion-skill/scripts/replace-audio.mjs": "316516c99ab728327bcf42eb65e1598c3d0119d427255a136e597ba323f23ed7",
+    "skills/eric-intro-motion-skill/scripts/text.mjs": "4f9e8d23fc915c3097ebcce617526a7654e62c2958ffdfbfc2e2c0997f9fbcad",
+    "skills/eric-intro-motion-skill/scripts/timeline-core.mjs": "7bc04d8b2d23b3266f3d4d01aa5afa331cdda179df94f19fccc99361f1a479b9",
+    "skills/social-motion/scripts/native-audit.mjs": "d782f09840178ad0a1839429b95e1f5f1edcdd4ace973acd0a13699393c32f65"
+  },
+  "rasterHashes": {
+    "examples/cells/art/animal-cell.png": "ea30e5a8da0253f245e3c85b3a18548b3d3fdb86ac9547e8fa136d376ed61f0a",
+    "examples/cells/art/icon-microscope.png": "4991c25119696ca14eb218293f5fcfdc711c084cf37a8ef7bfd4b322ca0a49fb",
+    "examples/cells/output/page-01.png": "72b969d921946f453dc8b1d6dd691ba769e6b3c1878a2076b219b6fdec5301df",
+    "examples/cells/output/page-02.png": "ec178ae25e0eec4af5ac3e0a749765dcb8c4b0015fb463e64383089d5013d508",
+    "examples/solar-system/output/page-01.png": "a331a00b9055366d28b342cfacd276201c1acc271860defeb8ef2c06dd7b2d02",
+    "examples/solar-system/output/page-02.png": "3939e557d81898c86748045936939d950a80d265286925b8e9ce3d4a4126f787"
+  },
+  "storyFile": "media/intro/story.json",
+  "storySha256": "400758cece036cf50d7e305169af5522bcc5a5f977564ce1ea6f39d96ecb0403",
+  "sourceHashes": {
+    "scripts/build_intro.mjs": "1ee7ac4250e52e33b510fb8fc9009330b2def0abd3490de624f5e1c6027da03a",
+    "scripts/intro-composition.mjs": "69d0424f8d3ac5792c7feb8484044539d9524d1bffc7bb4b79e888e5e1e058d9",
+    "media/intro/formats.json": "5da6fad1e2a23088f359bf2ed6fc03fd4ceb8bb080c40a6e9b5b7c26243ac785",
+    "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
+    "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
+    "examples/cells/output/page-01.png": "08106a6055314e3957ef0b9ee2a19d398baa5573eee098f301f4b28282057d04",
+    "examples/cells/output/page-02.png": "77767aedf2fcd5792383a8e59d8424a7490be012b32dc80e7c0d46238e6ddf1a",
+    "examples/solar-system/output/page-01.png": "5116f0d7a42f2df2790e9262b7331400a01547889e36604ffdef885d6a9cf427",
+    "examples/solar-system/output/page-02.png": "56d148c7564078196d1be667c78b2eefd39c612e423d81f0de35b04e74c6bddf"
+  },
+  "sourceHash": "05534b18538e11676d14ac0a590007c9db846949c1fa2a56e417ece5db2fcf72",
+  "format": {
+    "id": "vertical",
+    "ratio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "gifWidth": 360,
+    "gifFps": 6.25,
+    "gifColors": 48,
+    "coverWidth": 360,
+    "budgets": {
+      "mp4Bytes": 1200000,
+      "gifBytes": 1200000,
+      "coverBytes": 100000
+    }
+  },
+  "encoding": {
+    "crf": 27,
+    "preset": "slow",
+    "audioBitrate": "24k"
+  },
+  "outputs": {
+    "mp4": {
+      "width": 720,
+      "height": 1280,
+      "seconds": 16,
+      "frames": 384,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "videoBitrate": 250939,
+      "bytes": 518893,
+      "sha256": "5500d9fa95ce92a9ba9355c44ff507735f163a3ee7aa95537a4e7e72644048e5"
+    },
+    "gif": {
+      "width": 360,
+      "height": 640,
+      "seconds": 16,
+      "frames": 100,
+      "codec": "gif",
+      "pixelFormat": "bgra",
+      "videoBitrate": null,
+      "bytes": 595981,
+      "sha256": "d0f393fc31f0bf842a44dcd0b02f8b5fe7829bb13bfaa08076513f01499c745f"
+    }
+  },
+  "sampledFrames": 6,
+  "sampledUniqueFrames": 6,
+  "posterSha256": "22bc46530b1561dab9157049f179f8e8f4f8f2bc8d3ddc5bbf8d5a2cb1dd5b60",
+  "cover": {
+    "bytes": 40210,
+    "sha256": "ee72521c5fb64b0308f27298c5929f91de59628febd1229ed6053406aa324998"
+  },
+  "auditSha256": "b55ced053e79353f080ab0848c84577bc3a9d051b4325a47cd512cae5a1cfef5",
+  "budgets": {
+    "mp4Bytes": 1200000,
+    "gifBytes": 1200000,
+    "coverBytes": 100000
+  },
+  "cache": {
+    "visualKey": "c5b7c87b4add09bf5112d946eacc4c4c44531e49ba274cf4b493c894d863cb36",
+    "reusedFrames": 0,
+    "renderedFrames": 384,
+    "encodeHit": false
+  },
+  "fullDecodeVerified": true,
+  "platformPreviewVerified": false
+}

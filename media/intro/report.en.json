@@ -1,6 +1,7 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "language": "en",
+  "ratio": "16:9",
   "engine": {
     "repository": "https://github.com/NewenergyEric/eric-intro-motion-skill",
     "previousRepository": "https://github.com/NewenergyEric/motion-story-skills",
@@ -8,11 +9,11 @@
     "version": "0.4.0",
     "path": "skills/eric-intro-motion-skill",
     "used": [
-      "renderStory",
       "textBox",
       "png",
       "inspectVideo",
-      "run"
+      "run",
+      "assertNativeAudit"
     ]
   },
   "runtimeHashes": {
@@ -31,17 +32,50 @@
     "skills/eric-intro-motion-skill/scripts/render.mjs": "72b887db6cc40b6753e49c33f2d14c21f5bedc72dc677a07e8229758db7caa16",
     "skills/eric-intro-motion-skill/scripts/replace-audio.mjs": "316516c99ab728327bcf42eb65e1598c3d0119d427255a136e597ba323f23ed7",
     "skills/eric-intro-motion-skill/scripts/text.mjs": "4f9e8d23fc915c3097ebcce617526a7654e62c2958ffdfbfc2e2c0997f9fbcad",
-    "skills/eric-intro-motion-skill/scripts/timeline-core.mjs": "7bc04d8b2d23b3266f3d4d01aa5afa331cdda179df94f19fccc99361f1a479b9"
+    "skills/eric-intro-motion-skill/scripts/timeline-core.mjs": "7bc04d8b2d23b3266f3d4d01aa5afa331cdda179df94f19fccc99361f1a479b9",
+    "skills/social-motion/scripts/native-audit.mjs": "d782f09840178ad0a1839429b95e1f5f1edcdd4ace973acd0a13699393c32f65"
   },
-  "storySha256": "9de9e1db11a97bab2b6bab8cb15241d14e17fd4b179c51ba9203a083b9ec79e6",
+  "rasterHashes": {
+    "examples/cells/art/animal-cell.png": "ea30e5a8da0253f245e3c85b3a18548b3d3fdb86ac9547e8fa136d376ed61f0a",
+    "examples/cells/art/icon-microscope.png": "4991c25119696ca14eb218293f5fcfdc711c084cf37a8ef7bfd4b322ca0a49fb",
+    "examples/cells/output/page-01.png": "72b969d921946f453dc8b1d6dd691ba769e6b3c1878a2076b219b6fdec5301df",
+    "examples/cells/output/page-02.png": "ec178ae25e0eec4af5ac3e0a749765dcb8c4b0015fb463e64383089d5013d508",
+    "examples/solar-system/output/page-01.png": "a331a00b9055366d28b342cfacd276201c1acc271860defeb8ef2c06dd7b2d02",
+    "examples/solar-system/output/page-02.png": "3939e557d81898c86748045936939d950a80d265286925b8e9ce3d4a4126f787"
+  },
+  "storyFile": "media/intro/story.en.json",
+  "storySha256": "ec4aeac848ed63641b5db152d8105bf5c0cb31e061de0bb0a916a031bd8dd681",
   "sourceHashes": {
-    "scripts/build_intro.mjs": "0c5f0e4b05eb2abbaa0749b9cd28974d75603e5ab3076ff6e840d622f95e5626",
+    "scripts/build_intro.mjs": "1ee7ac4250e52e33b510fb8fc9009330b2def0abd3490de624f5e1c6027da03a",
+    "scripts/intro-composition.mjs": "69d0424f8d3ac5792c7feb8484044539d9524d1bffc7bb4b79e888e5e1e058d9",
+    "media/intro/formats.json": "5da6fad1e2a23088f359bf2ed6fc03fd4ceb8bb080c40a6e9b5b7c26243ac785",
     "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
     "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
     "examples/cells/output/page-01.png": "08106a6055314e3957ef0b9ee2a19d398baa5573eee098f301f4b28282057d04",
     "examples/cells/output/page-02.png": "77767aedf2fcd5792383a8e59d8424a7490be012b32dc80e7c0d46238e6ddf1a",
     "examples/solar-system/output/page-01.png": "5116f0d7a42f2df2790e9262b7331400a01547889e36604ffdef885d6a9cf427",
     "examples/solar-system/output/page-02.png": "56d148c7564078196d1be667c78b2eefd39c612e423d81f0de35b04e74c6bddf"
+  },
+  "sourceHash": "7c558cde7c0ada44bb4b13e649d64ccbca8f1d795a8cb032bfd54bcf86d1c3da",
+  "format": {
+    "id": "wide",
+    "ratio": "16:9",
+    "width": 960,
+    "height": 540,
+    "gifWidth": 480,
+    "gifFps": 6.25,
+    "gifColors": 48,
+    "coverWidth": 640,
+    "budgets": {
+      "mp4Bytes": 900000,
+      "gifBytes": 900000,
+      "coverBytes": 100000
+    }
+  },
+  "encoding": {
+    "crf": 27,
+    "preset": "slow",
+    "audioBitrate": "24k"
   },
   "outputs": {
     "mp4": {
@@ -51,28 +85,41 @@
       "frames": 384,
       "codec": "h264",
       "pixelFormat": "yuv420p",
-      "videoBitrate": 988150,
-      "bytes": 1993348,
-      "sha256": "0643a59931eb0ee3e255f799382babb8862b79ccc8852dc76e6e20bb62c08153"
+      "videoBitrate": 206472,
+      "bytes": 429966,
+      "sha256": "6d85f8943a0836ff77af4da254ff1d431c0836ae6893fe8e7acb8146debea74d"
     },
     "gif": {
-      "width": 640,
-      "height": 360,
+      "width": 480,
+      "height": 270,
       "seconds": 16,
-      "frames": 200,
+      "frames": 100,
       "codec": "gif",
       "pixelFormat": "bgra",
       "videoBitrate": null,
-      "bytes": 1994774,
-      "sha256": "2fb459b1bbd81b81541c0648b5fe6d38cbd7c3de4e31272155f822ba5b9e1e99"
+      "bytes": 414761,
+      "sha256": "250ad5ebae4ca786ae695788137d66035a5859ee35de87188d34ad0e8ca2bfd5"
     }
   },
   "sampledFrames": 6,
   "sampledUniqueFrames": 6,
-  "posterSha256": "c32854e46f7be9ab0a6d3574b83ca9bade32378dc9424d849030d82d013956b9",
-  "budgets": {
-    "mp4Bytes": 5000000,
-    "gifBytes": 3000000
+  "posterSha256": "20e3b4242612a1d6ac5d6a40293ee18993528127ea989b9b7ff3ced291d9f6cd",
+  "cover": {
+    "bytes": 44546,
+    "sha256": "c4f77af25631c128ba7792cba372739f4247ba5b2c3af573ae3e6c1a5b00f181"
   },
+  "auditSha256": "182650a459582f17e10a90ce60a0e3d0ee086e20b915402040859077a344c0cc",
+  "budgets": {
+    "mp4Bytes": 900000,
+    "gifBytes": 900000,
+    "coverBytes": 100000
+  },
+  "cache": {
+    "visualKey": "93ad031176db1006940abb4a6d4187091a5a060883103d478e17b48871861a79",
+    "reusedFrames": 0,
+    "renderedFrames": 384,
+    "encodeHit": false
+  },
+  "fullDecodeVerified": true,
   "platformPreviewVerified": false
 }

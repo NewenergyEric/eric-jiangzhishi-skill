@@ -5,9 +5,17 @@ Two independent AI skills for turning a question and a few sources into a clear,
 
 [Download the skills](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [See the examples](#two-complete-examples) · [Get started](docs/getting-started.en.md)
 
-[![A 16-second introduction showing the actual cell and solar-system guides](media/intro/intro.en.gif)](media/intro/intro.en.mp4)
+[![A 16-second introduction showing the actual cell and solar-system guides](media/intro/cover.en.png)](media/intro/intro.en.mp4)
 
-16 seconds, without narration. [English MP4](media/intro/intro.en.mp4) · [中文 MP4](media/intro/intro.mp4) · [Static preview](media/intro/poster.en.png) · [Storyboard and source](media/intro/README.en.md). Each MP4 is about 2 MB; each GIF is under 3 MB.
+16 seconds, without narration. The cover is about 45 KB; click it to open the video. All MP4s are 365–543 KB. Each format keeps the complete story, with its own text and illustration layout.
+
+| Format | English | 中文 |
+|---|---|---|
+| Landscape 16:9 · 960 × 540 | [MP4 · 430 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) |
+| Square 1:1 · 720 × 720 | [MP4 · 406 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) |
+| Portrait 9:16 · 720 × 1280 | [MP4 · 543 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) |
+
+[Storyboard, posters and source](media/intro/README.en.md).
 
 ## Two skills. Start with what you have.
 

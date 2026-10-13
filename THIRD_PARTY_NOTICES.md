@@ -6,7 +6,11 @@
 
 ## 字体
 
-`vendor/fonts/NotoSansSC.ttf` 是 Google Fonts 分发的 Noto Sans SC，保持原文件，使用 SIL Open Font License 1.1。原版权与完整许可见 [OFL.txt](vendor/fonts/OFL.txt)，[上游字体](https://github.com/google/fonts/tree/main/ofl/notosanssc)。构建时生成临时字重实例，PDF 嵌入字体子集。手写标题是 PNG 字图，不是新的字体文件。
+`vendor/fonts/NotoSansSC.ttf` 是 Google Fonts 分发的 Noto Sans SC，保持原文件，使用 SIL Open Font License 1.1。原版权与完整许可见 [OFL.txt](vendor/fonts/OFL.txt)，[上游字体](https://github.com/google/fonts/tree/main/ofl/notosanssc)。构建时生成临时字重实例，PDF 嵌入字体子集。中文手写标题是 PNG 字图，不是新的字体文件。
+
+英文图文标题使用 [Google Fonts 分发的 Caveat](https://github.com/google/fonts/tree/main/ofl/caveat)，原文件保存在 `vendor/fonts/Caveat.ttf`，版权归 Caveat Project Authors，完整许可见 [Caveat OFL](vendor/fonts/Caveat-OFL.txt)。构建时生成临时 700 字重实例，并在 PDF 中嵌入子集；仓库保留原始字体文件。
+
+首页标签的 SVG 图形与生成脚本为本项目制作，采用 MIT；标签不包含未经验证的宿主兼容性或性能承诺。
 
 ## 事实来源
 

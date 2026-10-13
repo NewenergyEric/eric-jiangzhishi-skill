@@ -31,7 +31,8 @@ def package():
                 if archive.read(member)!=(ROOT/member).read_bytes():raise ValueError('ZIP bytes mismatch')
         products.append(path)
     for case in ['solar-system','cells']:
-        path=output/f'{case}.pdf';path.write_bytes((ROOT/'examples'/case/'output'/f'{case}.pdf').read_bytes());products.append(path)
+        for locale in ['', '.en']:
+            path=output/f'{case}{locale}.pdf';path.write_bytes((ROOT/'examples'/case/'output'/f'{case}{locale}.pdf').read_bytes());products.append(path)
     for ratio in ['wide','square','vertical']:
         directory=ROOT/'media/intro'/(ratio if ratio!='wide' else '')
         for locale in ['', '.en']:

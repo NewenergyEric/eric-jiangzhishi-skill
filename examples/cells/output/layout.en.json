@@ -1,0 +1,782 @@
+{
+  "language": "en",
+  "pages": 2,
+  "pageSize": [
+    720,
+    960
+  ],
+  "text": [
+    {
+      "page": 1,
+      "id": "eyebrow",
+      "text": "Getting to know cells / Looking closer",
+      "font": "Body",
+      "size": 12,
+      "bounds": [
+        89.696,
+        36.448,
+        297.8359999999999,
+        49.0
+      ]
+    },
+    {
+      "page": 1,
+      "id": "title",
+      "text": "A closer look at life:",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        47.76,
+        96.50800000000001,
+        343.836,
+        132.5
+      ]
+    },
+    {
+      "page": 1,
+      "id": "title",
+      "text": "what is inside a cell?",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        50.752,
+        139.61599999999999,
+        365.79200000000003,
+        172.968
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "Look at your hand, then at a green leaf by the window. Both are made of cells. Cells",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        49.616,
+        210.056,
+        663.7919999999997,
+        227.0
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "are the basic units of life, and most are so small that we need a microscope to see",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        48.944,
+        233.056,
+        651.2639999999999,
+        249.664
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "them. Let's enlarge a typical animal cell and see how its parts work together.",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        48.432,
+        256.264,
+        615.3119999999999,
+        273.0
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.Cell membrane",
+      "text": "Cell membrane",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        552.702,
+        330.626,
+        644.4039999999999,
+        341.182
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.Cytoplasm",
+      "text": "Cytoplasm",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        575.702,
+        598.626,
+        639.5709999999999,
+        611.912
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.Nucleus",
+      "text": "Nucleus",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        49.183,
+        410.626,
+        96.711,
+        421.182
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.Ribosomes",
+      "text": "Ribosomes",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        49.183,
+        610.457,
+        114.95,
+        621.182
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.Mitochondria",
+      "text": "Mitochondria",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        601.183,
+        432.457,
+        680.678,
+        443.182
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "The cell membrane separates the inside from the outside and controls what moves in and",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.465,
+        697.865,
+        670.56,
+        713.435
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "out. Between the membrane and the nucleus is the cytoplasm, where many chemical",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        720.06,
+        639.855,
+        735.51
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "reactions take place. The nucleus holds most of the cell's DNA. The genetic information it",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        741.865,
+        666.765,
+        757.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "carries helps direct the cell's activities.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        764.06,
+        315.585,
+        779.435
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "How do those instructions become work? Ribosomes use the messages they receive to",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        798.06,
+        648.8549999999997,
+        813.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "make proteins, which help form the cell's structures and carry out many of its activities.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        819.865,
+        655.53,
+        835.51
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "Mitochondria convert energy from nutrients into forms the cell can use, such as ATP, to",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        841.865,
+        651.9899999999997,
+        857.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "support this work.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.48,
+        864.06,
+        174.21,
+        879.435
+      ]
+    },
+    {
+      "page": 1,
+      "id": "note",
+      "text": "A simplified cutaway of a typical animal cell, highlighting only some structures. Colors, quantities and sizes are not to scale.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.038,
+        912.8145,
+        590.4690000000003,
+        922.875
+      ]
+    },
+    {
+      "page": 1,
+      "id": "number",
+      "text": "01",
+      "font": "Body",
+      "size": 11,
+      "bounds": [
+        653.9449999999999,
+        913.794,
+        664.89,
+        922.143
+      ]
+    },
+    {
+      "page": 1,
+      "id": "sources",
+      "text": "Sources: NHGRI; OpenStax Biology 2e, Chapter 4. Full references online.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.456,
+        942.8145,
+        363.2574999999999,
+        952.875
+      ]
+    },
+    {
+      "page": 2,
+      "id": "eyebrow",
+      "text": "Getting to know cells / One name, different forms",
+      "font": "Body",
+      "size": 12,
+      "bounds": [
+        89.696,
+        36.292,
+        362.8879999999999,
+        49.0
+      ]
+    },
+    {
+      "page": 2,
+      "id": "title",
+      "text": "A leaf, a hand,",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        47.76,
+        96.50800000000001,
+        270.2679999999999,
+        132.5
+      ]
+    },
+    {
+      "page": 2,
+      "id": "title",
+      "text": "and a tiny bacterium",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        49.3,
+        142.608,
+        367.112,
+        181.46
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "Cells in a green leaf have a cell wall that",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.87,
+        226.865,
+        323.565,
+        242.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "helps support and protect them, with a",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        249.06,
+        319.11,
+        264.435
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "cell membrane just inside it. Chloroplasts",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        271.06,
+        336.33,
+        286.63
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "use light energy to make sugars. A large",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.26,
+        293.06,
+        322.92,
+        308.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "central vacuole stores water and",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        315.06,
+        274.095,
+        327.195
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "dissolved substances and helps maintain",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.795,
+        337.06,
+        332.93999999999994,
+        352.435
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "the cell's shape. Plant cells have",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.405,
+        359.06,
+        271.44000000000005,
+        374.435
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "mitochondria too.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        381.06,
+        173.71500000000003,
+        393.195
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "Plant cells are not all alike. Root cells, for",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        418.865,
+        333.25499999999994,
+        433.85
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "example, usually have no chloroplasts.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        441.06,
+        317.3099999999999,
+        456.51
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "The leaf cell in the illustration is only one",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.465,
+        462.865,
+        332.0849999999999,
+        478.51
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "kind; it does not represent every cell in a",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        485.06,
+        328.06500000000005,
+        500.51
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "plant.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        507.06,
+        87.885,
+        522.435
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "Now look at a bacterium. It is typically a",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        545.06,
+        324.31500000000005,
+        560.51
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "single cell and has no nucleus enclosed by",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.48,
+        567.06,
+        341.61,
+        582.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "a nuclear membrane. Most of its DNA is",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.885,
+        588.865,
+        319.545,
+        601.195
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "concentrated in a region called the",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        611.06,
+        290.3250000000001,
+        626.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "nucleoid. It still has a cell membrane,",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        633.06,
+        306.585,
+        647.85
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "cytoplasm and ribosomes, and it needs to",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        655.06,
+        338.71500000000003,
+        670.51
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "take in materials and use energy.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.405,
+        677.06,
+        277.00500000000005,
+        692.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.Leaf cell",
+      "text": "Leaf cell",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        386.183,
+        223.444,
+        435.05000000000007,
+        234.182
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.Cell wall",
+      "text": "Cell wall",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        587.702,
+        243.626,
+        638.038,
+        254.182
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.Chloroplast",
+      "text": "Chloroplast",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        570.702,
+        596.626,
+        641.0709999999999,
+        609.795
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.Central vacuole",
+      "text": "Central vacuole",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        426.702,
+        395.626,
+        520.4839999999999,
+        406.182
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.Bacterium",
+      "text": "Bacterium",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        382.183,
+        738.457,
+        443.673,
+        749.182
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.Nucleoid (DNA)",
+      "text": "Nucleoid (DNA)",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        526.183,
+        739.171,
+        616.689,
+        752.626
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "Animals and plants are eukaryotes; bacteria are prokaryotes. To begin telling them",
+      "font": "Body",
+      "size": 15.5,
+      "bounds": [
+        48.062,
+        792.162,
+        641.8514999999998,
+        808.375
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "apart, look for a membrane-bound nucleus, then other features such as a cell wall or",
+      "font": "Body",
+      "size": 15.5,
+      "bounds": [
+        48.9145,
+        814.9605,
+        655.3365,
+        831.0495
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "chloroplasts. Their shapes may differ greatly, but all cells do the work that keeps life",
+      "font": "Body",
+      "size": 15.5,
+      "bounds": [
+        48.806,
+        837.9605,
+        651.5234999999999,
+        854.375
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "going.",
+      "font": "Body",
+      "size": 15.5,
+      "bounds": [
+        48.7905,
+        861.4875,
+        91.77199999999999,
+        877.375
+      ]
+    },
+    {
+      "page": 2,
+      "id": "note",
+      "text": "The two cells are enlarged separately, so their relative sizes are not shown. Structures, colors and quantities are simplified.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.2945,
+        912.8145,
+        588.0939999999999,
+        922.875
+      ]
+    },
+    {
+      "page": 2,
+      "id": "number",
+      "text": "02",
+      "font": "Body",
+      "size": 11,
+      "bounds": [
+        653.9449999999999,
+        913.794,
+        665.055,
+        922.143
+      ]
+    },
+    {
+      "page": 2,
+      "id": "sources",
+      "text": "Sources: NHGRI; OpenStax Biology 2e, Chapter 4. Full references online.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.456,
+        942.8145,
+        363.2574999999999,
+        952.875
+      ]
+    }
+  ],
+  "textOverlaps": [],
+  "completeCopyVerified": true,
+  "chineseTextFound": false,
+  "sourceHashes": {
+    "scripts/build_english_examples.py": "3bbb8420f9e4db736ac38ab3dea90dee99f03bf542858a87779e34aef8174142",
+    "scripts/build_example.py": "6126f5b79b543afe4e57b3716459796c943980e5f2c64eef00cf2cc7992d29ed",
+    "examples/cells/content.en.json": "29f5f18f10767eeaa63c29afc32f658ac2a7c7901b53a8bc2675a2bf901eb62f",
+    "vendor/fonts/Caveat.ttf": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "vendor/fonts/NotoSansSC.ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
+    "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
+    "examples/cells/art/plant-and-bacterium.png": "08fe741d6debbab46002bff4b95e6e07e8d97a77dd0768186cd83470b05b85db"
+  },
+  "outputHashes": {
+    "cells.en.pdf": "fc8f5bb2912ddbdac9b2d340cb008e5ddf5e4365e7d91ffef6d5d022c5fd26cf",
+    "page-01.en.png": "d264b646cf3682d612b16958fca8e0c5517d37a2047f08b379dfe288efdff89a",
+    "page-02.en.png": "08d861ce6fcbc6461dde6b2a5f70c6ac5346846fc540059fd15147c680daaafc"
+  }
+}

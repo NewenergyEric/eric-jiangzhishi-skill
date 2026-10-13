@@ -13,7 +13,7 @@ from PIL import Image
 from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT = {'.md','.txt','.json','.yaml','.py','.html','.mjs'}
+TEXT = {'.md','.txt','.json','.yaml','.py','.html','.mjs','.svg'}
 PRIVATE = [
     ('private_path', re.compile(r'(?i)(?:\b[a-z]:[\\/]|/(?:Users|home)/[a-z0-9_])')),
     ('access_token', re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,}|sk-[A-Za-z0-9_-]{25,})')),
@@ -47,7 +47,7 @@ def audit(root=ROOT, staged=False):
             refs=[]
             if p.suffix=='.md':
                 refs+=re.findall(r'!?\[[^\]\n]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)',content)
-            if p.suffix=='.html':
+            if p.suffix in {'.html','.md'}:
                 refs+=re.findall(r'(?:href|src)="([^"]+)"',content)
             if p.suffix=='.json':json.loads(content)
             for ref in refs:
@@ -86,6 +86,24 @@ def audit(root=ROOT, staged=False):
         for original,translated in zip(content['pages'],english['pages']):
             if original['id']!=translated['id'] or len(original['paragraphs'])!=len(translated['paragraphs']) or len(original['labels'])!=len(translated['labels']):
                 errors.append({'rule':'translation_structure_mismatch','file':case})
+        english_pdf=PdfReader(base/'output'/f'{case}.en.pdf')
+        for i,page in enumerate(english_pdf.pages):
+            actual=''.join(page.extract_text().split())
+            expected=english['pages'][i]
+            if re.search(r'[\u3400-\u9fff]',actual):errors.append({'rule':'chinese_text_in_english_pdf','file':case,'page':i+1})
+            for value in [expected['title'],expected['eyebrow'],expected.get('lead',''),*expected['paragraphs'],expected.get('closing',''),*expected['labels'],expected['note']]:
+                if ''.join(value.split()) not in actual:errors.append({'rule':'english_pdf_content','file':case,'page':i+1})
+            with Image.open(base/'output'/f'page-{i+1:02d}.en.png') as im:
+                if im.size!=(1440,1920):errors.append({'rule':'english_preview_size','file':case})
+        english_layout=json.loads((base/'output/layout.en.json').read_text(encoding='utf-8'))
+        if english_layout['textOverlaps'] or not english_layout['completeCopyVerified'] or english_layout['chineseTextFound']:
+            errors.append({'rule':'english_page_layout','file':case})
+        for name,expected_hash in english_layout['sourceHashes'].items():
+            if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected_hash:
+                errors.append({'rule':'english_page_source_hash','file':name})
+        for name,expected_hash in english_layout['outputHashes'].items():
+            if hashlib.sha256((base/'output'/name).read_bytes()).hexdigest()!=expected_hash:
+                errors.append({'rule':'english_page_output_hash','file':case+'/'+name})
         pdf=PdfReader(base/'output'/f'{case}.pdf')
         for i,page in enumerate(pdf.pages):
             actual=''.join(page.extract_text().split())
@@ -112,6 +130,11 @@ def audit(root=ROOT, staged=False):
             for name,expected in report['sourceHashes'].items():
                 if name not in allowed or hashlib.sha256((root/name).read_bytes()).hexdigest()!=expected:
                     errors.append({'rule':'video_source_changed_without_rebuild','file':name})
+            for case in ('cells','solar-system'):
+                for page in (1,2):
+                    sample=f'examples/{case}/output/page-{page:02d}{locale}.png'
+                    if sample not in report['sourceHashes']:
+                        errors.append({'rule':'video_sample_language','variant':label,'expected':sample})
             for suffix in ['mp4','gif']:
                 payload=(directory/f'intro{locale}.{suffix}').read_bytes();record=report['outputs'][suffix]
                 if hashlib.sha256(payload).hexdigest()!=record['sha256'] or len(payload)!=record['bytes']:
@@ -154,7 +177,7 @@ def audit(root=ROOT, staged=False):
             if layout['sourceHash']!=report['sourceHash'] or not report['fullDecodeVerified']:
                 errors.append({'rule':'media_verification_record','variant':label})
         readme=(root/('README.md' if locale else 'README.zh-CN.md')).read_text(encoding='utf-8')
-        if not re.search(r'!\[[^\]]*\]\('+re.escape(f'media/intro/intro{locale}.gif')+r'\)',readme):
+        if not re.search(r'<img\b[^>]*src="'+re.escape(f'media/intro/intro{locale}.gif')+r'"[^>]*width="960"',readme):
             errors.append({'rule':'readme_animated_preview','language':locale or 'zh'})
     if staged:
         indexed=subprocess.check_output(['git','ls-files','-z'],cwd=root).decode('utf-8').split('\0')
@@ -162,7 +185,7 @@ def audit(root=ROOT, staged=False):
         for name in files:
             content=subprocess.check_output(['git','show',':'+name],cwd=root)
             if content!=(root/name).read_bytes():errors.append({'rule':'staged_bytes_differ','file':name})
-    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','preview_dimensions','six_video_source_and_output_hashes','media_size_budgets','gif_frames_duration_and_loop','native_ratio_copy_parity','animated_readme_previews']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
+    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','english_pdf_copy_and_layout','preview_dimensions','six_video_source_and_output_hashes','matching_language_sample_pages','media_size_budgets','gif_frames_duration_and_loop','native_ratio_copy_parity','full_width_animated_readme_previews']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--staged',action='store_true')

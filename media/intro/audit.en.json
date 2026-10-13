@@ -1,7 +1,7 @@
 {
   "mode": "native",
   "embeddedMasterVideo": false,
-  "sourceHash": "7c558cde7c0ada44bb4b13e649d64ccbca8f1d795a8cb032bfd54bcf86d1c3da",
+  "sourceHash": "5e1275147fff1b6e9549a7ccc0e189f32aea78fe1fe80cd7b18fa3a2ee4b0617",
   "width": 960,
   "height": 540,
   "samples": [
@@ -51,7 +51,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -59,9 +59,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -235,7 +235,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -243,9 +243,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -419,7 +419,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -427,9 +427,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -603,7 +603,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -611,9 +611,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -787,7 +787,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -795,9 +795,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -1002,7 +1002,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -1010,9 +1010,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -1217,7 +1217,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -1225,9 +1225,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -1432,7 +1432,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -1440,9 +1440,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -1647,7 +1647,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -1655,9 +1655,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -1862,7 +1862,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -1870,9 +1870,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -2101,7 +2101,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -2109,9 +2109,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -2340,7 +2340,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -2348,9 +2348,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -2579,7 +2579,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -2587,9 +2587,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,
@@ -2818,7 +2818,7 @@
         {
           "id": "sampleLanguage",
           "kind": "text",
-          "text": "Chinese sample pages",
+          "text": "English sample pages",
           "bounds": {
             "x": 718,
             "y": 497,
@@ -2826,9 +2826,9 @@
             "h": 26
           },
           "textBounds": {
-            "x": 718.741,
+            "x": 719.287,
             "y": 499.652,
-            "w": 134.1139469604492,
+            "w": 129.60100061035155,
             "h": 13.571999999999946
           },
           "out": false,

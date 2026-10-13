@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="30" viewBox="0 0 168 30" role="img" aria-label="Make PDF · MP4 · GIF">
+<title>Make PDF · MP4 · GIF</title>
+<rect width="168" height="30" rx="5" fill="#A9C8CE"/>
+<path d="M5 0H78V30H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5" fill="#29483F"/>
+<path d="M4 5h16v12H4z M10 8l5 3-5 3z M8 21h8 M12 17v4" transform="translate(5 3)" fill="none" stroke="#FCF8EE" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" font-weight="600" text-anchor="middle">
+<text x="52" y="19" fill="#FCF8EE">Make</text><text x="123.0" y="19" fill="#192F2A">PDF · MP4 · GIF</text>
+</g></svg>

@@ -1,15 +1,15 @@
 # Making Sense Together: a 16-second introduction
 [中文](README.md)
 
-The film starts with a question, shows the finished cell guide, then introduces the two independent skills. All three formats keep the complete story. Portrait and square have their own layouts in every scene, including the text, artwork, annotation paths and entrances. English is typeset separately. The original Chinese sample pages are labeled as such. There is no narration; GIFs loop.
+The film starts with a question, shows the finished cell guide, then introduces the two independent skills. All three formats keep the complete story. Portrait and square have their own layouts in every scene, including the text, artwork, annotation paths and entrances. English videos use fully English illustrated pages, including their titles, body copy and labels. Chinese videos use the Chinese edition. There is no narration; GIFs loop.
 
 | Format | English | 中文 |
 |---|---|---|
-| Landscape 16:9 · 960 × 540 | [MP4 · 430 KB](intro.en.mp4) · [GIF](intro.en.gif) · [Poster](poster.en.png) · [Report](report.en.json) | [MP4 · 403 KB](intro.mp4) · [GIF](intro.gif) · [Poster](poster.png) · [Report](report.json) |
-| Square 1:1 · 720 × 720 | [MP4 · 406 KB](square/intro.en.mp4) · [GIF](square/intro.en.gif) · [Poster](square/poster.en.png) · [Report](square/report.en.json) | [MP4 · 365 KB](square/intro.mp4) · [GIF](square/intro.gif) · [Poster](square/poster.png) · [Report](square/report.json) |
-| Portrait 9:16 · 720 × 1280 | [MP4 · 543 KB](vertical/intro.en.mp4) · [GIF](vertical/intro.en.gif) · [Poster](vertical/poster.en.png) · [Report](vertical/report.en.json) | [MP4 · 519 KB](vertical/intro.mp4) · [GIF](vertical/intro.gif) · [Poster](vertical/poster.png) · [Report](vertical/report.json) |
+| Landscape 16:9 · 960 × 540 | [MP4 · 446 KB](intro.en.mp4) · [GIF](intro.en.gif) · [Poster](poster.en.png) · [Report](report.en.json) | [MP4 · 403 KB](intro.mp4) · [GIF](intro.gif) · [Poster](poster.png) · [Report](report.json) |
+| Square 1:1 · 720 × 720 | [MP4 · 416 KB](square/intro.en.mp4) · [GIF](square/intro.en.gif) · [Poster](square/poster.en.png) · [Report](square/report.en.json) | [MP4 · 365 KB](square/intro.mp4) · [GIF](square/intro.gif) · [Poster](square/poster.png) · [Report](square/report.json) |
+| Portrait 9:16 · 720 × 1280 | [MP4 · 557 KB](vertical/intro.en.mp4) · [GIF](vertical/intro.en.gif) · [Poster](vertical/poster.en.png) · [Report](vertical/report.en.json) | [MP4 · 519 KB](vertical/intro.mp4) · [GIF](vertical/intro.gif) · [Poster](vertical/poster.png) · [Report](vertical/report.json) |
 
-Each README embeds a looping GIF in its own language: about 397 KB for Chinese and 415 KB for English. Click the animation to open the MP4. GitHub respects the reader's animated-image autoplay setting. Static covers and full-size PNG posters are also included.
+Each README embeds an 800 × 450 looping GIF across the main reading area. Click the animation to open the MP4. GitHub respects the reader's animated-image autoplay setting. Static covers and full-size PNG posters are also included.
 
 ## Story and source
 
@@ -30,6 +30,8 @@ git -C .build/tools/eric-intro-motion-skill checkout 6c761d6e4a6e0ed358178b5d2f1
 npm ci --ignore-scripts --prefix .build/tools/eric-intro-motion-skill/skills/eric-intro-motion-skill
 ```
 
+Finished sample pages are included. If you edit the English copy, rebuild them first with `python scripts/build_english_examples.py` after installing the project's Python requirements. This preserves the original artwork and typesets the titles, body copy and labels from each example's `content.en.json`.
+
 Choose `wide`, `square` or `vertical`, and `en` or `zh`. For example:
 
 ```sh
@@ -45,7 +47,7 @@ Frames are cached in `.build/intro-frame-cache/`. The key covers storyboards, co
 
 ## Exports and checks
 
-All MP4s are 24 fps and 384 frames, with H.264 / yuv420p, silent AAC and faststart. CRF 27 varies the bitrate with image complexity. GIFs have 100 frames at 6.25 fps and 48 colors: landscape is 480 × 270, square is 400 × 400, and portrait is 360 × 640. Every file runs for 16 seconds.
+All MP4s are 24 fps and 384 frames, with H.264 / yuv420p, silent AAC and faststart. CRF 27 varies the bitrate with image complexity. GIFs have 100 frames at 6.25 fps and 48 colors: landscape is 800 × 450, square is 400 × 400, and portrait is 360 × 640. Every file runs for 16 seconds.
 
 The build checks text bounds, overlap and layer overflow on every frame, plus missing glyphs, dimensions, frame counts and size budgets, then fully decodes both video formats. Each directory's `audit.json` and `audit.en.json` records text and independent artwork bounds in all three scenes. Compare the formats with:
 

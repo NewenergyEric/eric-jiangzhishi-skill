@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "language": "en",
   "ratio": "9:16",
   "engine": {
@@ -38,25 +38,25 @@
   "rasterHashes": {
     "examples/cells/art/animal-cell.png": "ea30e5a8da0253f245e3c85b3a18548b3d3fdb86ac9547e8fa136d376ed61f0a",
     "examples/cells/art/icon-microscope.png": "4991c25119696ca14eb218293f5fcfdc711c084cf37a8ef7bfd4b322ca0a49fb",
-    "examples/cells/output/page-01.png": "72b969d921946f453dc8b1d6dd691ba769e6b3c1878a2076b219b6fdec5301df",
-    "examples/cells/output/page-02.png": "ec178ae25e0eec4af5ac3e0a749765dcb8c4b0015fb463e64383089d5013d508",
-    "examples/solar-system/output/page-01.png": "a331a00b9055366d28b342cfacd276201c1acc271860defeb8ef2c06dd7b2d02",
-    "examples/solar-system/output/page-02.png": "3939e557d81898c86748045936939d950a80d265286925b8e9ce3d4a4126f787"
+    "examples/cells/output/page-01.en.png": "c056aadb86596cbaf9951710e52ad866f95d15773441b1f4bdd559ff939ed1b5",
+    "examples/cells/output/page-02.en.png": "f17e3a8756a488dfb32f0b77e2cab8077f95e586ff3c36b8852b9345c8938240",
+    "examples/solar-system/output/page-01.en.png": "3af879f924dde5dfbcd29475cd27f22e52101a15c939ed9aeb53a4ec4b216086",
+    "examples/solar-system/output/page-02.en.png": "b0cdf40e74363d1c407862a4271e6747be6f8d297a611afa217f2afd14312eda"
   },
   "storyFile": "media/intro/story.en.json",
-  "storySha256": "ec4aeac848ed63641b5db152d8105bf5c0cb31e061de0bb0a916a031bd8dd681",
+  "storySha256": "07471156782fe06cefbc5018237d5c77fbcd507879b9b8a1458a1c1d20623ae8",
   "sourceHashes": {
-    "scripts/build_intro.mjs": "1ee7ac4250e52e33b510fb8fc9009330b2def0abd3490de624f5e1c6027da03a",
+    "scripts/build_intro.mjs": "f2bf4779d4083b20b92b2db252b6668f571c0a12373c2e54172d03a078bdee24",
     "scripts/intro-composition.mjs": "69d0424f8d3ac5792c7feb8484044539d9524d1bffc7bb4b79e888e5e1e058d9",
-    "media/intro/formats.json": "5da6fad1e2a23088f359bf2ed6fc03fd4ceb8bb080c40a6e9b5b7c26243ac785",
+    "media/intro/formats.json": "77c86f4538e928be81d5b5c420794dc6330e21b791f18543f5c1bec016d7109f",
     "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
     "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
-    "examples/cells/output/page-01.png": "08106a6055314e3957ef0b9ee2a19d398baa5573eee098f301f4b28282057d04",
-    "examples/cells/output/page-02.png": "77767aedf2fcd5792383a8e59d8424a7490be012b32dc80e7c0d46238e6ddf1a",
-    "examples/solar-system/output/page-01.png": "5116f0d7a42f2df2790e9262b7331400a01547889e36604ffdef885d6a9cf427",
-    "examples/solar-system/output/page-02.png": "56d148c7564078196d1be667c78b2eefd39c612e423d81f0de35b04e74c6bddf"
+    "examples/cells/output/page-01.en.png": "d264b646cf3682d612b16958fca8e0c5517d37a2047f08b379dfe288efdff89a",
+    "examples/cells/output/page-02.en.png": "08d861ce6fcbc6461dde6b2a5f70c6ac5346846fc540059fd15147c680daaafc",
+    "examples/solar-system/output/page-01.en.png": "6b27ba54cf0ec80f57f5c6591f02454e03b3e875ab143529198094dbc6ca7b6b",
+    "examples/solar-system/output/page-02.en.png": "7b5ff4706415768da0b79ef2239130d959beca7ffd937247d61e0ca39b258c5e"
   },
-  "sourceHash": "7c558cde7c0ada44bb4b13e649d64ccbca8f1d795a8cb032bfd54bcf86d1c3da",
+  "sourceHash": "5e1275147fff1b6e9549a7ccc0e189f32aea78fe1fe80cd7b18fa3a2ee4b0617",
   "format": {
     "id": "vertical",
     "ratio": "9:16",
@@ -85,9 +85,9 @@
       "frames": 384,
       "codec": "h264",
       "pixelFormat": "yuv420p",
-      "videoBitrate": 263211,
-      "bytes": 543436,
-      "sha256": "9f45726a20d54598e72847d8f511b7c798596a70929fc180c0bb0c80165c334d"
+      "videoBitrate": 270141,
+      "bytes": 557296,
+      "sha256": "410c651a76e515514f6169da4ee7f322e746c26751afaf2bfd55212e8d0cca14"
     },
     "gif": {
       "width": 360,
@@ -97,25 +97,25 @@
       "codec": "gif",
       "pixelFormat": "bgra",
       "videoBitrate": null,
-      "bytes": 627190,
-      "sha256": "d226637044ac921d27a175bd00f4a321d388523381316b7cdb052a030f3ef876"
+      "bytes": 650091,
+      "sha256": "ed767332b5e412a5b7ba964538e658e992bf6de8062c2d2ac3f46a50c60b95f7"
     }
   },
   "sampledFrames": 6,
   "sampledUniqueFrames": 6,
-  "posterSha256": "8b1f9fb3f890cb89797c94a04653e8cd35cd749c456c7d7dc280642a94f000af",
+  "posterSha256": "ff4f92b4b2c3b8b8165abc087dbdb837a16019a4ef1508949f9e86f4ccccbdbe",
   "cover": {
-    "bytes": 42393,
-    "sha256": "69d3e9fe14041ec0551a542d4c22bbe9377abffaf08accf42ec01b419f5a404a"
+    "bytes": 42681,
+    "sha256": "928b17870d0384bafe8f2d1a48f6dda2bb5d2ccc3e4ffd43b993486b48a51d14"
   },
-  "auditSha256": "66538c0e7a30d3b4b6eb152922ff6120bfb7bddf5beb63228a4dcd9544b9cc44",
+  "auditSha256": "91d017ffb22713a9c3cbc747c73e5da82fcd037798e2c39af796e07f0dca3490",
   "budgets": {
     "mp4Bytes": 1200000,
     "gifBytes": 1200000,
     "coverBytes": 100000
   },
   "cache": {
-    "visualKey": "142ced16537989232cf6d17141f8788f2139bd3df1afbfecb6f5de3f10c4f60f",
+    "visualKey": "af1113d0eeced8f167960f45a7b4db50991a04849399efc1bddc5d09428f4f8c",
     "reusedFrames": 0,
     "renderedFrames": 384,
     "encodeHit": false

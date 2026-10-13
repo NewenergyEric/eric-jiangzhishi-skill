@@ -5,11 +5,11 @@
   "width": 960,
   "height": 540,
   "fps": 24,
-  "gifWidth": 480,
+  "gifWidth": 800,
   "gifFps": 6.25,
   "budgets": {
     "mp4Bytes": 900000,
-    "gifBytes": 900000,
+    "gifBytes": 1400000,
     "coverBytes": 100000
   },
   "repositoryLabel": "NewenergyEric / eric-jiangzhishi-skill",
@@ -29,7 +29,7 @@
   },
   "language": "en",
   "projectTitle": "Making Sense Together",
-  "sampleLanguage": "Chinese sample pages",
+  "sampleLanguage": "English sample pages",
   "scenes": [
     {
       "from": 0,
@@ -52,7 +52,7 @@
         "Let images explain it"
       ],
       "artLabel": "Getting to know cells · two pages",
-      "action": "The two actual Chinese pages unfold as three steps are checked in order."
+      "action": "The two complete English pages unfold as three steps are checked in order."
     },
     {
       "from": 10,

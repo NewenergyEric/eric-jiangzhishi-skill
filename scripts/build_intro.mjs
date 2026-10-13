@@ -51,10 +51,10 @@ async function raster(relative,width){
 const art={
   cell:await raster('examples/cells/art/animal-cell.png',720),
   icon:await raster('examples/cells/art/icon-microscope.png',96),
-  cells1:await raster('examples/cells/output/page-01.png',450),
-  cells2:await raster('examples/cells/output/page-02.png',450),
-  solar1:await raster('examples/solar-system/output/page-01.png',450),
-  solar2:await raster('examples/solar-system/output/page-02.png',450)
+  cells1:await raster('examples/cells/output/page-01'+suffix+'.png',450),
+  cells2:await raster('examples/cells/output/page-02'+suffix+'.png',450),
+  solar1:await raster('examples/solar-system/output/page-01'+suffix+'.png',450),
+  solar2:await raster('examples/solar-system/output/page-02'+suffix+'.png',450)
 };
 const storySha256=hash(await readFile(path.join(media,storyName)));
 const sourceHash=hash(JSON.stringify({storySha256,sourceHashes,runtimeHashes,rasterHashes}));

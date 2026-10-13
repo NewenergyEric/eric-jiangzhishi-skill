@@ -1,30 +1,38 @@
-# Making Sense Together
-**English** · [简体中文](README.zh-CN.md)
+<h1 align="center">Making Sense Together</h1>
 
-I'm a dad trying to explain the world to my four-year-old daughter. These two AI skills grew out of a search for picture books that felt right for us. They help me turn a question and a few sources into an illustrated guide we can print or read together on a tablet.
+<p align="center"><strong>A good “why?” is worth exploring together.</strong><br>Two AI skills for turning your sources into clear, inviting illustrated guides.</p>
 
-[Download the skills](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [See the examples](#two-complete-examples) · [Get started](docs/getting-started.en.md)
+<p align="center">
+  <a href="LICENSE"><img src="media/badges/license.svg" alt="License: MIT" height="30"></a>
+  <a href="#two-skills-start-with-what-you-have"><img src="media/badges/skills.svg" alt="Two independent skills" height="30"></a>
+  <a href="README.zh-CN.md"><img src="media/badges/languages.svg" alt="English and Chinese editions" height="30"></a>
+  <a href="#two-complete-examples"><img src="media/badges/formats.svg" alt="PDF, MP4 and GIF" height="30"></a>
+</p>
 
-[![A 16-second introduction showing the actual cell and solar-system guides](media/intro/intro.en.gif)](media/intro/intro.en.mp4)
+<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> · <a href="https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest">Download the skills</a> · <a href="#two-complete-examples">Explore the guides</a> · <a href="docs/getting-started.en.md">Get started</a></p>
 
-A 16-second looping preview, about 415 KB, without narration. Click the animation to open the MP4.
+<p align="center"><a href="media/intro/intro.en.mp4"><img src="media/intro/intro.en.gif" alt="A 16-second introduction with fully English cell and solar-system pages" width="960"></a></p>
+
+<p align="center"><sub>16-second loop · English pages throughout · Click for the MP4</sub></p>
 
 <details>
 <summary>Landscape, square and portrait videos in English and Chinese</summary>
 
-All MP4s are 365–543 KB. Each format keeps the complete story, with its own text and illustration layout.
+All MP4s are 365–557 KB. Each format keeps the complete story, with its own text and illustration layout.
 
 | Format | English | 中文 |
 |---|---|---|
-| Landscape 16:9 · 960 × 540 | [MP4 · 430 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) |
-| Square 1:1 · 720 × 720 | [MP4 · 406 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) |
-| Portrait 9:16 · 720 × 1280 | [MP4 · 543 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) |
+| Landscape 16:9 · 960 × 540 | [MP4 · 446 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) |
+| Square 1:1 · 720 × 720 | [MP4 · 416 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) |
+| Portrait 9:16 · 720 × 1280 | [MP4 · 557 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) |
 
 [Storyboard, posters and source](media/intro/README.en.md).
 
 </details>
 
 ## A small experiment from a dad
+
+I'm a dad trying to explain the world to my four-year-old daughter. These two AI skills grew out of a search for picture books that felt right for us. They help me turn a question and a few sources into an illustrated guide we can print or read together on a tablet.
 
 When I looked for picture books to help me explain things, I kept coming up against the same gap. Some leaned so heavily on cartoon characters and little stories that the subject slipped into the background. Others felt formal and distant before we'd even started reading.
 
@@ -67,10 +75,10 @@ The full package also includes a copy helper: `python scripts/install_skill.py k
 
 | Topic | What the two pages explain | Read and explore |
 |---|---|---|
-| The eight planets | Start on Earth, visit the four rocky planets, then the four outer giants | [English reading version](examples/solar-system/read.en.html) · [Original Chinese PDF](examples/solar-system/output/solar-system.pdf) · [Production notes in Chinese](examples/solar-system/process.md) |
-| Getting to know cells | Look inside a typical animal cell, then compare a leaf cell and a bacterium | [English reading version](examples/cells/read.en.html) · [Original Chinese PDF](examples/cells/output/cells.pdf) · [Production notes in Chinese](examples/cells/process.md) |
+| The eight planets | Start on Earth, visit the four rocky planets, then the four outer giants | [English PDF](examples/solar-system/output/solar-system.en.pdf) · [Reading version](examples/solar-system/read.en.html) · [Chinese PDF](examples/solar-system/output/solar-system.pdf) |
+| Getting to know cells | Look inside a typical animal cell, then compare a leaf cell and a bacterium | [English PDF](examples/cells/output/cells.en.pdf) · [Reading version](examples/cells/read.en.html) · [Chinese PDF](examples/cells/output/cells.pdf) |
 
-Each example is two pages with no extra cover. An image model made the illustrations, handwritten titles and icons; body copy and precise labels are typeset separately. The English reading pages translate the complete text. The existing PDFs and text inside their artwork remain in Chinese, as shown in the video.
+Each example has two complete illustrated pages in each language, ready to print or read on a tablet. The English PDFs, reading pages and videos all use English titles, body copy and labels. Both editions reuse the original illustrations and icons; text is typeset separately. Chinese titles use generated lettering, while English titles use the open Caveat handwriting font.
 
 ## Make it your own
 
@@ -79,11 +87,12 @@ Edit `content.json` or `content.en.json` in an example folder. Chosen artwork is
 ```sh
 python -m pip install -r requirements.txt
 python scripts/build_example.py --case cells
+python scripts/build_english_examples.py
 python scripts/build_html.py
 python scripts/verify_project.py
 ```
 
-The PDF command rebuilds the Chinese illustrated edition. The HTML command rebuilds both reading languages. Handwritten titles are image assets; changing them means generating a new image or using typeset text.
+The first PDF command rebuilds the Chinese cell guide. The English command rebuilds both English guides; the HTML command rebuilds both reading languages. Chinese handwritten titles are image assets. English titles remain editable text.
 
 [Rebuild the videos](media/intro/README.en.md) · [What was checked](docs/verification.en.md) · [Publication file list](publish-files.json)
 

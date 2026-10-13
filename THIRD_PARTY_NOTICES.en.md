@@ -5,7 +5,11 @@ The skill methods, templates, code, project copy, translations and layout source
 
 ## Font
 
-`vendor/fonts/NotoSansSC.ttf` is the original Noto Sans SC file distributed by Google Fonts, under the SIL Open Font License 1.1. See the unchanged attribution in [OFL.txt](vendor/fonts/OFL.txt) and the [upstream font](https://github.com/google/fonts/tree/main/ofl/notosanssc). PDF builds make temporary weight instances and embed subsets. Handwritten titles are PNG images, not a new font.
+`vendor/fonts/NotoSansSC.ttf` is the original Noto Sans SC file distributed by Google Fonts, under the SIL Open Font License 1.1. See the unchanged attribution in [OFL.txt](vendor/fonts/OFL.txt) and the [upstream font](https://github.com/google/fonts/tree/main/ofl/notosanssc). PDF builds make temporary weight instances and embed subsets. Chinese handwritten titles are PNG images, not a new font.
+
+English illustrated titles use `vendor/fonts/Caveat.ttf`, distributed by [Google Fonts](https://github.com/google/fonts/tree/main/ofl/caveat), with the original [Caveat OFL notice](vendor/fonts/Caveat-OFL.txt). Copyright belongs to the Caveat Project Authors. The build creates a temporary 700-weight instance and embeds a subset. The original font file is included unchanged.
+
+README badge artwork and its SVG generation script were made for this project and use MIT. They make no host-compatibility or performance claims.
 
 ## Factual sources
 

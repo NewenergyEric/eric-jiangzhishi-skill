@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="30" viewBox="0 0 168 30" role="img" aria-label="Skills 2 independent">
+<title>Skills 2 independent</title>
+<rect width="168" height="30" rx="5" fill="#E4C36D"/>
+<path d="M5 0H78V30H5a5 5 0 0 1-5-5V5a5 5 0 0 1 5-5" fill="#29483F"/>
+<path d="M4 6q5-2 8 0q3-2 8 0v13q-5-2-8 0q-3-2-8 0z M12 6v13" transform="translate(5 3)" fill="none" stroke="#FCF8EE" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" font-weight="600" text-anchor="middle">
+<text x="52" y="19" fill="#FCF8EE">Skills</text><text x="123.0" y="19" fill="#192F2A">2 independent</text>
+</g></svg>

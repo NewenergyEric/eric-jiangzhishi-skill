@@ -5,11 +5,11 @@
   "width": 960,
   "height": 540,
   "fps": 24,
-  "gifWidth": 480,
+  "gifWidth": 800,
   "gifFps": 6.25,
   "budgets": {
     "mp4Bytes": 900000,
-    "gifBytes": 900000,
+    "gifBytes": 1400000,
     "coverBytes": 100000
   },
   "repositoryLabel": "NewenergyEric / eric-jiangzhishi-skill",

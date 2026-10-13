@@ -11,13 +11,13 @@
       "ratio": "16:9",
       "width": 960,
       "height": 540,
-      "gifWidth": 480,
+      "gifWidth": 800,
       "gifFps": 6.25,
       "gifColors": 48,
       "coverWidth": 640,
       "budgets": {
         "mp4Bytes": 900000,
-        "gifBytes": 900000,
+        "gifBytes": 1400000,
         "coverBytes": 100000
       }
     },

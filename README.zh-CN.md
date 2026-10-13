@@ -1,30 +1,38 @@
-# 一起读懂
-[English](README.md) · **简体中文**
+<h1 align="center">一起读懂</h1>
 
-我是一个四岁女孩的爸爸。这两个 AI Skill，起于我想陪她认识世界，却总找不到风格合适的绘本。它们帮我把一个问题和一些资料，做成可以打印、也可以在平板上一起读的知识图文。
+<p align="center"><strong>一个「为什么」，值得一起弄明白。</strong><br>两个 AI Skill，把手上的资料做成亲切、清楚的知识图文。</p>
 
-[下载 Skill](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [看案例](#两份完整案例) · [使用说明](docs/getting-started.md)
+<p align="center">
+  <a href="LICENSE"><img src="media/badges/license.svg" alt="MIT 开源许可" height="30"></a>
+  <a href="#两个-skill按手上的内容来选"><img src="media/badges/skills.svg" alt="两个独立 Skill" height="30"></a>
+  <a href="README.md"><img src="media/badges/languages.svg" alt="中英文完整版本" height="30"></a>
+  <a href="#两份完整案例"><img src="media/badges/formats.svg" alt="PDF、MP4 和 GIF" height="30"></a>
+</p>
 
-[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/intro.gif)](media/intro/intro.mp4)
+<p align="center"><a href="README.md">English</a> · <strong>简体中文</strong> · <a href="https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest">下载 Skill</a> · <a href="#两份完整案例">看看成稿</a> · <a href="docs/getting-started.md">从这里开始</a></p>
 
-16 秒循环预览，约 397 KB，无旁白。点击动图可打开 MP4。
+<p align="center"><a href="media/intro/intro.mp4"><img src="media/intro/intro.gif" alt="16 秒介绍：展示太阳系和细胞的中文图文成稿" width="960"></a></p>
+
+<p align="center"><sub>16 秒循环预览 · 完整中文样页 · 点击查看 MP4</sub></p>
 
 <details>
 <summary>查看横屏、方版和竖版的中英文视频</summary>
 
-各版 MP4 为 365–543 KB。三种比例保留完整内容，文字与插画分别排版。
+各版 MP4 为 365–557 KB。三种比例保留完整内容，文字与插画分别排版。
 
 | 比例与尺寸 | 中文 | English |
 |---|---|---|
-| 横屏 16:9 · 960 × 540 | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) | [MP4 · 430 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) |
-| 方版 1:1 · 720 × 720 | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) | [MP4 · 406 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) |
-| 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) | [MP4 · 543 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) |
+| 横屏 16:9 · 960 × 540 | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) | [MP4 · 446 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) |
+| 方版 1:1 · 720 × 720 | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) | [MP4 · 416 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) |
+| 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) | [MP4 · 557 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) |
 
 [分镜、海报与源码](media/intro/README.md)。
 
 </details>
 
 ## 一个爸爸的小尝试
+
+我是一个四岁女孩的爸爸。这两个 AI Skill，起于我想陪她认识世界，却总找不到风格合适的绘本。它们帮我把一个问题和一些资料，做成可以打印、也可以在平板上一起读的知识图文。
 
 给女儿找绘本时，我常常觉得差了一点。有的太过卡通，角色和情节抢走了注意力，知识本身反而退到了后面；有的又太正式，还没开始读，就让人有了距离感。
 
@@ -70,7 +78,9 @@
 | 太阳系八大行星 | 从地球出发，认识内侧四颗行星和外侧四颗巨行星 | [中文 PDF](examples/solar-system/output/solar-system.pdf) · [中文阅读版](examples/solar-system/read.html) · [English text](examples/solar-system/read.en.html) · [制作过程](examples/solar-system/process.md) |
 | 认识细胞 | 看典型动物细胞的内部，再比较叶片细胞和细菌 | [中文 PDF](examples/cells/output/cells.pdf) · [中文阅读版](examples/cells/read.html) · [English text](examples/cells/read.en.html) · [制作过程](examples/cells/process.md) |
 
-每例都是两页，没有额外封面。插画、手写标题和图标由图像模型生成，正文与结构标签单独排版。手写标题是图片素材，改字需要重新生成或换成排版字体。英文阅读版翻译了完整正文；现有 PDF 与插画内的文字保留中文。
+每个案例都有完整的中英文两页图文，可以打印，也可以在平板上阅读。英文版的标题、正文和标注全部采用英文，视频也使用对应语言的样页。两版沿用同一套插画与图标；中文标题使用生成字图，英文标题采用开放的 Caveat 手写字体。
+
+[太阳系英文 PDF](examples/solar-system/output/solar-system.en.pdf) · [细胞英文 PDF](examples/cells/output/cells.en.pdf)
 
 ## 自己修改案例
 
@@ -79,6 +89,7 @@
 ```sh
 python -m pip install -r requirements.txt
 python scripts/build_example.py --case cells
+python scripts/build_english_examples.py
 python scripts/build_html.py
 python scripts/verify_project.py
 ```

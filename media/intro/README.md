@@ -1,15 +1,15 @@
 # 一起读懂：16 秒介绍
 [English](README.en.md)
 
-从一个问题开始，展示两页细胞成稿，再介绍「内容梳理」与「插画排版」两个独立 Skill。三种比例都保留这三幕；竖版与方版逐幕重新安排了文字、插画、标注线和动作。英文独立断行，所展示的中文案例有明确标注。视频无旁白，GIF 循环播放。
+从一个问题开始，展示两页细胞成稿，再介绍「内容梳理」与「插画排版」两个独立 Skill。三种比例都保留这三幕；竖版与方版逐幕重新安排了文字、插画、标注线和动作。英文视频使用完整英文样页，包括标题、正文与标注；中文视频使用中文版本。视频无旁白，GIF 循环播放。
 
 | 比例与尺寸 | 中文 | English |
 |---|---|---|
-| 横屏 16:9 · 960 × 540 | [MP4 · 403 KB](intro.mp4) · [GIF](intro.gif) · [海报](poster.png) · [报告](report.json) | [MP4 · 430 KB](intro.en.mp4) · [GIF](intro.en.gif) · [海报](poster.en.png) · [报告](report.en.json) |
-| 方版 1:1 · 720 × 720 | [MP4 · 365 KB](square/intro.mp4) · [GIF](square/intro.gif) · [海报](square/poster.png) · [报告](square/report.json) | [MP4 · 406 KB](square/intro.en.mp4) · [GIF](square/intro.en.gif) · [海报](square/poster.en.png) · [报告](square/report.en.json) |
-| 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](vertical/intro.mp4) · [GIF](vertical/intro.gif) · [海报](vertical/poster.png) · [报告](vertical/report.json) | [MP4 · 543 KB](vertical/intro.en.mp4) · [GIF](vertical/intro.en.gif) · [海报](vertical/poster.en.png) · [报告](vertical/report.en.json) |
+| 横屏 16:9 · 960 × 540 | [MP4 · 403 KB](intro.mp4) · [GIF](intro.gif) · [海报](poster.png) · [报告](report.json) | [MP4 · 446 KB](intro.en.mp4) · [GIF](intro.en.gif) · [海报](poster.en.png) · [报告](report.en.json) |
+| 方版 1:1 · 720 × 720 | [MP4 · 365 KB](square/intro.mp4) · [GIF](square/intro.gif) · [海报](square/poster.png) · [报告](square/report.json) | [MP4 · 416 KB](square/intro.en.mp4) · [GIF](square/intro.en.gif) · [海报](square/poster.en.png) · [报告](square/report.en.json) |
+| 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](vertical/intro.mp4) · [GIF](vertical/intro.gif) · [海报](vertical/poster.png) · [报告](vertical/report.json) | [MP4 · 557 KB](vertical/intro.en.mp4) · [GIF](vertical/intro.en.gif) · [海报](vertical/poster.en.png) · [报告](vertical/report.en.json) |
 
-中英文首页直接展示对应语言的循环 GIF，分别约 397 KB 和 415 KB；点击动图可打开 MP4。GitHub 会遵循读者的动图自动播放设置。静态封面与完整 PNG 海报也随包提供。
+中英文首页直接展示对应语言的 800 × 450 循环 GIF，铺满主要阅读区域；点击动图可打开 MP4。GitHub 会遵循读者的动图自动播放设置。静态封面与完整 PNG 海报也随包提供。
 
 ## 内容与源码
 
@@ -30,6 +30,8 @@ git -C .build/tools/eric-intro-motion-skill checkout 6c761d6e4a6e0ed358178b5d2f1
 npm ci --ignore-scripts --prefix .build/tools/eric-intro-motion-skill/skills/eric-intro-motion-skill
 ```
 
+成品样页已随包提供。如果修改英文正文，先安装本项目的 Python 依赖，再运行 `python scripts/build_english_examples.py`。脚本沿用原插画，从各例的 `content.en.json` 排出英文标题、正文与标注。
+
 选择比例 `wide`、`square` 或 `vertical`，以及语言 `zh` 或 `en`。例如：
 
 ```sh
@@ -45,7 +47,7 @@ node scripts/build_intro.mjs --ratio vertical --lang en
 
 ## 输出与检查
 
-所有 MP4 都是 24 fps、384 帧、H.264 / yuv420p、静音 AAC 和 faststart；使用 CRF 27，按画面复杂度分配码率。GIF 为 6.25 fps、100 帧、48 色，横屏 / 方版 / 竖版分别为 480 × 270、400 × 400、360 × 640。每个文件都是完整 16 秒。
+所有 MP4 都是 24 fps、384 帧、H.264 / yuv420p、静音 AAC 和 faststart；使用 CRF 27，按画面复杂度分配码率。GIF 为 6.25 fps、100 帧、48 色，横屏 / 方版 / 竖版分别为 800 × 450、400 × 400、360 × 640。每个文件都是完整 16 秒。
 
 构建逐帧检查实际字形边界、文字重叠、图层越界，以及缺字、尺寸、帧数和体积，并完整解码 MP4 与 GIF。每个目录的 `audit.json` 和 `audit.en.json` 记录三幕的文字与独立图层边界，可对照三种比例：
 

@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "language": "zh-CN",
   "ratio": "1:1",
   "engine": {
@@ -44,11 +44,11 @@
     "examples/solar-system/output/page-02.png": "3939e557d81898c86748045936939d950a80d265286925b8e9ce3d4a4126f787"
   },
   "storyFile": "media/intro/story.json",
-  "storySha256": "400758cece036cf50d7e305169af5522bcc5a5f977564ce1ea6f39d96ecb0403",
+  "storySha256": "cfcb5ca96111e2d34d01d2881ebfe744adfa10bf54fcc10635d4fc49724b7f39",
   "sourceHashes": {
-    "scripts/build_intro.mjs": "1ee7ac4250e52e33b510fb8fc9009330b2def0abd3490de624f5e1c6027da03a",
+    "scripts/build_intro.mjs": "f2bf4779d4083b20b92b2db252b6668f571c0a12373c2e54172d03a078bdee24",
     "scripts/intro-composition.mjs": "69d0424f8d3ac5792c7feb8484044539d9524d1bffc7bb4b79e888e5e1e058d9",
-    "media/intro/formats.json": "5da6fad1e2a23088f359bf2ed6fc03fd4ceb8bb080c40a6e9b5b7c26243ac785",
+    "media/intro/formats.json": "77c86f4538e928be81d5b5c420794dc6330e21b791f18543f5c1bec016d7109f",
     "examples/cells/art/animal-cell.png": "048b2277371dca3e3dedf8812f563a2d5f2fcd4553739d9e7702e6c676b1f213",
     "examples/cells/art/icon-microscope.png": "767a75a03e5a20bf71770c19d8171c445f69093ee6e62ef1826893b99969acb3",
     "examples/cells/output/page-01.png": "08106a6055314e3957ef0b9ee2a19d398baa5573eee098f301f4b28282057d04",
@@ -56,7 +56,7 @@
     "examples/solar-system/output/page-01.png": "5116f0d7a42f2df2790e9262b7331400a01547889e36604ffdef885d6a9cf427",
     "examples/solar-system/output/page-02.png": "56d148c7564078196d1be667c78b2eefd39c612e423d81f0de35b04e74c6bddf"
   },
-  "sourceHash": "05534b18538e11676d14ac0a590007c9db846949c1fa2a56e417ece5db2fcf72",
+  "sourceHash": "198538023e80b74394793b22357809c8fcf0185d8e6130f92ce0850a977d8346",
   "format": {
     "id": "square",
     "ratio": "1:1",
@@ -108,14 +108,14 @@
     "bytes": 38787,
     "sha256": "b1c470be10acfd52a7c0b0a4aca0e3df3a4eb1431add01e5d216cd1c240e125f"
   },
-  "auditSha256": "d24fc755de4179df3221474b312e323076c3dc43f0796a4206bb03e72186bec6",
+  "auditSha256": "5d67069cda5e9192c89f457d54e13761e3efbf34b06365c066970348694a80a4",
   "budgets": {
     "mp4Bytes": 1000000,
     "gifBytes": 1000000,
     "coverBytes": 100000
   },
   "cache": {
-    "visualKey": "9e786fcfe723bc8e92acc2efe437c51d8932f2bfba90831eaa57aae4c6d80c3b",
+    "visualKey": "f0e79ac5996a5abecbbf90bff9429bb33c2e52f31c2ee2375f1d24197020ae2c",
     "reusedFrames": 0,
     "renderedFrames": 384,
     "encodeHit": false

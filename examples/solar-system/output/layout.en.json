@@ -1,0 +1,782 @@
+{
+  "language": "en",
+  "pages": 2,
+  "pageSize": [
+    720,
+    960
+  ],
+  "text": [
+    {
+      "page": 1,
+      "id": "eyebrow",
+      "text": "The eight planets / Starting close to home",
+      "font": "Body",
+      "size": 12,
+      "bounds": [
+        89.372,
+        36.448,
+        321.54799999999994,
+        49.0
+      ]
+    },
+    {
+      "page": 1,
+      "id": "title",
+      "text": "Start beneath your feet.",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        51.632,
+        96.112,
+        417.88800000000003,
+        136.46
+      ]
+    },
+    {
+      "page": 1,
+      "id": "title",
+      "text": "Meet the eight planets.",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        47.584,
+        141.948,
+        396.944,
+        182.296
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "Imagine lifting your gaze beyond the window, then higher still. Earth, the ground",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        49.616,
+        210.056,
+        644.3679999999997,
+        227.0
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "beneath our feet, is the third planet from the Sun. The Sun is a star that produces its",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        49.472,
+        233.056,
+        669.8399999999998,
+        249.664
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "own light, with eight planets orbiting it. Our solar system is just a small part of the",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        48.832,
+        256.056,
+        653.3919999999999,
+        273.0
+      ]
+    },
+    {
+      "page": 1,
+      "id": "lead",
+      "text": "Milky Way.",
+      "font": "Body",
+      "size": 16,
+      "bounds": [
+        49.616,
+        279.264,
+        125.36,
+        295.744
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.1 · Mercury",
+      "text": "1 · Mercury",
+      "font": "Heading",
+      "size": 14,
+      "bounds": [
+        100.667,
+        605.626,
+        181.041,
+        619.136
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.2 · Venus",
+      "text": "2 · Venus",
+      "font": "Heading",
+      "size": 14,
+      "bounds": [
+        260.771,
+        605.444,
+        327.63500000000005,
+        616.196
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.3 · Earth",
+      "text": "3 · Earth",
+      "font": "Heading",
+      "size": 14,
+      "bounds": [
+        439.67499999999995,
+        604.828,
+        502.14300000000003,
+        616.196
+      ]
+    },
+    {
+      "page": 1,
+      "id": "label.4 · Mars",
+      "text": "4 · Mars",
+      "font": "Heading",
+      "size": 14,
+      "bounds": [
+        609.656,
+        605.626,
+        668.5539999999999,
+        616.196
+      ]
+    },
+    {
+      "page": 1,
+      "id": "sun",
+      "text": "Sun (a star)",
+      "font": "Body",
+      "size": 11,
+      "bounds": [
+        48.528,
+        345.002,
+        105.244,
+        356.156
+      ]
+    },
+    {
+      "page": 1,
+      "id": "order",
+      "text": "Moving outward from the Sun",
+      "font": "Body",
+      "size": 11,
+      "bounds": [
+        49.111,
+        642.101,
+        199.34899999999996,
+        653.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "First, look toward the Sun. Closest to it is little Mercury, its surface marked by many",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        675.865,
+        626.9549999999998,
+        691.51
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "impact craters. Next comes Venus, wrapped in a thick atmosphere. Although it is farther",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.17,
+        697.865,
+        659.2950000000001,
+        713.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "from the Sun, its powerful greenhouse effect makes it hotter than Mercury. It is the",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.495,
+        719.865,
+        621.3149999999998,
+        735.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.0",
+      "text": "hottest of the eight planets.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        741.865,
+        239.83500000000004,
+        757.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "Return to ocean-covered Earth, then travel outward to Mars. Its red color comes from",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        775.865,
+        639.285,
+        790.85
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "oxidized iron in the soil, much like familiar rust. These four planets have solid, rocky",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        797.865,
+        630.42,
+        813.51
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "surfaces, so they are grouped as terrestrial planets. Beyond them, the worlds begin to",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.48,
+        819.865,
+        642.5849999999997,
+        835.75
+      ]
+    },
+    {
+      "page": 1,
+      "id": "paragraph.1",
+      "text": "look very different.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.38,
+        841.865,
+        178.695,
+        857.51
+      ]
+    },
+    {
+      "page": 1,
+      "id": "note",
+      "text": "An artistic illustration. Sizes, distances and curves are not to scale and do not show current positions.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.038,
+        912.938,
+        493.15099999999995,
+        922.6755
+      ]
+    },
+    {
+      "page": 1,
+      "id": "number",
+      "text": "01",
+      "font": "Body",
+      "size": 11,
+      "bounds": [
+        653.9449999999999,
+        913.794,
+        664.89,
+        922.143
+      ]
+    },
+    {
+      "page": 1,
+      "id": "sources",
+      "text": "Sources: NASA; IAU. Full references online.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.456,
+        942.8145,
+        234.35200000000003,
+        952.305
+      ]
+    },
+    {
+      "page": 2,
+      "id": "eyebrow",
+      "text": "The eight planets / Farther out",
+      "font": "Body",
+      "size": 12,
+      "bounds": [
+        89.372,
+        36.448,
+        258.55999999999995,
+        49.0
+      ]
+    },
+    {
+      "page": 2,
+      "id": "title",
+      "text": "Beyond the asteroid belt,",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        49.168,
+        97.21199999999999,
+        421.3640000000001,
+        136.46
+      ]
+    },
+    {
+      "page": 2,
+      "id": "title",
+      "text": "four giant worlds await.",
+      "font": "Hand",
+      "size": 44,
+      "bounds": [
+        49.212,
+        142.476,
+        408.076,
+        181.284
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "Cross the main asteroid belt between Mars",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.841,
+        220.958,
+        334.67950000000013,
+        232.6885
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "and Jupiter, and Jupiter is the first planet",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.8555,
+        241.7695,
+        327.154,
+        256.8205
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "you meet. It is the largest planet in our",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.1885,
+        262.958,
+        306.9699999999999,
+        278.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "solar system. Its stripes are bands of",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.464,
+        283.7695,
+        292.7455,
+        298.893
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "swirling clouds, and the Great Red Spot is",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.464,
+        304.958,
+        326.73349999999994,
+        320.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.0",
+      "text": "an enormous storm.",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.8555,
+        327.408,
+        183.662,
+        337.6885
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "Next is Saturn. Its striking rings are not a",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        49.4645,
+        360.958,
+        318.2654999999999,
+        376.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "solid disk but a collection of countless",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.464,
+        381.7695,
+        304.2295000000001,
+        393.6885
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "pieces of ice and rock. Jupiter and Saturn",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        49.334,
+        402.7695,
+        325.70400000000006,
+        417.8205
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "are made mainly of hydrogen and helium",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.8555,
+        423.7695,
+        324.2685,
+        439.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "and are called gas giants. Neither has a",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.8555,
+        444.958,
+        309.14499999999987,
+        460.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.1",
+      "text": "solid surface to stand on like Earth's.",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.464,
+        465.7695,
+        294.34049999999996,
+        477.6885
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "Farther out, Uranus rotates almost on its",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        49.4645,
+        500.958,
+        321.383,
+        515.255
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "side. Neptune travels around the Sun",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.464,
+        521.958,
+        297.05199999999996,
+        536.8205
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "beyond it, taking about 165 Earth years to",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        49.334,
+        542.958,
+        328.61850000000004,
+        558.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "complete an orbit. Both are ice giants, but",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.754,
+        563.958,
+        331.15600000000006,
+        579.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "they are not giant frozen snowballs: their",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.3915,
+        584.7695,
+        323.964,
+        600.125
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "interiors contain materials such as water,",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        49.131,
+        605.958,
+        325.50100000000003,
+        620.255
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "ammonia and methane under intense heat",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.8555,
+        626.958,
+        336.3615000000001,
+        638.6885
+      ]
+    },
+    {
+      "page": 2,
+      "id": "paragraph.2",
+      "text": "and pressure.",
+      "font": "Body",
+      "size": 14.5,
+      "bounds": [
+        48.8555,
+        647.958,
+        138.9005,
+        662.8205
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.5 · Jupiter",
+      "text": "5 · Jupiter",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        394.5045,
+        294.457,
+        464.4704999999999,
+        307.795
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.6 · Saturn",
+      "text": "6 · Saturn",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        604.2139999999999,
+        465.198,
+        669.89,
+        475.182
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.7 · Uranus",
+      "text": "7 · Uranus",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        377.80999999999995,
+        571.367,
+        446.76199999999994,
+        581.182
+      ]
+    },
+    {
+      "page": 2,
+      "id": "label.8 · Neptune",
+      "text": "8 · Neptune",
+      "font": "Heading",
+      "size": 13,
+      "bounds": [
+        557.299,
+        721.211,
+        635.1169999999998,
+        733.795
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "At Neptune, we have met all eight planets, but we have not reached the edge of the solar",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.06,
+        780.865,
+        663.5699999999998,
+        796.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "system. Pluto is still part of this family; under the International Astronomical Union's",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.48,
+        802.865,
+        635.625,
+        818.51
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "classification, it is a dwarf planet. The next time you see these names, start by finding",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        48.78,
+        824.865,
+        639.9899999999999,
+        840.75
+      ]
+    },
+    {
+      "page": 2,
+      "id": "closing",
+      "text": "Earth, then follow the order outward from the Sun to place the other seven planets.",
+      "font": "Body",
+      "size": 15,
+      "bounds": [
+        49.515,
+        846.865,
+        627.2699999999998,
+        862.435
+      ]
+    },
+    {
+      "page": 2,
+      "id": "note",
+      "text": "An artistic illustration. Sizes, distances, colors and curves are simplified; not all moons and rings are shown.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.038,
+        912.8145,
+        520.5774999999999,
+        922.875
+      ]
+    },
+    {
+      "page": 2,
+      "id": "number",
+      "text": "02",
+      "font": "Body",
+      "size": 11,
+      "bounds": [
+        653.9449999999999,
+        913.794,
+        665.055,
+        922.143
+      ]
+    },
+    {
+      "page": 2,
+      "id": "sources",
+      "text": "Sources: NASA; IAU. Full references online.",
+      "font": "Body",
+      "size": 9.5,
+      "bounds": [
+        48.456,
+        942.8145,
+        234.35200000000003,
+        952.305
+      ]
+    }
+  ],
+  "textOverlaps": [],
+  "completeCopyVerified": true,
+  "chineseTextFound": false,
+  "sourceHashes": {
+    "scripts/build_english_examples.py": "3bbb8420f9e4db736ac38ab3dea90dee99f03bf542858a87779e34aef8174142",
+    "scripts/build_example.py": "6126f5b79b543afe4e57b3716459796c943980e5f2c64eef00cf2cc7992d29ed",
+    "examples/solar-system/content.en.json": "055b521e68b36254b42cb4222613ab8d115d287d3c04d824cb4c1db4aac3518d",
+    "vendor/fonts/Caveat.ttf": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "vendor/fonts/NotoSansSC.ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "examples/solar-system/art/icon-telescope.png": "280b3ca1d6be20f8a744a7e05a2de0bf6546009cb814a7d2a4081ed2bc896fcc",
+    "examples/solar-system/art/inner-planets.png": "f5f15ffd92e2523f4c754ae7f4e93173a370b64914a4296c9d9b591fecf71904",
+    "examples/solar-system/art/outer-planets.png": "967938679cbe7a142d2d7e9a2b4d6bf442908fa75a6ea0d84047fc94acd25062"
+  },
+  "outputHashes": {
+    "solar-system.en.pdf": "5aad3edf00b5d5157d187d37a0dc4031ffba5ffde55470e30e4f048c9428e37f",
+    "page-01.en.png": "6b27ba54cf0ec80f57f5c6591f02454e03b3e875ab143529198094dbc6ca7b6b",
+    "page-02.en.png": "7b5ff4706415768da0b79ef2239130d959beca7ffd937247d61e0ca39b258c5e"
+  }
+}

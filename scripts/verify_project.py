@@ -122,6 +122,8 @@ def audit(root=ROOT, staged=False):
             if (movie_record['width'],movie_record['height'],movie_record['frames'],movie_record['seconds'])!=(profile['width'],profile['height'],round(story['duration']*story['fps']),story['duration']):
                 errors.append({'rule':'mp4_geometry_frames_or_duration','variant':label})
             with Image.open(directory/f'intro{locale}.gif') as gif:
+                if gif.info.get('loop')!=0:
+                    errors.append({'rule':'gif_infinite_loop','variant':label})
                 duration=0
                 for frame in range(gif.n_frames):
                     gif.seek(frame);duration+=gif.info.get('duration',0)
@@ -152,15 +154,15 @@ def audit(root=ROOT, staged=False):
             if layout['sourceHash']!=report['sourceHash'] or not report['fullDecodeVerified']:
                 errors.append({'rule':'media_verification_record','variant':label})
         readme=(root/('README.en.md' if locale else 'README.md')).read_text(encoding='utf-8')
-        if f'](media/intro/cover{locale}.png)' not in readme or re.search(r'!\[[^\]]*\]\([^)]*\.gif\)',readme):
-            errors.append({'rule':'readme_small_cover','language':locale or 'zh'})
+        if not re.search(r'!\[[^\]]*\]\('+re.escape(f'media/intro/intro{locale}.gif')+r'\)',readme):
+            errors.append({'rule':'readme_animated_preview','language':locale or 'zh'})
     if staged:
         indexed=subprocess.check_output(['git','ls-files','-z'],cwd=root).decode('utf-8').split('\0')
         if set(filter(None,indexed))!=allowed:errors.append({'rule':'git_allowlist_mismatch'})
         for name in files:
             content=subprocess.check_output(['git','show',':'+name],cwd=root)
             if content!=(root/name).read_bytes():errors.append({'rule':'staged_bytes_differ','file':name})
-    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','preview_dimensions','six_video_source_and_output_hashes','media_size_budgets','gif_frames_and_duration','native_ratio_copy_parity','small_readme_covers']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
+    return {'passed':not errors,'files':len(files),'checks':['exact_allowlist','local_links','privacy_patterns','media_metadata','two_independent_skills','pdf_text','two_pages_per_case','bilingual_reading_text','translation_source_and_structure','preview_dimensions','six_video_source_and_output_hashes','media_size_budgets','gif_frames_duration_and_loop','native_ratio_copy_parity','animated_readme_previews']+(['staged_bytes'] if staged else []),'errors':errors,'limits':'Patterns and geometry do not replace human privacy review, visual proofing or host loading tests.'}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--staged',action='store_true')

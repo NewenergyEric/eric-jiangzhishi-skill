@@ -9,7 +9,7 @@ The film starts with a question, shows the finished cell guide, then introduces 
 | Square 1:1 · 720 × 720 | [MP4 · 406 KB](square/intro.en.mp4) · [GIF](square/intro.en.gif) · [Poster](square/poster.en.png) · [Report](square/report.en.json) | [MP4 · 365 KB](square/intro.mp4) · [GIF](square/intro.gif) · [Poster](square/poster.png) · [Report](square/report.json) |
 | Portrait 9:16 · 720 × 1280 | [MP4 · 543 KB](vertical/intro.en.mp4) · [GIF](vertical/intro.en.gif) · [Poster](vertical/poster.en.png) · [Report](vertical/report.en.json) | [MP4 · 519 KB](vertical/intro.mp4) · [GIF](vertical/intro.gif) · [Poster](vertical/poster.png) · [Report](vertical/report.json) |
 
-The README loads a static cover of about 43–45 KB. Click it to open the MP4. GIFs remain available to download, and full-size PNG posters are included.
+Each README embeds a looping GIF in its own language: about 397 KB for Chinese and 415 KB for English. Click the animation to open the MP4. GitHub respects the reader's animated-image autoplay setting. Static covers and full-size PNG posters are also included.
 
 ## Story and source
 

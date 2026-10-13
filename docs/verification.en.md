@@ -3,6 +3,8 @@
 
 Version 1.3.0 · 2026-10-13. The exact scope is in [publish-files.json](../publish-files.json). This release changes video formats, encoding and homepage previews. The two skills, example text, reading pages, PDFs and artwork are byte-identical to 1.2.0.
 
+Post-release homepage update (2026-10-13): each README now embeds its existing looping GIF, at 396,725 bytes for Chinese and 414,761 bytes for English, about 80% smaller than the 1.2.0 GIFs. The audit verifies the language-specific embed and infinite-loop setting. Autoplay follows the reader's GitHub settings. The release-time record below and the 1.3.0 release assets are unchanged.
+
 | Area | Result in this release |
 |---|---|
 | Six MP4s | Chinese and English each have 16:9, 1:1 and 9:16 versions at 960 × 540, 720 × 720 and 720 × 1280. All are 24 fps, 384 frames and 16 seconds. H.264 / yuv420p, silent AAC and faststart checks pass. |

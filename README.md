@@ -5,9 +5,9 @@
 
 [下载 Skill](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [看案例](#两份完整案例) · [使用说明](docs/getting-started.md)
 
-[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/cover.png)](media/intro/intro.mp4)
+[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/intro.gif)](media/intro/intro.mp4)
 
-16 秒，无旁白。首页封面约 43 KB，点击再播放；各版 MP4 为 365–543 KB。三种比例保留完整内容，文字与插画分别排版。
+16 秒循环预览，约 397 KB，无旁白。点击动图可打开 MP4；各版视频为 365–543 KB。三种比例保留完整内容，文字与插画分别排版。
 
 | 比例与尺寸 | 中文 | English |
 |---|---|---|

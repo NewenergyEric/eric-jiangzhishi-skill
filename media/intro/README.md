@@ -9,7 +9,7 @@
 | 方版 1:1 · 720 × 720 | [MP4 · 365 KB](square/intro.mp4) · [GIF](square/intro.gif) · [海报](square/poster.png) · [报告](square/report.json) | [MP4 · 406 KB](square/intro.en.mp4) · [GIF](square/intro.en.gif) · [海报](square/poster.en.png) · [报告](square/report.en.json) |
 | 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](vertical/intro.mp4) · [GIF](vertical/intro.gif) · [海报](vertical/poster.png) · [报告](vertical/report.json) | [MP4 · 543 KB](vertical/intro.en.mp4) · [GIF](vertical/intro.en.gif) · [海报](vertical/poster.en.png) · [报告](vertical/report.en.json) |
 
-首页使用约 43–45 KB 的静态封面，点击后再打开 MP4。GIF 是可下载的动画预览，不随 README 自动加载。完整 PNG 海报也随包提供。
+中英文首页直接展示对应语言的循环 GIF，分别约 397 KB 和 415 KB；点击动图可打开 MP4。GitHub 会遵循读者的动图自动播放设置。静态封面与完整 PNG 海报也随包提供。
 
 ## 内容与源码
 

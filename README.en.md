@@ -5,9 +5,9 @@ Two independent AI skills for turning a question and a few sources into a clear,
 
 [Download the skills](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [See the examples](#two-complete-examples) · [Get started](docs/getting-started.en.md)
 
-[![A 16-second introduction showing the actual cell and solar-system guides](media/intro/cover.en.png)](media/intro/intro.en.mp4)
+[![A 16-second introduction showing the actual cell and solar-system guides](media/intro/intro.en.gif)](media/intro/intro.en.mp4)
 
-16 seconds, without narration. The cover is about 45 KB; click it to open the video. All MP4s are 365–543 KB. Each format keeps the complete story, with its own text and illustration layout.
+A 16-second looping preview, about 415 KB, without narration. Click the animation to open the MP4. All videos are 365–543 KB. Each format keeps the complete story, with its own text and illustration layout.
 
 | Format | English | 中文 |
 |---|---|---|

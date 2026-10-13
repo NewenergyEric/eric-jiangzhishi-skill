@@ -1,5 +1,5 @@
 # Start with a question
-[中文](getting-started.md) · [Making Sense Together](../README.en.md)
+[中文](getting-started.md) · [Making Sense Together](../README.md)
 
 Download a [release](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest). The small Skills archive contains two independent skill folders. The full archive adds the examples, font, videos and build source. Open the [HTML start page](getting-started.en.html) locally, or follow these steps.
 
@@ -36,4 +36,4 @@ An image tool is needed for new illustrations. Rebuilding the included PDFs also
 
 Back up an existing folder before replacing it. To remove a skill, remove only its folder. If the audience or sources change, revisit the facts and examples too.
 
-[Installation checklist](installation-checklist.en.md) · [Verification](verification.en.md) · [Back to the project](../README.en.md)
+[Installation checklist](installation-checklist.en.md) · [Verification](verification.en.md) · [Back to the project](../README.md)

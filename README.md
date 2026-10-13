@@ -1,57 +1,80 @@
-# 一起读懂
-**Making Sense Together** · [English](README.en.md)
+# Making Sense Together
+**English** · [简体中文](README.zh-CN.md)
 
-两套可以单独使用的 AI Skill，陪你把一个好奇的问题，做成容易读懂的知识图文。适合科普文章、课堂讲义和两页小册子。
+I'm a dad trying to explain the world to my four-year-old daughter. These two AI skills grew out of a search for picture books that felt right for us. They help me turn a question and a few sources into an illustrated guide we can print or read together on a tablet.
 
-[下载 Skill](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [看案例](#两份完整案例) · [使用说明](docs/getting-started.md)
+[Download the skills](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) · [See the examples](#two-complete-examples) · [Get started](docs/getting-started.en.md)
 
-[![16 秒介绍：从资料到两页图文，展示太阳系和细胞的实际成稿](media/intro/intro.gif)](media/intro/intro.mp4)
+[![A 16-second introduction showing the actual cell and solar-system guides](media/intro/intro.en.gif)](media/intro/intro.en.mp4)
 
-16 秒循环预览，约 397 KB，无旁白。点击动图可打开 MP4；各版视频为 365–543 KB。三种比例保留完整内容，文字与插画分别排版。
+A 16-second looping preview, about 415 KB, without narration. Click the animation to open the MP4.
 
-| 比例与尺寸 | 中文 | English |
+<details>
+<summary>Landscape, square and portrait videos in English and Chinese</summary>
+
+All MP4s are 365–543 KB. Each format keeps the complete story, with its own text and illustration layout.
+
+| Format | English | 中文 |
 |---|---|---|
-| 横屏 16:9 · 960 × 540 | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) | [MP4 · 430 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) |
-| 方版 1:1 · 720 × 720 | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) | [MP4 · 406 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) |
-| 竖版 9:16 · 720 × 1280 | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) | [MP4 · 543 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) |
+| Landscape 16:9 · 960 × 540 | [MP4 · 430 KB](media/intro/intro.en.mp4) · [GIF](media/intro/intro.en.gif) | [MP4 · 403 KB](media/intro/intro.mp4) · [GIF](media/intro/intro.gif) |
+| Square 1:1 · 720 × 720 | [MP4 · 406 KB](media/intro/square/intro.en.mp4) · [GIF](media/intro/square/intro.en.gif) | [MP4 · 365 KB](media/intro/square/intro.mp4) · [GIF](media/intro/square/intro.gif) |
+| Portrait 9:16 · 720 × 1280 | [MP4 · 543 KB](media/intro/vertical/intro.en.mp4) · [GIF](media/intro/vertical/intro.en.gif) | [MP4 · 519 KB](media/intro/vertical/intro.mp4) · [GIF](media/intro/vertical/intro.gif) |
 
-[分镜、海报与源码](media/intro/README.md)。
+[Storyboard, posters and source](media/intro/README.en.md).
 
-## 两个 Skill，按手上的内容来选
+</details>
 
-| 你手上有什么 | 从哪个 Skill 开始 |
+## A small experiment from a dad
+
+When I looked for picture books to help me explain things, I kept coming up against the same gap. Some leaned so heavily on cartoon characters and little stories that the subject slipped into the background. Others felt formal and distant before we'd even started reading.
+
+I find the logic, complexity and depth of a subject fascinating in their own right. How does a cell work? Why is a planet the way it is? How does one question lead to another? The slow process of discovering and understanding something is an experience worth coming back to, again and again.
+
+I don't want knowledge to end up out of reach on a high shelf. It can be a useful tool, something to try, an unexpected observation, or a way to take things apart and understand how the world works.
+
+I have no background in art or editing, so I've been following my intuition: welcoming pictures, clear explanations, and room for detail and more questions. So far, my first little "user" seems happy with the results.
+
+We can print the pages or read them as cards on a tablet. With my [eric-intro-motion-skill](https://github.com/NewenergyEric/eric-intro-motion-skill), key elements can move too, giving us another way to look at an idea and understand it.
+
+This began with one four-year-old girl, but I think many of us want something similar: to feel at home with knowledge, stay curious, and take the time to figure things out. A little enjoyment can make it easier to take that first step into an unfamiliar subject.
+
+I'm sharing these two skills so we can explore this together. Try them, and [share what you make, what puzzles you, or what you'd change](https://github.com/NewenergyEric/eric-jiangzhishi-skill/issues). Bring a question you're curious about. Let's enjoy finding things out.
+
+## Two skills. Start with what you have.
+
+| What you have | Which skill to use |
 |---|---|
-| 资料和想法，还没想好怎么讲 | [内容梳理](skills/knowledge-to-friendly-product/SKILL.md)：核对资料、组织解释，继续完成图文 |
-| 已经定稿的文字，想改善画面 | [插画排版](skills/knowledge-card-art-direction/SKILL.md)：沿用定稿，完成插画、文字排版、校样和导出 |
+| Sources and an idea that still need explaining | [Content & explanation](skills/knowledge-to-friendly-product/README.en.md): check the sources, shape the explanation and carry it through to a finished guide |
+| Approved copy that needs illustration and layout | [Illustration & layout](skills/knowledge-card-art-direction/README.en.md): keep the content, make the artwork, lay out the pages and proof the export |
 
-第一个也能完成整个小项目；第二个适合直接接手已有内容。它们可以配合，也可以各自安装。目录名仍是 `knowledge-to-friendly-product` 和 `knowledge-card-art-direction`，已有安装方式继续可用。
+The first skill can handle a small project from start to finish. The second can pick up where your writing is already done. Install either or both. Their stable folder names are `knowledge-to-friendly-product` and `knowledge-card-art-direction`.
 
-你提供主题、读者和资料，成稿保留来源；正文、采用图片、生成提示和排版源也一起留下，方便下一次修改。制作新插画需要图像生成工具；读取方法文档不需要 Python。
+Bring a topic, an audience and your sources. Keep the finished guide, editable copy, chosen images, generation prompts and layout source. New illustrations require an image-generation tool; reading the skill instructions requires no Python setup.
 
-## 从一个小问题开始
+## Try a small topic
 
-1. 在 [Release](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest) 下载文件名含 `skills` 的小包并解压。
-2. 让支持读取文件的 AI 助手打开所选目录的 `SKILL.md`。长期使用时，把整个目录复制到工具支持的技能目录。
-3. 带上资料，交代读者和想做的成品。例如：
+1. Download the archive with `skills` in its filename from [Releases](https://github.com/NewenergyEric/eric-jiangzhishi-skill/releases/latest).
+2. Ask an AI assistant with file access to read the chosen folder's `SKILL.md`. For regular use, copy the whole folder into your tool's supported skills directory.
+3. Give it the sources, intended reader and output you want. For example:
 
-> 读取 knowledge-to-friendly-product。用我附的资料，给没有生物学背景的读者做两页细胞介绍。先讲细胞内部怎样工作，再比较动物、植物和细菌。用暖纸手绘风格，标题可以手写，正文要清楚好读。交付 PDF、可编辑文字、插画和来源。
+> Read knowledge-to-friendly-product. Use my attached sources to make a two-page introduction to cells for a reader with no biology background. First explain how the parts of a cell work together, then compare animal, plant and bacterial cells. Write in English. Use warm paper and hand-drawn illustrations, with playful titles and clear body text. Deliver the PDF, editable copy, artwork and sources.
 
-需要辅助复制时，可在完整包中运行 `python scripts/install_skill.py knowledge-to-friendly-product --dest ./my-skills`。目标已有同名目录时，脚本会停止。
+The full package also includes a copy helper: `python scripts/install_skill.py knowledge-to-friendly-product --dest ./my-skills`. It stops if that destination already contains the skill.
 
-[详细步骤](docs/getting-started.md) · [HTML 上手入口](docs/getting-started.html) · [安装检查清单](docs/installation-checklist.md)
+[Detailed steps](docs/getting-started.en.md) · [HTML start page](docs/getting-started.en.html) · [Installation checklist](docs/installation-checklist.en.md)
 
-## 两份完整案例
+## Two complete examples
 
-| 主题 | 这两页讲什么 | 成稿与过程 |
+| Topic | What the two pages explain | Read and explore |
 |---|---|---|
-| 太阳系八大行星 | 从地球出发，认识内侧四颗行星和外侧四颗巨行星 | [中文 PDF](examples/solar-system/output/solar-system.pdf) · [中文阅读版](examples/solar-system/read.html) · [English text](examples/solar-system/read.en.html) · [制作过程](examples/solar-system/process.md) |
-| 认识细胞 | 看典型动物细胞的内部，再比较叶片细胞和细菌 | [中文 PDF](examples/cells/output/cells.pdf) · [中文阅读版](examples/cells/read.html) · [English text](examples/cells/read.en.html) · [制作过程](examples/cells/process.md) |
+| The eight planets | Start on Earth, visit the four rocky planets, then the four outer giants | [English reading version](examples/solar-system/read.en.html) · [Original Chinese PDF](examples/solar-system/output/solar-system.pdf) · [Production notes in Chinese](examples/solar-system/process.md) |
+| Getting to know cells | Look inside a typical animal cell, then compare a leaf cell and a bacterium | [English reading version](examples/cells/read.en.html) · [Original Chinese PDF](examples/cells/output/cells.pdf) · [Production notes in Chinese](examples/cells/process.md) |
 
-每例都是两页，没有额外封面。插画、手写标题和图标由图像模型生成，正文与结构标签单独排版。手写标题是图片素材，改字需要重新生成或换成排版字体。英文阅读版翻译了完整正文；现有 PDF 与插画内的文字保留中文。
+Each example is two pages with no extra cover. An image model made the illustrations, handwritten titles and icons; body copy and precise labels are typeset separately. The English reading pages translate the complete text. The existing PDFs and text inside their artwork remain in Chinese, as shown in the video.
 
-## 自己修改案例
+## Make it your own
 
-文字在各例的 `content.json` 与 `content.en.json`，采用图片在 `art/`，完整生图提示在 `prompts.json`。完整发布包包含这些源文件、开放字体和构建脚本。
+Edit `content.json` or `content.en.json` in an example folder. Chosen artwork is in `art/`; full image prompts are in `prompts.json`. The full release includes these files, the open font and build scripts.
 
 ```sh
 python -m pip install -r requirements.txt
@@ -60,6 +83,8 @@ python scripts/build_html.py
 python scripts/verify_project.py
 ```
 
-[视频重建](media/intro/README.md) · [实际检查范围](docs/verification.md) · [公开文件清单](docs/publish-allowlist.md)
+The PDF command rebuilds the Chinese illustrated edition. The HTML command rebuilds both reading languages. Handwritten titles are image assets; changing them means generating a new image or using typeset text.
 
-方法、代码与本项目可授权的原创内容采用 [MIT](LICENSE)；字体遵循 OFL。AI 生成图像不代表排他版权，第三方来源与依赖见 [许可说明](THIRD_PARTY_NOTICES.md)。
+[Rebuild the videos](media/intro/README.en.md) · [What was checked](docs/verification.en.md) · [Publication file list](publish-files.json)
+
+Methods, code and the original material this project can license use [MIT](LICENSE). The font uses the OFL. AI-generated images do not imply exclusive copyright. See [licenses and sources](THIRD_PARTY_NOTICES.en.md).

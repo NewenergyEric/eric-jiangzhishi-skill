@@ -153,7 +153,7 @@ def audit(root=ROOT, staged=False):
                 errors.append({'rule':'ratio_source_or_copy_mismatch','variant':label})
             if layout['sourceHash']!=report['sourceHash'] or not report['fullDecodeVerified']:
                 errors.append({'rule':'media_verification_record','variant':label})
-        readme=(root/('README.en.md' if locale else 'README.md')).read_text(encoding='utf-8')
+        readme=(root/('README.md' if locale else 'README.zh-CN.md')).read_text(encoding='utf-8')
         if not re.search(r'!\[[^\]]*\]\('+re.escape(f'media/intro/intro{locale}.gif')+r'\)',readme):
             errors.append({'rule':'readme_animated_preview','language':locale or 'zh'})
     if staged:

@@ -26,4 +26,4 @@
 
 同名安装目录已存在时先另存旧版，再决定替换。删除时只移走这个 Skill 目录。来源或受众改变后重新核验事实与例子，不只沿用旧图片。
 
-[安装检查清单](installation-checklist.md) · [实际验证](verification.md) · [回到说明](../README.md)
+[安装检查清单](installation-checklist.md) · [实际验证](verification.md) · [回到说明](../README.zh-CN.md)
